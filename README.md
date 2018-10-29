@@ -6,7 +6,7 @@ Sommaire du contenu de cette page (accès rapide) :
 
 - [Toutes les vidéos du module débutant](#toutes-les-vidéos-du-module-débutant)
 - [Quelques vidéos complémentaires](#quelques-vidéos-complémentaires)
-- [Astuce pour retrouver une vidéo sur YouTube](astuce-pour-retrouver-une-vidéo-sur-YouTube)
+- [Astuce pour retrouver une vidéo sur YouTube](#astuce-pour-retrouver-une-vidéo-sur-YouTube)
 
 ## Toutes les vidéos du module débutant
 
