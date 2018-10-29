@@ -2,6 +2,12 @@
 
 Vous trouverez ici tous les exercices et notes de cours du module débutant de la formation [JavaScript de Zéro](https://www.javascriptdezero.com).
 
+Sommaire du contenu de cette page (accès rapide) :
+
+- [Toutes les vidéos du module débutant](#toutes-les-vidéos-du-module-débutant)
+- [Quelques vidéos complémentaires](#quelques-vidéos-complémentaires)
+- [Astuce pour retrouver une vidéo sur YouTube](astuce-pour-retrouver-une-vidéo-sur-YouTube)
+
 ## Toutes les vidéos du module débutant
 
 Pour lire l'intégralité de ces vidéos dans l'ordre, utilisez la [playlist YouTube du module débutant](https://www.youtube.com/watch?v=JeqZNiAhnlE&list=PLyj4q0fkISxAPXLZqNq5gCKcCVLBqL9nB).
