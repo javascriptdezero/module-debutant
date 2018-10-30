@@ -73,6 +73,7 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [03:40](https://www.youtube.com/watch?v=boAGXUq6ENU&t=220s) Une erreur FATALE à éviter
     - [04:07](https://www.youtube.com/watch?v=boAGXUq6ENU&t=247s) Des questions ? Posez-les dans les commentaires !
     - [04:20](https://www.youtube.com/watch?v=boAGXUq6ENU&t=260s) Présentation de ma formation JavaScript de Zéro (https://www.javascriptdezero.com)
+
 2. [Comment apprendre à programmer ? (7 astuces + stratégie pour débutants)](https://www.youtube.com/watch?v=LtsubKU8dzA)
     - [00:30](https://www.youtube.com/watch?v=LtsubKU8dzA&t=30s) Quel langage choisir pour apprendre à programmer ?
     - [00:55](https://www.youtube.com/watch?v=LtsubKU8dzA&t=55s) Diversifier les sources d'informations
