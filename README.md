@@ -1,7 +1,5 @@
-Vous trouverez ici tous les exercices et notes de cours du module débutant de la formation JavaScript de Zéro.
+# Module débutant
 
-Pour l'instant il n'y a pas grand chose, mais ça va venir, patience ;-).
-=======
 Vous trouverez ici tous les exercices et notes de cours du module débutant de la formation [JavaScript de Zéro](https://www.javascriptdezero.com).
 
 Sommaire du contenu de cette page (accès rapide) :
