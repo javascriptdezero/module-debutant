@@ -2,7 +2,11 @@
 
 Vous trouverez ici tous les exercices et notes de cours du module débutant de la formation [JavaScript de Zéro](https://www.javascriptdezero.com).
 
-Sommaire du contenu de cette page (accès rapide) :
+## FAQ
+
+Si vous avez des questions sur le langage JavaScript, les réponses se trouvent probablement déjà dans la [Foire aux Questions](/faq).
+
+## Sommaire de cette page (accès rapide) :
 
 - [Toutes les vidéos du module débutant](#toutes-les-vidéos-du-module-débutant)
 - [Quelques vidéos complémentaires](#quelques-vidéos-complémentaires)
@@ -57,6 +61,34 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [20:45](https://www.youtube.com/watch?v=ig9EOn17vFM&t=1245s) Déboguer avec JSFiddle
     - [21:00](https://www.youtube.com/watch?v=ig9EOn17vFM&t=1260s) Sauvegarder son code en ligne via JSFiddle
     - [21:55](https://www.youtube.com/watch?v=ig9EOn17vFM&t=1315s) Des questions ? N'oubliez pas de cliquer sur J'aime ! MERCI !
+
+3. [Votre premier programme JavaScript (avec Visual Studio Code) [M0L02]](https://www.youtube.com/watch?v=sj4os7DZNjI)
+
+    - [00:24](https://www.youtube.com/watch?v=sj4os7DZNjI&t=24s) Création d'un nouveau projet sous Visual Studio Code
+    - [01:15](https://www.youtube.com/watch?v=sj4os7DZNjI&t=75s) Création d'un nouveau fichier
+    - [01:52](https://www.youtube.com/watch?v=sj4os7DZNjI&t=112s) Sauvegarder un fichier sous Visual Studio Code
+    - [02:20](https://www.youtube.com/watch?v=sj4os7DZNjI&t=140s) Extension de fichier .js (code JavaScript)
+    - [02:33](https://www.youtube.com/watch?v=sj4os7DZNjI&t=153s) Coloration syntaxique du langage JavaScript
+    - [02:55](https://www.youtube.com/watch?v=sj4os7DZNjI&t=175s) Qu'est-ce qu'une instruction ?
+    - [03:08](https://www.youtube.com/watch?v=sj4os7DZNjI&t=188s) Configuration de Visual Studio Code
+    - [03:30](https://www.youtube.com/watch?v=sj4os7DZNjI&t=210s) Activer la sauvegarde automatique dans Visual Studio Code
+    - [04:10](https://www.youtube.com/watch?v=sj4os7DZNjI&t=250s) Démonstration sauvegarde automatique
+    - [04:40](https://www.youtube.com/watch?v=sj4os7DZNjI&t=280s) Arrêter le clignotement du curseur
+    - [05:07](https://www.youtube.com/watch?v=sj4os7DZNjI&t=307s) Lecture du code par l'interpréteur JavaScript
+    - [05:28](https://www.youtube.com/watch?v=sj4os7DZNjI&t=328s) Exécution du programme
+    - [05:34](https://www.youtube.com/watch?v=sj4os7DZNjI&t=334s) Afficher la console de débogage
+    - [06:10](https://www.youtube.com/watch?v=sj4os7DZNjI&t=370s) Modification du programme pour afficher une sortie différente
+    - [06:38](https://www.youtube.com/watch?v=sj4os7DZNjI&t=398s) Raccourci clavier pour déplacer une ligne de code ou un bloc de code
+    - [07:45](https://www.youtube.com/watch?v=sj4os7DZNjI&t=465s) Deux instructions sur la même ligne
+    - [08:15](https://www.youtube.com/watch?v=sj4os7DZNjI&t=495s) Les lignes vides sont ignorées
+    - [08:40](https://www.youtube.com/watch?v=sj4os7DZNjI&t=520s) Les commentaires en JavaScript
+    - [08:55](https://www.youtube.com/watch?v=sj4os7DZNjI&t=535s) Ecrire un commentaire sur une ligne avec le double slash
+    - [09:35](https://www.youtube.com/watch?v=sj4os7DZNjI&t=575s) Raccourci clavier pour commenter une ligne sous Visual Studio Code
+    - [09:55](https://www.youtube.com/watch?v=sj4os7DZNjI&t=595s) Commentaires sur plusieurs lignes avec /* et */
+    - [10:14](https://www.youtube.com/watch?v=sj4os7DZNjI&t=614s) Utiliser les commentaires pour désactiver/déboguer du code
+    - [11:10](https://www.youtube.com/watch?v=sj4os7DZNjI&t=670s) La guerre des point-virgules (voir la FAQ sur GitHub)
+    - [12:47](https://www.youtube.com/watch?v=sj4os7DZNjI&t=767s) Dépôt GitHub de la formation, comment bien l'utiliser ?
+    - [14:00](https://www.youtube.com/watch?v=sj4os7DZNjI&t=840s) Des questions ? Cliquez sur J'aime, merci :) !
 
 ## Quelques vidéos complémentaires
 
