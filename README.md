@@ -90,6 +90,36 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [12:47](https://www.youtube.com/watch?v=NRmlXat3U_o&t=767s) Dépôt GitHub de la formation, comment bien l'utiliser ?
     - [14:00](https://www.youtube.com/watch?v=NRmlXat3U_o&t=840s) Des questions ? Cliquez sur J'aime, merci :) !
 
+4. [Comment utiliser la documentation JavaScript ? (MDN et DevDocs.io) [M0L03]](https://www.youtube.com/watch?v=jnbiNr9b_lk)
+    - [00:14](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=14s) Pourquoi j'enseigne l'utilisation de la doc ?
+    - [00:36](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=36s) L'erreur FATALE des cours de programmation
+    - [00:55](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=55s) Dépendance aux cours
+    - [01:02](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=62s) Vous ne savez pas déboguer par vous-même
+    - [01:26](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=86s) Les sources de documentation
+    - [01:41](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=101s) Le MDN (Mozilla Developer Network)
+    - [01:55](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=115s) ASTUCE: lien mdn.io
+    - [02:13](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=133s) Qu'est-ce que le MDN ?
+    - [02:34](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=154s) Mettre le MDN en Français
+    - [02:48](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=168s) Les pages de référence sont en Anglais
+    - [03:23](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=203s) Différence de contenu entre Anglais / Français avec la page reduce()
+    - [03:26](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=206s) Changer la langue de la documentation sur le MDN
+    - [03:43](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=223s) Exemple de différences dans les pages de doc
+    - [04:18](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=258s) Les inconvénients du MDN
+    - [04:27](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=267s) DevDocs.io
+    - [05:00](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=300s) Cours rapide sur DevDocs
+    - [05:19](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=319s) Activer les données hors ligne
+    - [05:29](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=329s) Effectuer une recherche sur DevDocs
+    - [05:49](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=349s) Démonstration DevDocs hors ligne (sans accès internet)
+    - [06:25](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=385s) Utiliser la barre d'adresse Google Chrome comme moteur de recherche
+    - [06:47](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=407s) Démonstration avec DevDocs.io
+    - [07:00](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=420s) La spécification ECMAScript
+    - [07:52](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=472s) ASTUCE DE PRO : créer des raccourcis pour chercher directement dans les docs JS depuis la barre d'adresse Chrome
+    - [08:30](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=510s) Configuration pour le raccourci vers DevDocs.io
+    - [08:47](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=527s) Configuration pour le raccourci vers le MDN en français
+    - [09:00](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=540s) Démonstration 'dd reduce' renvoie vers la page reduce() de DevDocs 
+    - [09:11](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=551s) Démonstration 'mdn reduce' renvoie vers la page reduce() de MDN (fr)
+    - [09:23](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=563s) Des questions ? N'oubliez pas de cliquer sur J'aime, MERCI !
+
 ## Quelques vidéos complémentaires
 
 1. [Quel langage de programmation choisir ?](https://www.youtube.com/watch?v=boAGXUq6ENU)
