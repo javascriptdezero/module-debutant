@@ -120,6 +120,36 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [09:11](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=551s) Démonstration 'mdn reduce' renvoie vers la page reduce() de MDN (fr)
     - [09:23](https://www.youtube.com/watch?v=jnbiNr9b_lk&t=563s) Des questions ? N'oubliez pas de cliquer sur J'aime, MERCI !
 
+5. [Comment lire la documentation JavaScript du MDN ? [M0L04]](https://www.youtube.com/watch?v=J7IFmQhKpd0)
+    - [00:12](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=12s) Rappel sur console.log
+    - [00:31](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=31s) Recherche de console.log sur le MDN
+    - [00:47](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=47s) Mettre la page de documentation en Français
+    - [00:57](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=57s) Les différentes sections de la documentation
+    - [01:10](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=70s) Syntaxe (explications)
+    - [01:48](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=108s) Paramètres
+    - [02:23](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=143s) Si vous ne comprenez pas tout, c'est normal !
+    - [02:40](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=160s) Spécification
+    - [02:50](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=170s) Compatibilité des navigateurs
+    - [03:11](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=191s) Définition de "supporter"
+    - [03:23](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=203s) Informations complémentaires
+    - [03:35](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=215s) Voir aussi
+    - [03:50](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=230s) Méthode reduce (recherche sur le MDN)
+    - [04:05](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=245s) Bloc de démonstration JavaScript Array.reduce
+    - [04:50](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=290s) Utilité du bloc JavaScript démo dans la doc
+    - [05:00](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=300s) Syntaxe de reduce
+    - [05:10](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=310s) Description détaillée et exemples
+    - [05:28](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=328s) Exemples concrets supplémentaires
+    - [06:17](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=377s) Polyfill (prothèse d'émulation)
+    - [06:28](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=388s) Spécification
+    - [06:48](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=408s) Informations générales sur un sujet comme Console
+    - [07:07](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=427s) Sujet associé : console
+    - [07:16](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=436s) Liste des méthodes de console
+    - [07:30](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=450s) Méthode clear()
+    - [07:41](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=461s) Accès à la doc globale de console
+    - [08:28](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=508s) Une formation qui rend indépendant
+    - [09:03](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=543s) Des questions ?
+    - [09:12](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=552s) Merci de cliquer sur J'aime et abonnez-vous :)
+
 ## Quelques vidéos complémentaires
 
 1. [Quel langage de programmation choisir ?](https://www.youtube.com/watch?v=boAGXUq6ENU)
