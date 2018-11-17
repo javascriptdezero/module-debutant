@@ -42,7 +42,9 @@ C'est un atout majeur pour nous, développeurs, car ça nous permet de n'avoir �
 
 _Note: au pluriel, on écrit [points-virgules](https://www.larousse.fr/dictionnaires/francais/point-virgule_points-virgules/62044/difficulte)._
 
-Réponse courte : en théorie oui, c'est la façon classique d'indiquer la fin d'une instruction comme le précise la spécifiction ECMAScript.
+> J'ai rédigé un guide complet sur les points-virgules en JavaScript sur mon blog. Je vous invite à le lire : [Les points-virgules en JavaScript : le guide définitif](https://jeremymouzin.com/blog/les-points-virgules-en-javascript-le-guide-definitif/).
+
+Réponse courte : en théorie oui, c'est la façon classique d'indiquer la fin d'une instruction comme le précise la spécification ECMAScript.
 
 Mais il existe un système nommé **ASI** (**A**utomatic **S**emicolon **I**nsertion) défini dans la spécification qui permet d'insérer automatiquement les points-virgules à certains endroits par commodité.
 
@@ -55,5 +57,3 @@ Mon conseil pour les débutants : apprenez à mettre les points-virgules dans vo
 En effet, si vous savez déjà mettre les points-virgules et que l'entreprise où vous souhaitez travailler les utilise, vous êtes en bonne position.
 
 Si elle ne les utilise pas, il vous suffira de ne pas les mettre, tout simplement. Ce sera toujours plus facile d'apprendre à les mettre et de ne pas les mettre, que d'apprendre sans les mettre et de devoir apprendre à les mettre ensuite !
-
-Je suis en train de rédiger un article détaillé sur le sujet sur mon blog. Je mettrai un lien vers celui-ci une fois que j'aurai terminé sa rédaction.
