@@ -4,10 +4,11 @@
   --gris: #BDBEC0;
   --gris-transparent: rgba(189, 190, 192, .2);
   --gris-fonce: #333;
+  --noir: #1d1d1d;
   --jaune: rgb(255, 235, 59);
   --vert-clair: #C8FFA1;
   --vert: #9CEB60;
-  --vert-transparent: rgba(156, 235, 96, 0.4);
+  --vert-transparent: rgba(156, 235, 96, .4);
   --vert-tres-fonce: #265700;
   --bleu: #80DDFF;
   --rouge: #FF866E;
@@ -45,18 +46,19 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  display: inline-block;
-  border-bottom: var(--bordure-titre) var(--dim-base);
+  border-bottom: var(--bordure-titre) var(--dim-demie);
   font-family: 'Montserrat', 'Open Sans', 'Roboto', sans-serif;;
   font-weight: 600;
   margin-bottom: 0;
 }
 
 h1 {
-  border-bottom: var(--bordure-titre) var(--dim-double);
+  display: inline-block;
+  border-bottom: var(--bordure-titre) var(--dim-base);
 }
 
 .objectifs > h2 {
+  display: inline-block;
   border-color: var(--bleu);
 }
 
@@ -79,11 +81,8 @@ footer {
 }
 
 code {
-  display: inline-block;
-  background-color: var(--gris);
+  background-color: #1d1d1d;
   font-family: 'Courier New', Courier, monospace;
-  color: var(--gris-fonce);
-  font-weight: 600;
   border-radius: var(--dim-base);
   padding: var(--dim-demie) var(--dim-base);
 }
@@ -91,6 +90,9 @@ code {
 /* Gestion des énoncés */
 
 .enonce {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin: var(--dim-quadruple) 0;
   border-radius: var(--dim-base);
   padding: var(--dim-triple);
@@ -108,7 +110,7 @@ code {
 .enonce h2 {
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: var(--dim-double)
+  margin-right: var(--dim-double);
 }
 
 .enonce.succes h2 {
@@ -124,12 +126,11 @@ code {
 }
 
 .enonce .message {
-  display: inline-block;
   padding: var(--dim-base);
   border-radius: var(--dim-base);
   background-color: var(--gris-clair);
   color: var(--gris-fonce);
-  border-left: var(--bordure-gauche) var(--gris);
+  border-left: var(--bordure-gauche) var(--gris)
 }
 
 .enonce.succes .message::after {
@@ -156,7 +157,6 @@ code {
 }
 
 .attention {
-  display: inline-block;
   background-color: var(--orange-clair);
   color: var(--orange-tres-fonce);
   border-left: var(--bordure-gauche) var(--orange);
