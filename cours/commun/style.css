@@ -93,21 +93,34 @@ code {
 /* Gestion des énoncés */
 
 .enonce {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
   margin: 3em 0;
   border-radius: var(--dim-base);
   padding: var(--dim-triple);
+  -webkit-box-shadow: var(--gris-transparent) 0 0 var(--dim-double);
   box-shadow: var(--gris-transparent) 0 0 var(--dim-double);
 }
 
 .enonce.succes {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-shadow: var(--vert) 0 0 var(--dim-double);
   box-shadow: var(--vert) 0 0 var(--dim-double);
 }
 
 .enonce.echec {
+  -webkit-box-shadow: var(--rouge-transparent) 0 0 var(--dim-double);
   box-shadow: var(--rouge-transparent) 0 0 var(--dim-double);
 }
 
