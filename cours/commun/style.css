@@ -30,7 +30,6 @@
   --bordure-titre-succes: solid var(--vert);
   --bordure-titre-echec: solid var(--rouge);
   --bordure-gauche: solid var(--dim-base);
-  --box-shadow-enonce: var(--gris) 0 0 var(--dim-double);
 }
 
 /* Éléments HTML classiques */
@@ -40,15 +39,10 @@ body {
   margin: 0 2em;
   color: white;
   font-family: "Nunito Sans", "Open Sans", "Roboto", sans-serif;
-  padding-bottom: var(--dim-quadruple);
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   border-bottom: var(--bordure-titre) var(--dim-demie);
   font-family: "Montserrat", "Open Sans", "Roboto", sans-serif;
   font-weight: 600;
@@ -71,20 +65,16 @@ a {
 
 footer {
   text-align: center;
-  background-color: var(--gris-fonce);
   margin-top: 2em;
+  margin-bottom: var(--dim-quadruple);
 }
 
 /**************************
  * Classes personnalisées *
  **************************/
 
-.objectifs {
-  margin: var(--dim-double) 0;
-}
-
 code {
-  background-color: #1d1d1d;
+  background-color: var(--noir);
   font-family: "Courier New", Courier, monospace;
   border-radius: var(--dim-base);
   padding: var(--dim-demie) var(--dim-base);
@@ -169,7 +159,6 @@ code {
 
 .attention::before {
   content: "🔥";
-  display: inline;
   margin-right: var(--dim-demie);
 }
 
