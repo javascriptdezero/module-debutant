@@ -19,11 +19,12 @@ reponsesEnonces.forEach((reponse, i) => {
 const historiqueConsole = [];
 
 // On initialise le statut des énoncés
-(function initialiserEnonces() {
+function initialiserEnonces() {
   reponsesEnonces.forEach((reponse, i) => {
     enonces.definirAttente(enonces.liste[i]);
   });
-}());
+}
+initialiserEnonces();
 
 // On intercepte les appels vers console.log()
 const proxyDeConsole = new Proxy(console.log, {
