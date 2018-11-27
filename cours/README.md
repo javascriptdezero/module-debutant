@@ -161,12 +161,14 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 5. Clonez le dépôt GitHub de la formation :
     1. Ouvrez la palette de commandes depuis le menu **Afficher > Palette de commandes** (raccourci clavier `⇧⌘P` sur Mac ou `Ctrl+Shift+P` sous Windows/Linux) puis tapez `git clone` et validez avec ENTRÉE.
     ![capture d'écran git clone](../images/git-clone.jpg)
-    2. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
+    2. Si une erreur apparaît en bas à droite après avoir appuyé sur ENTRÉE il faut [installer Git](#installer-git) avant de continuer. Une fois que c'est fait suivez les instructions suivantes.
+    ![erreur git non trouvé](../images/git-clone-erreur.jpg)
+    3. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
     ![capture d'écran lien github](../images/depot-git.jpg)
-    3. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix puis validez. Nous appellerons ce répertoire REPERTOIRE_PARENT.
-    4. Une fois le clonage effecuté Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
+    4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix puis validez. Nous appellerons ce répertoire REPERTOIRE_PARENT.
+    5. Une fois le clonage effecuté Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
     ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.jpg)
-    5. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **module-debutant** que vous trouverez dans le répertoire REPERTOIRE_PARENT. Sélectionnez bien le répertoire **module-parent** avant de cliquer sur `Ouvrir`.
+    6. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **module-debutant** que vous trouverez dans le répertoire REPERTOIRE_PARENT. Sélectionnez bien le répertoire **module-parent** avant de cliquer sur `Ouvrir`.
 6. Dans ce nouveau projet, cliquez sur le répertoire **cours** puis sur le cours de votre choix par exemple **05 - Les chaines de caractères**.
 ![capture d'écran ouvrir le cours](../images/go-live.jpg)
 7. Sélectionnez le fichier **exercices.html** (ou un des fichiers se terminant par **.html**).
@@ -176,6 +178,22 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 ![capture d'écran ouvrir le cours](../images/exercices-js.jpg)
 11. Dès que vous enregistrez vos modifications dans le fichier **exercices.js** le navigateur se mettra à jour et vous dira si vous avez réussi ou pas les exercices. Bon courage !
 12. Pour toute question, merci de me contacter via [Slack](https://javascriptdezero.slack.com).
+
+### Installer Git
+
+Si l'erreur suivante apparaît après avoir tapé `git clone` dans la palette de commandes :
+
+<p align="center"><img src="../images/git-clone-erreur.jpg"></p>
+
+C'est qu'il faut installer Git sur votre machine :
+
+1. Rendez-vous sur [git-scm.com](https://git-scm.com/download).
+2. Cliquez sur le système d'exploitation que vous utilisez (Windows ou Linux ou Mac OS).
+![sélection système d'exploitation](../images/plateforme.jpg)
+3. Installez Git (cliquez sur **Next** plusieurs fois). Vérifiez bien de sélectionner l'option **Use Git from the Windows Command Prompt** lorsque cet écran s'affiche :
+![option installation git](../images/windows-prompt.jpg)
+4. Cliquez sur **Next** jusqu'à la fin de l'installation de Git.
+5. Une fois que c'est fait, fermez complètement Visual Studio Code et relancez-le. Vous pourrez maintenant utiliser la commande `git clone` dans la palette de commandes.
 
 ### Approche générale
 
