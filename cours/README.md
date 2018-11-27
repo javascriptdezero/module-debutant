@@ -2,13 +2,9 @@
 
 ## Exercices
 
-Il n'existe pas forcément d'exercices pour chaque leçon.
+Pour faire les exercices [suivez ces instructions](#En-savoir-plus-sur-les-exercices).
 
-Pensez à lire la section [en savoir plus sur les exercices](#En-savoir-plus-sur-les-exercices) au moins une fois.
-
-Pour pouvoir faire les exercices depuis Visual Studio Code, [lisez ces instructions](#Faire-les-exercices-sous-Visual-Studio-Code-recommandé).
-
-> Les noms de fichiers et dossiers sont sans accents pour éviter des problèmes dans Visual Studio Code.
+> Les noms de fichiers et répertoires sont sans accents pour éviter des problèmes dans Visual Studio Code.
 
 ## Vidéos
 
@@ -150,32 +146,33 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
 
 ## En savoir plus sur les exercices
 
-### Faire les exercices sous Visual Studio Code (recommandé)
+### Comment faire les exercices ?
 
-Voici les instructions pour télécharger le dépôt GitHub de la formation et faire les exercices avec tout le confort qu'apport Visual Studio Code.
+Voici les instructions à suivre pour faire les exercices depuis Visual Studio Code.
 
 1. Ouvrez Visual Studio Code.
-2. Allez dans l'onglet Extension via le panneau latéral de gauche. Vous pouvez aussi utiliser le raccourci clavier ⇧⌘X sur Mac ou Ctrl+Shift+X sous Windows/Linux.
-3. Installez l'extension **live server** (par Ritwick Dey). Vous n'avez besoin de l'installer qu'une seule fois bien sûr !
-![capture d'écran live server](../images/live-server.png)
-4. Redémarrez Visual Studio Code pour prendre en compte la nouvelle extension.
+2. Allez dans l'onglet **Extensions** en cliquant sur l'icône depuis le panneau latéral de gauche. Vous pouvez également utiliser le raccourci clavier `⇧⌘X` sur Mac ou `Ctrl+Shift+X` sous Windows/Linux.
+![capture d'écran icône extension](../images/extensions.jpg)
+3. Installez l'extension **live server** (par Ritwick Dey).
+![capture d'écran live server](../images/live-server.jpg)
+4. Redémarrez Visual Studio Code pour prendre en compte cette extension.
 5. Clonez le dépôt GitHub de la formation :
-    1. Depuis la palette de commandes (raccourci clavier ⇧⌘P sur Mac ou Ctrl+Shift+P sous Windows/Linux) tapez `git clone` puis ENTRÉE.
-    ![capture d'écran git clone](../images/git-clone.png)
-    2. Coller le lien suivant et validez : https://github.com/javascriptdezero/module-debutant.git
-    ![capture d'écran lien github](../images/depot-git.png)
-    3. Visual Studio Code va vous demander dans quel dossier vous voulez télécharger le dépôt GitHub qui contient tous les exercices. Sélectionnez le dossier de votre choix puis validez. Nous appellerons ce dossier DOSSIER_PARENT.
-    4. Visual Studio Code va vous demander en bas à droite si vous voulez ouvrir le dépôt fraîchement téléchargé, vous pouvez cliquer sur le bouton Ouvrir le dépôt.
-    ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.png)
-    5. Si vous n'avez pas ouvert le dépôt directement ou si ce message n'apparaît pas, utilisez le menu Fichier > Ouvrir puis sélectionnez le dossier DOSSIER_PARENT/module-debutant. Sélectionnez bien le dossier **module-parent** avant de cliquer sur Ouvrir.
-6. Dans ce nouveau projet, cliquez sur le dossier **cours** puis sur le cours de votre choix par exemple **05 - Les chaines de caractères**.
-![capture d'écran ouvrir le cours](../images/go-live.png)
-7. Sélectionnez le fichier **exercices.html** (ou le fichier se terminant par **.html**).
-8. Lancez le serveur en cliquant sur **Go Live** tout en bas dans la barre d'état.
+    1. Ouvrez la palette de commandes depuis le menu **Afficher > Palette de commandes** (raccourci clavier `⇧⌘P` sur Mac ou `Ctrl+Shift+P` sous Windows/Linux) puis tapez `git clone` et validez avec ENTRÉE.
+    ![capture d'écran git clone](../images/git-clone.jpg)
+    2. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
+    ![capture d'écran lien github](../images/depot-git.jpg)
+    3. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix puis validez. Nous appellerons ce répertoire REPERTOIRE_PARENT.
+    4. Une fois le clonage effecuté Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
+    ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.jpg)
+    5. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **module-debutant** que vous trouverez dans le répertoire REPERTOIRE_PARENT. Sélectionnez bien le répertoire **module-parent** avant de cliquer sur `Ouvrir`.
+6. Dans ce nouveau projet, cliquez sur le répertoire **cours** puis sur le cours de votre choix par exemple **05 - Les chaines de caractères**.
+![capture d'écran ouvrir le cours](../images/go-live.jpg)
+7. Sélectionnez le fichier **exercices.html** (ou un des fichiers se terminant par **.html**).
+8. Lancez le serveur Web en cliquant sur **Go Live** tout en bas dans la barre d'état bleue.
 9. Le navigateur Chrome devrait se lancer tout seul et vous afficher les exercices.
-10. Dernière étape ouvrez le fichier **exercices.js** (ou le fichier se terminant par **.js**) pour commencer à coder !
-![capture d'écran ouvrir le cours](../images/exercices-js.png)
-11. Dès que vous enregistrez vos modifications dans le fichier **exercices.js** le navigateur se mettra à jour et vous dira si vous avez réussi ou pas les exercices ! Bon courage !
+10. Dernière étape ouvrez le fichier **exercices.js** (ou le fichier se terminant par **.js**) pour commencer à coder vos réponses !
+![capture d'écran ouvrir le cours](../images/exercices-js.jpg)
+11. Dès que vous enregistrez vos modifications dans le fichier **exercices.js** le navigateur se mettra à jour et vous dira si vous avez réussi ou pas les exercices. Bon courage !
 12. Pour toute question, merci de me contacter via [Slack](https://javascriptdezero.slack.com).
 
 ### Approche générale
@@ -196,7 +193,7 @@ Là aussi il s'agit d'entraîner votre logique et votre capacité de lecture et 
 
 ### Bonnes pratiques
 
-Voici quelques conseils pour réussir à résoudre tous les exercices :
+Voici quelques conseils pour résoudre les exercices :
 
 - Prenez votre temps, ce n'est pas chronométré !
 - Modifiez le nom des variables si ça vous aide à mieux comprendre la logique du programme
@@ -212,4 +209,4 @@ Vous pouvez contribuer et me soumettre vos propres exercices pour enrichir la li
 
 Si vous résolvez un exercice non listé ici qui vous a permis d'apprendre quelque chose, transmettez-le moi. Je l'ajouterai avec plaisir pour en faire bénéficier la communauté.
 
-Vous pouvez m'envoyer un email à cette adresse : jeremy@javascriptdezero.com. Vous pouvez également utiliser les pull requests de GitHub.
+Vous pouvez m'envoyer un email à cette adresse : jeremy@javascriptdezero.com. Vous pouvez également utiliser les *pull requests* de GitHub.
