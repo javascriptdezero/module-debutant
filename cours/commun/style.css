@@ -104,6 +104,7 @@ code {
 }
 
 .enonce.succes {
+  flex-direction: row;
   box-shadow: var(--vert-transparent) 0 0 var(--dim-double);
 }
 
