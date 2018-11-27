@@ -7,7 +7,7 @@
 const reponsesEnonces = [
   'JavaScript est facile',
   "JavaScript c'est facile",
-  'C\'est Lao Tseu qui a dit : "L\'échec est le fondement de la réussite"',
+  "C'est Lao Tseu qui a dit : \"L'échec est le fondement de la réussite\"",
 ];
 
 // On récupère les blocs d'énoncés dans un tableau
@@ -26,6 +26,7 @@ function initialiserEnonces() {
 }
 initialiserEnonces();
 
+/* eslint-disable no-console */
 // On intercepte les appels vers console.log()
 const proxyDeConsole = new Proxy(console.log, {
   apply(cible, leThis, listeArgs) {
@@ -33,8 +34,7 @@ const proxyDeConsole = new Proxy(console.log, {
   },
 });
 
-/* eslint-disable no-unused-vars */
-
 // On stocke l'ancienne méthode log() pour la réutiliser plus tard pour déboguer
+/* eslint-disable-next-line no-unused-vars */
 const fonctionConsoleLog = console.log;
 console.log = proxyDeConsole;
