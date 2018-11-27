@@ -152,7 +152,9 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 
 1. Ouvrez Visual Studio Code.
 2. Allez dans l'onglet **Extensions** en cliquant sur l'icône depuis le panneau latéral de gauche. Vous pouvez également utiliser le raccourci clavier `⇧⌘X` sur Mac ou `Ctrl+Shift+X` sous Windows/Linux.
-![capture d'écran icône extension](../images/extensions.jpg)
+
+<p align="center"><img src="../images/extensions.jpg"></p>
+
 3. Installez l'extension **live server** (par Ritwick Dey).
 ![capture d'écran live server](../images/live-server.jpg)
 4. Redémarrez Visual Studio Code pour prendre en compte cette extension.
