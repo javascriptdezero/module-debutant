@@ -1,22 +1,22 @@
 :root {
   /* Couleurs */
-  --gris-clair: #E3E3E2;
-  --gris: #BDBEC0;
-  --gris-transparent: rgba(189, 190, 192, .2);
+  --gris-clair: #e3e3e2;
+  --gris: #bdbec0;
+  --gris-transparent: rgba(189, 190, 192, 0.2);
   --gris-fonce: #333;
   --noir: #1d1d1d;
   --jaune: rgb(255, 235, 59);
-  --vert-clair: #C8FFA1;
-  --vert: #9CEB60;
-  --vert-transparent: rgba(156, 235, 96, .4);
+  --vert-clair: #c8ffa1;
+  --vert: #9ceb60;
+  --vert-transparent: rgba(156, 235, 96, 0.4);
   --vert-tres-fonce: #265700;
-  --bleu: #80DDFF;
-  --rouge: #FF866E;
-  --rouge-transparent: #FF866E;
-  --rouge-clair: #FFB59E;
+  --bleu: #80ddff;
+  --rouge: #ff866e;
+  --rouge-transparent: #ff866e;
+  --rouge-clair: #ffb59e;
   --rouge-tres-fonce: #6e1200;
-  --orange: #FEAD51;
-  --orange-clair: #FFC98F;
+  --orange: #fead51;
+  --orange-clair: #ffc98f;
   --orange-tres-fonce: #613300;
 
   /* Dimensions générales */
@@ -31,7 +31,7 @@
   --bordure-titre-succes: solid var(--vert);
   --bordure-titre-echec: solid var(--rouge);
   --bordure-gauche: solid var(--dim-base);
-  --box-shadow-enonce:  var(--gris) 0 0 var(--dim-double);
+  --box-shadow-enonce: var(--gris) 0 0 var(--dim-double);
 }
 
 /* Éléments HTML classiques */
@@ -41,13 +41,18 @@ body {
   margin: 0 2em;
   color: white;
   font-size: 1.2em;
-  font-family: 'Nunito Sans', 'Open Sans', 'Roboto', sans-serif;
+  font-family: "Nunito Sans", "Open Sans", "Roboto", sans-serif;
   padding-bottom: var(--dim-quadruple);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   border-bottom: var(--bordure-titre) var(--dim-demie);
-  font-family: 'Montserrat', 'Open Sans', 'Roboto', sans-serif;;
+  font-family: "Montserrat", "Open Sans", "Roboto", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -82,7 +87,7 @@ footer {
 
 code {
   background-color: #1d1d1d;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   border-radius: var(--dim-base);
   padding: var(--dim-demie) var(--dim-base);
 }
@@ -118,7 +123,7 @@ code {
 }
 
 .enonce.succes p {
-  display:none;
+  display: none;
 }
 
 .enonce.echec h2 {
@@ -130,11 +135,11 @@ code {
   border-radius: var(--dim-base);
   background-color: var(--gris-clair);
   color: var(--gris-fonce);
-  border-left: var(--bordure-gauche) var(--gris)
+  border-left: var(--bordure-gauche) var(--gris);
 }
 
 .enonce.succes .message::after {
-  content: '👍';
+  content: "👍";
   margin: var(--dim-base);
 }
 
