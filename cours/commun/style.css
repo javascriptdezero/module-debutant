@@ -40,7 +40,6 @@ body {
   background-color: var(--gris-fonce);
   margin: 0 2em;
   color: white;
-  font-size: 1.2em;
   font-family: "Nunito Sans", "Open Sans", "Roboto", sans-serif;
   padding-bottom: var(--dim-quadruple);
 }
