@@ -11,3 +11,6 @@ console.log("JavaScript c'est facile"); // On peut utiliser les guillemets simpl
 
 // Exercice 2
 console.log("C'est Lao Tseu qui a dit : \"L'échec est le fondement de la réussite\""); // Il ne faut échapper que les guillemets doubles
+
+// Chassez le bogue 0
+console.log('Bonjour ' + 'Bob' + ', aujourd\'hui nous faisons une promo "la fidélité paye" !');

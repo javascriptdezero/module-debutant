@@ -24,12 +24,14 @@
   --dim-double: 16px;
   --dim-triple: 24px;
   --dim-quadruple: 32px;
+  --dim-insecte: 200px;
 
   /* Propriétés communes */
   --bordure-titre: solid var(--jaune);
   --bordure-titre-succes: solid var(--vert);
   --bordure-titre-echec: solid var(--rouge);
   --bordure-gauche: solid var(--dim-base);
+  --background-insecte: top var(--dim-triple) right var(--dim-triple) / var(--dim-insecte) no-repeat;
 }
 
 /* Éléments HTML classiques */
@@ -74,6 +76,7 @@ footer {
  **************************/
 
 code {
+  display: inline-block;
   background-color: var(--noir);
   font-family: "Courier New", Courier, monospace;
   border-radius: var(--dim-base);
@@ -156,6 +159,66 @@ code {
   color: var(--rouge-tres-fonce);
   border-left: var(--bordure-gauche) var(--rouge);
 }
+
+/* Chassez les bogues */
+
+.enonce.bogue {
+  display: block;
+}
+
+.enonce.bogue h2 {
+  display: inline-block;
+}
+
+.enonce.bogue {
+  min-height: var(--dim-insecte);
+}
+
+.enonce.bogue img {
+  float: right;
+  width: var(--dim-insecte);
+  height: var(--dim-insecte);
+  margin: 0 0 var(--dim-double) var(--dim-double);
+}
+
+.enonce.bogue.echec img {
+  content: url("../../images/insecte-mange.png");
+}
+
+.enonce.bogue .message {
+  display: inline-block;
+}
+
+/* The layout for success is different */
+
+.enonce.bogue.succes {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: var(--dim-triple);
+  padding-right: calc(var(--dim-insecte) + 2 * var(--dim-triple));
+}
+
+.enonce.bogue.succes img {
+  content: url("../../images/insecte-fuit.png");
+  position: absolute;
+  top: var(--dim-triple);
+  right: var(--dim-triple);
+}
+
+.enonce.bogue.succes .message {
+  margin-top: var(--dim-triple);
+}
+
+/* Note importante (message "attention !") */
 
 .attention::before {
   content: "🔥";

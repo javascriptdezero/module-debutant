@@ -1,6 +1,11 @@
 /*
  * N'hésitez pas à jeter un oeil 👁 sur ce code et à me prévenir
- * si vous rencontrez un bogue ! Merci 👍.
+ * si vous rencontrez un bogue !
+ *
+ * Vous pouvez me joindre par email sur jeremy@javascriptdezero.com
+ * ou via Slack : https://javascriptdezero.slack.com
+ *
+ * Merci 👍
  */
 
 /* global document, enonces */
@@ -8,6 +13,7 @@ const reponsesEnonces = [
   'JavaScript est facile',
   "JavaScript c'est facile",
   "C'est Lao Tseu qui a dit : \"L'échec est le fondement de la réussite\"",
+  'Bonjour Bob, aujourd\'hui nous faisons une promo "la fidélité paye" !',
 ];
 
 // On récupère les blocs d'énoncés dans un tableau
