@@ -121,7 +121,7 @@ code {
 }
 
 .enonce.succes h2 {
-  border-bottom: var(--bordure-titre-succes) var(--dim-base);
+  border-bottom: var(--bordure-titre-succes) var(--dim-demie);
 }
 
 .enonce.succes p {
@@ -129,7 +129,7 @@ code {
 }
 
 .enonce.echec h2 {
-  border-bottom: var(--bordure-titre-echec) var(--dim-base);
+  border-bottom: var(--bordure-titre-echec) var(--dim-demie);
 }
 
 .enonce .message {
