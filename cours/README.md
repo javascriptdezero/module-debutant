@@ -180,7 +180,27 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 10. Dernière étape ouvrez le fichier **exercices.js** (ou le fichier se terminant par **.js**) pour commencer à coder vos réponses !
     ![capture d'écran ouvrir le cours](../images/exercices-js.jpg)
 11. Dès que vous enregistrez vos modifications dans le fichier **exercices.js** le navigateur se mettra à jour et vous dira si vous avez réussi ou pas les exercices. Bon courage !
-12. Pour toute question, merci de me contacter via [Slack](https://javascriptdezero.slack.com).
+12. Pour faire les exercices d'un autre cours, il suffit de recommencer à l'étape 6 en sélectionnant le cours de votre choix.
+13. Comme je mets à jour régulièrement les exercices, pensez à lire la section [mettre à jour le dépôt Git de la formation](#Mettre-à-jour-le-dépôt-Git-de-la-formation).
+14. Pour toute question, merci de me contacter via [Slack](https://javascriptdezero.slack.com).
+
+### Mettre à jour le dépôt Git de la formation
+
+Je mets à jour le dépôt Git de la formation régulièrement en ajoutant de nouveaux exercices et du contenu. Pour en profiter, pensez à mettre à jour votre dépôt de temps en temps en suivant les instructions suivantes.
+
+> Vous devez être connecté à Internet pour que la mise à jour puisse s'effectuer.
+
+Voici les étapes à suivre en image (plus d'informations après l'image) :
+
+<p align="center"><img src="../images/mise-a-jour.jpg"></p>
+
+1. Ouvrez Visual Studio Code.
+2. Ouvrez le dépôt Git de la formation : allez dans le menu **Fichier > Ouvrir** et sélectionnez le répertoire que vous avez utilisé pour stocker le dépôt de la formation sur votre ordinateur.
+3. Depuis ce projet, sélectionnez sur le panneau latéral gauche l'icône **debug** (étape 1 de l'image).
+4. Sélectionnez dans le menu déroulant en haut "Mettre à jour le dépôt" (étape 2 de l'image).
+5. Ouvrez la console de déboguage pour voir la mise à jour s'effectuer et vérifier que tout va bien. Cliquez sur l'icône terminal à droite du menu déroulant (étape 3 de l'image).
+6. Lancez la mise à jour en cliquant sur le bouton **Lecture** à gauche du menu déroulant (étape 4 de l'image).
+7. Vérifiez que tout se passe bien dans la console de déboguage.
 
 ### Installer Git
 
