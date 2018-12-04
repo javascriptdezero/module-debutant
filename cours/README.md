@@ -169,7 +169,7 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
    3. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
       ![capture d'écran lien github](../images/depot-git.jpg)
    4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix puis validez. Nous appellerons ce répertoire REPERTOIRE_PARENT.
-   5. Une fois le clonage effecuté Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
+   5. Une fois le clonage effectué Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
       ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.jpg)
    6. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **module-debutant** que vous trouverez dans le répertoire REPERTOIRE_PARENT. Sélectionnez bien le répertoire **module-parent** avant de cliquer sur `Ouvrir`.
 6. Dans ce nouveau projet, cliquez sur le répertoire **cours** puis sur le cours de votre choix par exemple **05 - Les chaines de caractères**.
