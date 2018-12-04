@@ -202,6 +202,10 @@ Voici les étapes à suivre en image (plus d'informations après l'image) :
 6. Lancez la mise à jour en cliquant sur le bouton **Lecture** à gauche du menu déroulant (étape 4 de l'image).
 7. Vérifiez que tout se passe bien dans la console de déboguage.
 
+Voici un exemple d'une mise à jour qui s'est bien déroulée. Notez qu'il se peut que des conflits soient détéctés. C'est parfaitement normal, suivez les instructions à l'écran pour récupérer votre code depuis les fichiers de sauvegarde.
+
+<p align="center"><img src="../images/mise-a-jour-ok.jpg"></p>
+
 ### Installer Git
 
 Si l'erreur suivante apparaît après avoir tapé `git clone` dans la palette de commandes :
