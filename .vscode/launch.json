@@ -7,21 +7,15 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Mettre à jour le dépôt (forcer)",
-      "program": "${workspaceFolder}/.scripts/mise-a-jour.js",
-      "args": ["--force"]
-    },
-    {
-      "type": "node",
-      "request": "launch",
       "name": "Mettre à jour le dépôt",
       "program": "${workspaceFolder}/.scripts/mise-a-jour.js"
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Lancer le programme",
-      "program": "${workspaceFolder}/cours/05 - Les chaines de caracteres/exercice 0 - solution.js"
+      "name": "Mettre à jour le dépôt (forcer)",
+      "program": "${workspaceFolder}/.scripts/mise-a-jour.js",
+      "args": ["--force"]
     }
   ]
 }
