@@ -1,0 +1,27 @@
+{
+  // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+  // Pointez pour afficher la description des attributs existants.
+  // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Mettre à jour le dépôt (forcer)",
+      "program": "${workspaceFolder}/.scripts/mise-a-jour.js",
+      "args": ["--force"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Mettre à jour le dépôt",
+      "program": "${workspaceFolder}/.scripts/mise-a-jour.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Lancer le programme",
+      "program": "${workspaceFolder}/cours/05 - Les chaines de caracteres/exercice 0 - solution.js"
+    }
+  ]
+}
