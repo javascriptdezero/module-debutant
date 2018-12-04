@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 
 const SUFFIX_FICHIER_SAUVEGARDE = "-sauvegarde";
-const GIT_FETCH_DEBUT_PARTIE_INTERESSANTE = "From javascriptdezero.github.com";
+const GIT_FETCH_DEBUT_PARTIE_INTERESSANTE = "From ";
 const GIT_FETCH_CHAINE_DEJA_A_JOUR = "up to date";
 const BRANCHE_DEV = "dev";
 const EXECUTER_TESTS_UNITAIRES = false;
