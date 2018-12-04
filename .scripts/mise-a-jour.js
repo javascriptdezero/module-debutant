@@ -1,4 +1,5 @@
 const { execSync } = require("child_process");
+const fs = require("fs");
 
 const SUFFIX_FICHIER_SAUVEGARDE = "-sauvegarde";
 const GIT_FETCH_DEBUT_PARTIE_INTERESSANTE = "From javascriptdezero.github.com";
@@ -200,7 +201,10 @@ if (listeFichiersASauvegarder.length > 0) {
     try {
       cheminFichierSauvegarde = suffixerFichier(cheminFichier, SUFFIX_FICHIER_SAUVEGARDE);
       console.log(`Copie "${cheminFichier}" => "${cheminFichierSauvegarde}".`);
-      execSync(`cp "${cheminFichier}" "${cheminFichierSauvegarde}"`);
+      fs.copyFileSync(cheminFichier, cheminFichierSauvegarde, erreur => {
+        console.log(`Erreur pendant la copie de ${cheminFichier}`);
+        throw erreur;
+      });
     } catch (erreur) {
       quitterSurErreur(erreur);
     }
