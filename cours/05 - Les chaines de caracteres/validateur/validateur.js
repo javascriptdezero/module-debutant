@@ -14,6 +14,10 @@
 /* eslint-disable-next-line no-console */
 console.log = fonctionConsoleLog;
 
+function formaterPourLeHtml(valeur) {
+  return valeur.replace(/\n/g, '<br/>');
+}
+
 switch (historiqueConsole.length) {
   case 0:
     initialiserEnonces();
@@ -26,10 +30,11 @@ switch (historiqueConsole.length) {
         enonces.definirAttente(enonces.liste[i]);
       } else {
         // Conversion des caractères spéciaux en HTML pour un affichage correct dans la page Web
-        const reponseFormatHTML = reponse.replace(/\n/g, '<br/>');
+        const reponseFormatHtml = formaterPourLeHtml(reponse);
+        const valeurRecueFormatHtml = formaterPourLeHtml(historiqueConsole[i]);
         enonces.definirEchec(enonces.liste[i], {
-          valeurRecue: historiqueConsole[i],
-          valeurAttendue: reponseFormatHTML,
+          valeurRecue: valeurRecueFormatHtml,
+          valeurAttendue: reponseFormatHtml,
         });
       }
     });

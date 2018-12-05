@@ -13,5 +13,11 @@ console.log("Afficher un \\ n'est pas si évident");
 // Exercice 4
 console.log('Ceci est la première ligne\nCeci est la deuxième ligne');
 
+// Exercice 5
+console.log(`Un jour le JavaScript n'aura plus de secrets pour moi
+Lire du code ne sera plus une gageure mais une joie
+Mes doigts seront habitués à tous ces symboles particuliers
+Et ma créativité de développeur pourra enfin s'exprimer`);
+
 // Chassez le bogue 0
 console.log('Bonjour ' + 'Bob' + ', aujourd\'hui nous faisons une promo "la fidélité paye" !');
