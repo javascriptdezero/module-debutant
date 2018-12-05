@@ -230,9 +230,9 @@ console.log("✅ Mise à jour effectuée avec succès :)");
 
 if (listeFichiersASauvegarder.length > 0) {
   console.log(titre("Réutiliser votre code"));
-  console.log("Pour réutiliser votre code, copiez-le depuis les fichiers sauvegardes vers les nouveaux fichiers :");
+  console.log("Pour réutiliser votre code, intégrez-le depuis les fichiers sauvegardes vers les nouveaux fichiers :");
   for (cheminFichier of listeFichiersASauvegarder) {
-    console.log(`Copiez votre code depuis "${suffixerFichier(cheminFichier)}" vers "${cheminFichier}".`);
+    console.log(`Intégrez votre code depuis "${suffixerFichier(cheminFichier)}" vers "${cheminFichier}".`);
   }
 }
 
