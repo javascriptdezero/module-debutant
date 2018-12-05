@@ -13,6 +13,8 @@ const reponsesEnonces = [
   'JavaScript est facile',
   "JavaScript c'est facile",
   "C'est Lao Tseu qui a dit : \"L'échec est le fondement de la réussite\"",
+  "Afficher un \\ n'est pas si évident",
+  'Ceci est la première ligne\nCeci est la deuxième ligne',
   'Bonjour Bob, aujourd\'hui nous faisons une promo "la fidélité paye" !',
 ];
 

@@ -89,6 +89,7 @@ footer {
 
 code {
   display: inline-block;
+  color: white;
   background-color: var(--noir);
   font-family: "Courier New", Courier, monospace;
   border-radius: var(--dim-base);

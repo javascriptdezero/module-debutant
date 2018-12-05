@@ -14,6 +14,10 @@
 
 // Exercice 2
 
+// Exercice 3
+
+// Exercice 4
+
 // Chassez le bogue ! 0
 // Retirez les commentaires devant le code de Tom pour commencer
 // console.log("Bonjour' + 'Bob' + ', aujourd'hui nous faisons une promo 'la fidélité paye' !");
