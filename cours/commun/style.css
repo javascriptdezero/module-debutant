@@ -60,7 +60,8 @@ a {
   color: var(--bleu);
 }
 
-code {
+code,
+p.code {
   display: inline-block;
   color: white;
   background-color: var(--noir);
@@ -104,6 +105,12 @@ pre.valeur {
   padding-left: var(--dim-demie);
   padding-right: var(--dim-demie);
   margin: 0;
+}
+
+p.code {
+  padding: var(--dim-base) var(--dim-double);
+  margin-top: 0;
+  line-height: 1.4em;
 }
 
 /* Gestion des énoncés */
@@ -211,6 +218,16 @@ pre.valeur {
 
 .enonce.bogue .message {
   display: inline-block;
+}
+
+.enonce.bogue p.code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.enonce.bogue.succes p.code {
+  display: none;
 }
 
 /* The layout for success is different */
