@@ -77,6 +77,16 @@ a.mdn::before {
   vertical-align: -10%;
 }
 
+pre.valeur {
+  font-size: 110%;
+  display: inline-block;
+  border-left: dashed 1px var(--noir);
+  border-right: dashed 1px var(--noir);
+  padding-left: var(--dim-demie);
+  padding-right: var(--dim-demie);
+  margin: 0;
+}
+
 footer {
   text-align: center;
   margin-top: 2em;
@@ -168,6 +178,7 @@ code {
 }
 
 .enonce.echec .message {
+  padding: var(--dim-double);
   background-color: var(--rouge-clair);
   color: var(--rouge-tres-fonce);
   border-left: var(--bordure-gauche) var(--rouge);

@@ -49,9 +49,9 @@ const enonces = {
     message.innerHTML = this.echec;
     if (valeurs) {
       const { valeurRecue, valeurAttendue } = valeurs;
-      message.innerHTML += `<br><br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Valeur reçue: ${valeurRecue || 'Aucune (undefined)'}<br>
-      Valeur attendue: ${valeurAttendue}`;
+      message.innerHTML += `<br>
+      <p>▶︎ Valeur reçue :</p><pre class="valeur">${valeurRecue || 'Aucune (undefined)'}</pre>
+      <p>▶︎ Valeur attendue :</p><pre class="valeur">${valeurAttendue}</pre>`;
     }
   },
   liste: [],
