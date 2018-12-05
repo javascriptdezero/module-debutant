@@ -56,13 +56,32 @@ h1 {
   border-bottom: var(--bordure-titre) var(--dim-base);
 }
 
+a {
+  color: var(--bleu);
+}
+
+code {
+  display: inline-block;
+  color: white;
+  background-color: var(--noir);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: var(--dim-base);
+  padding: var(--dim-demie) var(--dim-base);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: var(--dim-quadruple);
+}
+
+/**************************
+ * Classes personnalisées *
+ **************************/
+
 .objectifs > h2 {
   display: inline-block;
   border-color: var(--bleu);
-}
-
-a {
-  color: var(--bleu);
 }
 
 a.mdn::before {
@@ -85,25 +104,6 @@ pre.valeur {
   padding-left: var(--dim-demie);
   padding-right: var(--dim-demie);
   margin: 0;
-}
-
-footer {
-  text-align: center;
-  margin-top: 2em;
-  margin-bottom: var(--dim-quadruple);
-}
-
-/**************************
- * Classes personnalisées *
- **************************/
-
-code {
-  display: inline-block;
-  color: white;
-  background-color: var(--noir);
-  font-family: "Courier New", Courier, monospace;
-  border-radius: var(--dim-base);
-  padding: var(--dim-demie) var(--dim-base);
 }
 
 /* Gestion des énoncés */
