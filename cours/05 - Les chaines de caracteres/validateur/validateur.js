@@ -26,7 +26,7 @@ switch (historiqueConsole.length) {
         enonces.definirAttente(enonces.liste[i]);
       } else {
         // Conversion des caractères spéciaux en HTML pour un affichage correct dans la page Web
-        const reponseFormatHTML = reponse.replace('\n', '<br/>');
+        const reponseFormatHTML = reponse.replace(/\n/g, '<br/>');
         enonces.definirEchec(enonces.liste[i], {
           valeurRecue: historiqueConsole[i],
           valeurAttendue: reponseFormatHTML,
