@@ -27,7 +27,7 @@ switch (historiqueConsole.length) {
       } else {
         enonces.definirEchec(enonces.liste[i], {
           valeurRecue: historiqueConsole[i],
-          valeurAttendue: reponsesEnonces[i],
+          valeurAttendue: reponse,
         });
       }
     });
