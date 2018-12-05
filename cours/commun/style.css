@@ -65,6 +65,18 @@ a {
   color: var(--bleu);
 }
 
+a.mdn::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/icone-mdn.jpg");
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  margin-right: var(--dim-base);
+  vertical-align: -10%;
+}
+
 footer {
   text-align: center;
   margin-top: 2em;
