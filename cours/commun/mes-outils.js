@@ -33,6 +33,7 @@ const enonces = {
     message.innerHTML = this.attente;
   },
   definirSucces(enonce) {
+    enonce.classList.remove(classesCSS.echec);
     enonce.classList.add(classesCSS.succes);
     const message = this.extraireMessage(enonce);
     message.classList.remove(classesCSS.echec);
@@ -40,6 +41,7 @@ const enonces = {
     message.innerHTML = this.succes;
   },
   definirEchec(enonce, valeurs) {
+    enonce.classList.remove(classesCSS.succes);
     enonce.classList.add(classesCSS.echec);
     const message = this.extraireMessage(enonce);
     message.classList.remove(classesCSS.succes);
