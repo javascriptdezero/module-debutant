@@ -103,10 +103,6 @@ a.mdn::before {
 pre.valeur {
   font-size: 110%;
   display: inline-block;
-  border-left: dashed 1px var(--noir);
-  border-right: dashed 1px var(--noir);
-  padding-left: var(--dim-demie);
-  padding-right: var(--dim-demie);
   margin: 0;
 }
 
@@ -114,6 +110,10 @@ p.code {
   padding: var(--dim-base) var(--dim-double);
   margin-top: 0;
   line-height: 1.4em;
+}
+
+.espace {
+  background-color: var(--rouge);
 }
 
 /* Gestion des énoncés */
