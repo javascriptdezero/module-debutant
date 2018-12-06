@@ -23,3 +23,9 @@
 // Chassez le bogue 0
 // Retirez les commentaires devant le code de Tom pour commencer
 // console.log("Bonjour' + 'Bob' + ', aujourd'hui nous faisons une promo 'la fidélité paye' !");
+
+// Chassez le bogue 1
+// Retirez les commentaires devant le code de Tom pour commencer (les 3 lignes ci-dessous)
+// console.log('        Bonjour ' + 'Bob' + ',
+
+// Aujourd\'hui nous faisons une promo "la fidélité paye" !');

@@ -21,3 +21,6 @@ Et ma créativité de développeur pourra enfin s'exprimer`);
 
 // Chassez le bogue 0
 console.log('Bonjour ' + 'Bob' + ', aujourd\'hui nous faisons une promo "la fidélité paye" !');
+
+// Chassez le bogue 1
+console.log('\t\tBonjour ' + 'Bob' + ',\n\nAujourd\'hui nous faisons une promo "la fidélité paye" !');

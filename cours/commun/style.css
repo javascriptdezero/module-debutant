@@ -112,6 +112,10 @@ p.code {
   line-height: 1.4em;
 }
 
+.clearboth {
+  clear: both;
+}
+
 .espace {
   background-color: var(--rouge);
 }
@@ -270,6 +274,7 @@ p.code {
 }
 
 .attention {
+  display: inline-block;
   background-color: var(--orange-clair);
   color: var(--orange-tres-fonce);
   border-left: var(--bordure-gauche) var(--orange);

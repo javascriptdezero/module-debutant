@@ -20,6 +20,7 @@ Lire du code ne sera plus une gageure mais une joie
 Mes doigts seront habitués à tous ces symboles particuliers
 Et ma créativité de développeur pourra enfin s'exprimer`,
   'Bonjour Bob, aujourd\'hui nous faisons une promo "la fidélité paye" !',
+  '\t\tBonjour ' + 'Bob' + ',\n\nAujourd\'hui nous faisons une promo "la fidélité paye" !',
 ];
 
 // On récupère les blocs d'énoncés dans un tableau
