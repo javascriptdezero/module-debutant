@@ -1,3 +1,9 @@
+/*
+ * Il existe une infinité de façons de résoudre un même problème.
+ * Ces solutions ne sont que des exemples. Si vous avez utilisé un autre moyen
+ * et que ça fonctionne, votre solution est valide aussi !
+ */
+
 // Exercice 0
 console.log('JavaScript est facile'); // On peut utiliser les guillemets simples
 
@@ -23,4 +29,6 @@ Et ma créativité de développeur pourra enfin s'exprimer`);
 console.log('Bonjour ' + 'Bob' + ', aujourd\'hui nous faisons une promo "la fidélité paye" !');
 
 // Chassez le bogue 1
-console.log('\t\tBonjour ' + 'Bob' + ',\n\nAujourd\'hui nous faisons une promo "la fidélité paye" !');
+console.log('\t\tBonjour ' + 'Bob' + `,
+
+Aujourd'hui nous faisons une promo "la fidélité paye" !`);
