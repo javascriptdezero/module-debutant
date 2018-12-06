@@ -1,0 +1,284 @@
+:root {
+  /* Couleurs */
+  --gris-clair: #e3e3e2;
+  --gris: #bdbec0;
+  --gris-transparent: rgba(189, 190, 192, 0.2);
+  --gris-fonce: #333;
+  --noir: #1d1d1d;
+  --jaune: rgb(255, 235, 59);
+  --vert-clair: #c8ffa1;
+  --vert: #9ceb60;
+  --vert-tres-fonce: #265700;
+  --bleu: #80ddff;
+  --rouge: #ff866e;
+  --rouge-transparent: #ff866e;
+  --rouge-clair: #ffb59e;
+  --rouge-tres-fonce: #6e1200;
+  --orange: #fead51;
+  --orange-clair: #ffc98f;
+  --orange-tres-fonce: #613300;
+
+  /* Dimensions générales */
+  --dim-demie: 4px;
+  --dim-base: 8px;
+  --dim-double: 16px;
+  --dim-triple: 24px;
+  --dim-quadruple: 32px;
+  --dim-insecte: 200px;
+
+  /* Propriétés communes */
+  --bordure-titre: solid var(--jaune);
+  --bordure-titre-succes: solid var(--vert);
+  --bordure-titre-echec: solid var(--rouge);
+  --bordure-gauche: solid var(--dim-base);
+  --background-insecte: top var(--dim-triple) right var(--dim-triple) / var(--dim-insecte) no-repeat;
+}
+
+/* Éléments HTML classiques */
+
+body {
+  background-color: var(--gris-fonce);
+  margin: 0 2em;
+  color: white;
+  font-family: "Nunito Sans", "Open Sans", "Roboto", sans-serif;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+h1,
+h2 {
+  border-bottom: var(--bordure-titre) var(--dim-demie);
+  font-family: "Montserrat", "Open Sans", "Roboto", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h1 {
+  display: inline-block;
+  border-bottom: var(--bordure-titre) var(--dim-base);
+}
+
+a {
+  color: var(--bleu);
+}
+
+code,
+p.code {
+  display: inline-block;
+  color: white;
+  background-color: var(--noir);
+  font-family: "Courier New", Courier, monospace;
+  border-radius: var(--dim-base);
+  padding: var(--dim-demie) var(--dim-base);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: var(--dim-quadruple);
+}
+
+/**************************
+ * Classes personnalisées *
+ **************************/
+
+.objectifs > h2 {
+  display: inline-block;
+  border-color: var(--bleu);
+}
+
+a.mdn::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../images/icone-mdn.jpg");
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  margin-right: var(--dim-base);
+  vertical-align: -10%;
+}
+
+pre.valeur {
+  font-size: 110%;
+  display: inline-block;
+  margin: 0;
+}
+
+p.code {
+  padding: var(--dim-base) var(--dim-double);
+  margin-top: 0;
+  line-height: 1.4em;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.espace {
+  background-color: var(--rouge);
+}
+
+/* Gestion des énoncés */
+
+.enonce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 3em 0;
+  border-radius: var(--dim-base);
+  padding: var(--dim-triple);
+  -webkit-box-shadow: var(--gris-transparent) 0 0 var(--dim-double);
+  box-shadow: var(--gris-transparent) 0 0 var(--dim-double);
+}
+
+.enonce.succes {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-shadow: var(--vert) 0 0 var(--dim-double);
+  box-shadow: var(--vert) 0 0 var(--dim-double);
+}
+
+.enonce.echec {
+  -webkit-box-shadow: var(--rouge-transparent) 0 0 var(--dim-double);
+  box-shadow: var(--rouge-transparent) 0 0 var(--dim-double);
+}
+
+.enonce h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: var(--dim-double);
+}
+
+.enonce.succes h2 {
+  border-bottom: var(--bordure-titre-succes) var(--dim-demie);
+}
+
+.enonce.succes p {
+  display: none;
+}
+
+.enonce.echec h2 {
+  border-bottom: var(--bordure-titre-echec) var(--dim-demie);
+}
+
+.enonce .message {
+  padding: var(--dim-base);
+  border-radius: var(--dim-base);
+  background-color: var(--gris-clair);
+  color: var(--gris-fonce);
+  border-left: var(--bordure-gauche) var(--gris);
+}
+
+.enonce.succes .message::after {
+  content: "👍";
+  margin: var(--dim-base);
+}
+
+.enonce.succes .message {
+  background-color: var(--vert-clair);
+  color: var(--vert-tres-fonce);
+  border-left: var(--bordure-gauche) var(--vert);
+}
+
+.enonce.echec .message {
+  padding: var(--dim-double);
+  background-color: var(--rouge-clair);
+  color: var(--rouge-tres-fonce);
+  border-left: var(--bordure-gauche) var(--rouge);
+}
+
+/* Chassez les bogues */
+
+.enonce.bogue {
+  display: block;
+}
+
+.enonce.bogue h2 {
+  display: inline-block;
+}
+
+.enonce.bogue {
+  min-height: var(--dim-insecte);
+}
+
+.enonce.bogue img {
+  float: right;
+  width: var(--dim-insecte);
+  height: var(--dim-insecte);
+  margin: 0 0 var(--dim-double) var(--dim-double);
+}
+
+.enonce.bogue.echec img {
+  content: url("../../images/insecte-mange.png");
+}
+
+.enonce.bogue .message {
+  display: inline-block;
+}
+
+.enonce.bogue p.code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.enonce.bogue.succes p.code {
+  display: none;
+}
+
+/* The layout for success is different */
+
+.enonce.bogue.succes {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: var(--dim-triple);
+  padding-right: calc(var(--dim-insecte) + 2 * var(--dim-triple));
+}
+
+.enonce.bogue.succes img {
+  content: url("../../images/insecte-fuit.png");
+  position: absolute;
+  top: var(--dim-triple);
+  right: var(--dim-triple);
+}
+
+.enonce.bogue.succes .message {
+  margin-top: var(--dim-triple);
+}
+
+/* Note importante (message "attention !") */
+
+.attention::before {
+  content: "🔥";
+  margin-right: var(--dim-demie);
+}
+
+.attention {
+  display: inline-block;
+  background-color: var(--orange-clair);
+  color: var(--orange-tres-fonce);
+  border-left: var(--bordure-gauche) var(--orange);
+  padding: var(--dim-base);
+  border-radius: var(--dim-base);
+  margin-top: 0;
+}

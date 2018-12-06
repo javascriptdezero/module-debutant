@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Les chaînes de caractères - Exercices</title>
+    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  </head>
+
+  <body>
+    <h1>Les chaînes de caractères</h1>
+    <p>
+      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.<br />
+      N'oubliez pas d'ouvrir la console développeur de Chrome pour voir vos erreurs JavaScript.
+    </p>
+    <p>
+      <a
+        class="mdn"
+        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String"
+        target="_blank"
+        >Consulter la doc MDN sur les chaînes de caractères</a
+      >.
+    </p>
+    <p>Vous êtes bloqué ? <a href="https://javascriptdezero.slack.com">Demandez de l'aide sur Slack</a>.</p>
+
+    <div class="objectifs">
+      <h2>Objectifs</h2>
+      <ul>
+        <li>Utiliser l'instruction <code>console.log()</code> pour afficher des chaînes de caractères.</li>
+        <li>Échapper des caractères avec <code>\</code>.</li>
+        <li>Concaténer plusieurs chaînes de caractères avec l'opérateur <code>+</code>.</li>
+        <li>Utiliser les littéraux de gabarit <code>``</code> pour construire des chaînes de caractères.</li>
+      </ul>
+    </div>
+
+    <div class="enonce" id="enonce-0">
+      <h2>Exercice 0</h2>
+
+      <p>Affichez la phrase <code>JavaScript est facile</code>.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-1">
+      <h2>Exercice 1</h2>
+
+      <p>Affichez la phrase <code>JavaScript c'est facile</code>.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-2">
+      <h2>Exercice 2</h2>
+
+      <p>Affichez la phrase <code>C'est Lao Tseu qui a dit : "L'échec est le fondement de la réussite"</code>.</p>
+      <p class="attention">Pensez à inclure les guillements simples et doubles !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-3">
+      <h2>Exercice 3</h2>
+
+      <p>Affichez la phrase <code>Afficher un \ n'est pas si évident</code>.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-4">
+      <h2>Exercice 4</h2>
+
+      <p>
+        Affichez les phrases suivantes en utilisant <strong>une seule</strong> instruction <code>console.log()</code> :
+      </p>
+      <p class="code">
+        Ceci est la première ligne<br />
+        Ceci est la deuxième ligne
+      </p>
+      <p class="attention">
+        Insérez le caractère <code>nouvelle ligne</code> au bon endroit dans votre chaîne en utilisant <code>\</code>.
+      </p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-5">
+      <h2>Exercice 5</h2>
+
+      <p>
+        Affichez le poème suivant en utilisant <strong>une seule</strong> instruction <code>console.log()</code> grâce
+        aux littéraux de gabarit <code>``</code> :
+      </p>
+      <p class="code">
+        Un jour le JavaScript n'aura plus de secrets pour moi<br />
+        Lire du code ne sera plus une gageure mais une joie<br />
+        Mes doigts seront habitués à tous ces symboles particuliers<br />
+        Et ma créativité de développeur pourra enfin s'exprimer
+      </p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce bogue" id="enonce-6">
+      <h2>Chassez le bogue ! 0</h2>
+      <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+      <p>
+        Tom vient juste de se faire embaucher dans la société <strong>MagiciensDuCode</strong> en tant que développeur
+        JavaScript junior.
+      </p>
+      <p>
+        Aujourd'hui, son patron Hugo vient le voir car il prépare une grosse campagne marketing. Il a besoin d'envoyer
+        une lettre personnalisée à chaque client qui commence comme ça :
+      </p>
+      <p class="code">Bonjour &lt;prénom du client&gt;, aujourd'hui nous faisons une promo "la fidélité paye" !</p>
+      <p>
+        Tom doit écrire une chaîne de caractère qui permet d'écrire cette phrase pour chaque client. Pour l'instant il
+        essaye de faire fonctionner son code avec le prénom "Bob".
+      </p>
+      <p>Malheureusement son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce bogue" id="enonce-7">
+      <h2>Chassez le bogue ! 1</h2>
+      <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+      <p>
+        Hugo vient voir Tom pour lui demander de formater un peu le début de sa lettre car on ne plaisante pas avec le
+        marketing chez <strong>MagiciensDuCode</strong>.
+      </p>
+      <p>Il aimerait qu'elle ressemble plutôt à ça :</p>
+      <p class="code">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bonjour &lt;prénom du client&gt;,<br /><br />Aujourd'hui nous
+        faisons une promo "la fidélité paye" !
+      </p>
+
+      <p class="clearboth">
+        La première ligne contient 2 caractères <code>tabulation</code> juste avant le <code>Bonjour</code>. Tom a
+        cherché un peu
+        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String">dans la doc</a>
+        et commencé à rédiger du code.
+      </p>
+      <p>Malheureusement son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
+      <p class="attention">Veillez à utiliser des caractères <code>tabulation</code> et pas des espaces !</p>
+      <br />
+      <div class="message"></div>
+    </div>
+
+    <p>D'autres exercices arrivent bientôt... patience !</p>
+
+    <footer>
+      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+    </footer>
+
+    <script src="../commun/mes-outils.js"></script>
+    <script src="validateur/init.js"></script>
+    <script src="exercices.js"></script>
+    <script src="validateur/validateur.js"></script>
+  </body>
+</html>
