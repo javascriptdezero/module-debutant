@@ -161,17 +161,17 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 3. Installez l'extension **live server** (par Ritwick Dey).
    ![capture d'écran live server](../images/live-server.jpg)
 4. Redémarrez Visual Studio Code pour prendre en compte cette extension.
-5. Clonez le dépôt GitHub de la formation :
+5. Téléchargez le dépôt GitHub de la formation :
    1. Ouvrez la palette de commandes depuis le menu **Afficher > Palette de commandes** (raccourci clavier `⇧⌘P` sur Mac ou `Ctrl+Shift+P` sous Windows/Linux) puis tapez `git clone` et validez avec ENTRÉE.
       ![capture d'écran git clone](../images/git-clone.jpg)
    2. Si une erreur apparaît en bas à droite après avoir appuyé sur ENTRÉE il faut [installer Git](#installer-git) avant de continuer. Une fois que c'est fait suivez les instructions suivantes.
       ![erreur git non trouvé](../images/git-clone-erreur.jpg)
    3. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
       ![capture d'écran lien github](../images/depot-git.jpg)
-   4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix puis validez. Nous appellerons ce répertoire REPERTOIRE_PARENT.
-   5. Une fois le clonage effectué Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
+   4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix (par exemple **Documents**), puis validez.
+   5. Une fois le téléchargement effectué vous aurez un nouveau répertoire **Documents/module-debutant**. Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
       ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.jpg)
-   6. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **module-debutant** que vous trouverez dans le répertoire REPERTOIRE_PARENT. Sélectionnez bien le répertoire **module-parent** avant de cliquer sur `Ouvrir`.
+   6. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **Documents/module-debutant**. Sélectionnez bien le répertoire **module-parent** et pas **Documents** avant de cliquer sur `Ouvrir`.
 6. Dans ce nouveau projet, cliquez sur le répertoire **cours** puis sur le cours de votre choix par exemple **05 - Les chaines de caractères**.
    ![capture d'écran ouvrir le cours](../images/go-live.jpg)
 7. Sélectionnez le fichier **exercices.html** (ou un des fichiers se terminant par **.html**).
@@ -186,25 +186,27 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 
 ### Mettre à jour le dépôt Git de la formation
 
-Je mets à jour le dépôt Git de la formation régulièrement en ajoutant de nouveaux exercices et du contenu. Pour en profiter, pensez à mettre à jour votre dépôt de temps en temps en suivant les instructions suivantes.
+Je mets à jour le dépôt Git de la formation régulièrement en ajoutant de nouveaux exercices et du contenu. Pensez à mettre à jour votre dépôt de temps en temps en suivant les instructions ci-dessous.
 
 > Vous devez être connecté à Internet pour que la mise à jour puisse s'effectuer.
 
-Voici les étapes à suivre en image (plus d'informations après l'image) :
+Voici les étapes à suivre en image :
 
 <p align="center"><img src="../images/mise-a-jour.jpg"></p>
 
+Quelques explications plus détaillées :
+
 1. Ouvrez Visual Studio Code.
-2. Ouvrez le dépôt Git de la formation : allez dans le menu **Fichier > Ouvrir** et sélectionnez le répertoire que vous avez utilisé pour stocker le dépôt de la formation sur votre ordinateur.
+2. Ouvrez le dépôt Git de la formation : allez dans le menu **Fichier > Ouvrir** et sélectionnez le répertoire du dépôt sur votre ordinateur (**Documents/module-debutant** pour continuer sur notre exemple).
 3. Depuis ce projet, sélectionnez sur le panneau latéral gauche l'icône **debug** (étape 1 de l'image).
-4. Sélectionnez dans le menu déroulant en haut "Mettre à jour le dépôt" (étape 2 de l'image).
-5. Ouvrez la console de déboguage pour voir la mise à jour s'effectuer et vérifier que tout va bien. Cliquez sur l'icône terminal à droite du menu déroulant (étape 3 de l'image).
+4. Sélectionnez **Mettre à jour le dépôt** dans le menu déroulant du haut (étape 2 de l'image).
+5. Ouvrez la console de déboguage : cliquez sur l'icône terminal à droite du menu déroulant (étape 3 de l'image).
 6. Lancez la mise à jour en cliquant sur le bouton **Lecture** à gauche du menu déroulant (étape 4 de l'image).
 7. Vérifiez que tout se passe bien dans la console de déboguage.
 
-Voici un exemple d'une mise à jour qui s'est bien déroulée. Notez qu'il se peut que des conflits soient détéctés. C'est parfaitement normal, suivez les instructions à l'écran pour récupérer votre code depuis les fichiers de sauvegarde.
+J'ai créé ce procédé pour faciliter l'accès aux exercices par les néophytes qui ne connaissent pas Git.
 
-<p align="center"><img src="../images/mise-a-jour-ok.jpg"></p>
+Mais si vous connaissez Git vous n'avez pas besoin d'utiliser ce processus pour mettre à jour le dépôt. Vous pouvez simplement faire des `git pull` de temps en temps.
 
 ### Installer Git
 
