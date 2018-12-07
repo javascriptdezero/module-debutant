@@ -179,12 +179,9 @@ if (listeFichiersASauvegarder.length > 0) {
   console.log("✅ Aucun conflit trouvé.");
 }
 
-console.log(titre("Nettoyage avant mise à jour"));
 try {
   if (conflitsDetectes) {
-    console.log("🗑 Suppression des modifications locales...");
     execSync("git reset --hard");
-    console.log("🗑 Suppression des fichiers n'appartenant pas au dépôt...");
     execSync(`git clean -f --exclude "*${SUFFIX_FICHIER_SAUVEGARDE}*"`);
   }
   console.log(titre("installation de la mise à jour"));
