@@ -2,38 +2,8 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 
 const SUFFIX_FICHIER_SAUVEGARDE = "-sauvegarde";
-const GIT_FETCH_DEBUT_PARTIE_INTERESSANTE = "From ";
-const GIT_FETCH_CHAINE_DEJA_A_JOUR = "up to date";
 const BRANCHE_DEV = "dev";
 const EXECUTER_TESTS_UNITAIRES = false;
-
-// On regarde dans quelle branche on est (dev ou master)
-let devMode = false;
-try {
-  devMode =
-    execSync("git branch")
-      .toString()
-      .split("\n")
-      .filter(ligne => ligne.startsWith("*"))[0]
-      .split(" ")[1] === BRANCHE_DEV;
-  if (devMode) {
-    console.log(titre("🖥 Mode développeur (branche dev) 🖥"));
-    console.log("Vous êtes sur la branche dev, cette version peut être sujette à des bogues.");
-  }
-} catch (erreur) {
-  quitterSurErreur(erreur);
-}
-const BRANCHE_DISTANTE = devMode ? "origin/dev" : "origin/master";
-
-/* Cas spécial pour forcer le git pull si le git fetch a déjà eu lieu */
-let sauterGitFetch = false;
-if (process.argv.length > 2) {
-  process.argv.forEach(val => {
-    if (val === "--force") {
-      sauterGitFetch = true;
-    }
-  });
-}
 
 /****************************/
 /* Quelques tests unitaires */
@@ -41,7 +11,7 @@ if (process.argv.length > 2) {
 
 if (EXECUTER_TESTS_UNITAIRES) {
   console.log(titre("Lancement des tests unitaires"));
-  const testSuffixerFichier = function(fichier, nomAvecSuffixe) {
+  const testSuffixerFichier = function (fichier, nomAvecSuffixe) {
     reponseFonction = suffixerFichier(fichier, SUFFIX_FICHIER_SAUVEGARDE);
     console.assert(reponseFonction === nomAvecSuffixe, "entrée: '%s', sortie: '%s'", fichier, reponseFonction);
   };
@@ -52,45 +22,6 @@ if (EXECUTER_TESTS_UNITAIRES) {
   testSuffixerFichier("", "");
   testSuffixerFichier("bonjour.toto", `bonjour${SUFFIX_FICHIER_SAUVEGARDE}.toto`);
 
-  const testGitFetch = function(sortie, resultat) {
-    reponseFonction = miseAJourDisponible(sortie);
-    console.assert(reponseFonction === resultat, "Erreur Test GitFetch: %s", sortie);
-  };
-  testGitFetch(
-    `remote: Enumerating objects: 4, done.
-  remote: Counting objects: 100% (4/4), done.
-  remote: Compressing objects: 100% (2/2), done.
-  remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-  Unpacking objects: 100% (3/3), done.
-  From javascriptdezero.github.com:javascriptdezero/module-debutant
-     866b7e9..15c883e  dev        -> origin/dev
-   = [up to date]      master     -> origin/master`,
-    true
-  );
-  testGitFetch(
-    `From javascriptdezero.github.com:javascriptdezero/module-debutant
-   866b7e9..15c883e  dev        -> origin/dev
- = [up to date]      master     -> origin/master`,
-    true
-  );
-  testGitFetch(
-    `remote: Enumerating objects: 4, done.
-  remote: Counting objects: 100% (4/4), done.
-  remote: Compressing objects: 100% (2/2), done.
-  remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
-  Unpacking objects: 100% (3/3), done.
-  From javascriptdezero.github.com:javascriptdezero/module-debutant
-    = [up to date]      dev        -> origin/dev
-    = [up to date]      master     -> origin/master`,
-    false
-  );
-  testGitFetch(
-    `From javascriptdezero.github.com:javascriptdezero/module-debutant
-    = [up to date]      dev        -> origin/dev
-    = [up to date]      master     -> origin/master`,
-    false
-  );
-
   console.log(titre("Fin des tests unitaires"));
   process.exit(0);
 }
@@ -98,6 +29,18 @@ if (EXECUTER_TESTS_UNITAIRES) {
 /**********************/
 /* Fonctions communes */
 /**********************/
+
+function obtenirBranche() {
+  try {
+    return execSync("git branch")
+      .toString()
+      .split("\n")
+      .filter(ligne => ligne.startsWith("*"))[0]
+      .split(" ")[1];
+  } catch (erreur) {
+    quitterSurErreur(erreur);
+  }
+}
 
 function titre(nom) {
   return `\n===[ ${nom.toUpperCase()} ]===`;
@@ -131,18 +74,31 @@ function suffixerFichier(nom, suffixe) {
   return nom.slice(0, nom.length - extension.length) + `${SUFFIX_FICHIER_SAUVEGARDE}${extension}`;
 }
 
-function miseAJourDisponible(sortieGitFetch) {
-  const lignes = sortieGitFetch.split("\n");
-  let partieInteressanteTrouvee = false;
-  for (ligne of lignes) {
-    if (ligne.includes(GIT_FETCH_DEBUT_PARTIE_INTERESSANTE)) {
-      partieInteressanteTrouvee = true;
-    }
-    if (partieInteressanteTrouvee) {
-      if (ligne.includes(BRANCHE_DISTANTE)) {
-        return !ligne.includes(GIT_FETCH_CHAINE_DEJA_A_JOUR);
-      }
-    }
+/*
+ * # Tester s'il y a besoin d'une mise à jour 
+ *
+ * 1. On fetche les données
+ * 2. On vérifie que le hash distant de origin/<branche> n'est pas contenu dans
+ * la liste des commits déjà présents dans la branche locale
+ * 3. S'il n'est pas présent, c'est qu'on doit mettre à jour
+ * 
+ * # Pourquoi je fais ça ?
+ * 
+ * Au début je testais uniquement la différence de hashs entre <branche> et origin/<branche>.
+ * Le problème c'est que si l'étudiant commite son code, il y aura toujours une différence
+ * entre les deux et il essaiera de mettre à jour alors qu'il ne faut pas !
+ * 
+ * En utilisant cette méthode je m'assure que l'étudiant peut faire ce qu'il veut avec
+ * son dépôt et que les mises à jour se feront seulement quand c'est nécessaire.
+ */
+function miseAJourDisponible(brancheDistante) {
+  try {
+    execSync('git fetch');
+    const listeHashsBranche = execSync('git log --pretty=%H').toString().split('\n');
+    const hashBrancheDistante = execSync(`git show -s --pretty=%H ${brancheDistante}`).toString().trim();
+    return !listeHashsBranche.includes(hashBrancheDistante);
+  } catch (erreur) {
+    quitterSurErreur(erreur);
   }
   return false;
 }
@@ -151,25 +107,30 @@ function miseAJourDisponible(sortieGitFetch) {
 /* Début du script */
 /*******************/
 
+// On regarde dans quelle branche on est (dev ou master)
+const BRANCHE_COURANTE = obtenirBranche();
+const BRANCHE_DISTANTE = `origin/${BRANCHE_COURANTE}`;
+
+if (BRANCHE_COURANTE === BRANCHE_DEV) {
+  console.log(titre("🖥 Mode développeur (branche dev) 🖥"));
+  console.log("Vous êtes sur la branche dev, cette version peut être sujette à des bogues.");
+}
+
 console.log(titre("Mise à jour"));
 
 // On regarde s'il y a du nouveau sur le dépôt distant sauf si on utilise --force
-if (sauterGitFetch) {
-  console.log("Mise à jour forcée...");
-} else {
-  try {
-    console.log("Recherche d'une mise à jour disponible...");
-    // Le dernier argument "2>&1" redirige stderr vers stdout car git fetch écrit sur stderr au lieu de stdout,
-    // ça m'a coûté plusieurs heures de recherche pour trouver le problème...
-    if (miseAJourDisponible(execSync("git fetch -v --dry-run 2>&1").toString())) {
-      console.log("🔥 Nouvelle mise à jour disponible ! 🔥");
-    } else {
-      console.log("✅ Vous disposez déjà de la dernière version disponible.");
-      process.exit(0);
-    }
-  } catch (erreur) {
-    quitterSurErreur(erreur);
+try {
+  console.log("Recherche d'une mise à jour disponible...");
+  // Le dernier argument "2>&1" redirige stderr vers stdout car git fetch écrit sur stderr au lieu de stdout,
+  // ça m'a coûté plusieurs heures de recherche pour trouver le problème...
+  if (miseAJourDisponible(BRANCHE_DISTANTE)) {
+    console.log("🔥 Nouvelle mise à jour disponible ! 🔥");
+  } else {
+    console.log("✅ Vous disposez déjà de la dernière version disponible.");
+    process.exit(0);
   }
+} catch (erreur) {
+  quitterSurErreur(erreur);
 }
 
 let listeFichiersModifies;
