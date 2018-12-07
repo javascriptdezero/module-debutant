@@ -166,11 +166,11 @@ if (listeFichiersASauvegarder.length > 0) {
   for (cheminFichier of listeFichiersASauvegarder) {
     try {
       cheminFichierSauvegarde = suffixerFichier(cheminFichier, SUFFIX_FICHIER_SAUVEGARDE);
-      console.log(`Copie "${cheminFichier}" => "${cheminFichierSauvegarde}".`);
       fs.copyFileSync(cheminFichier, cheminFichierSauvegarde, erreur => {
-        console.log(`⛔️ Erreur pendant la copie de ${cheminFichier}`);
+        console.log(`⛔️ Erreur pendant la copie de '${cheminFichier}' vers '${cheminFichierSauvegarde}'.`);
         throw erreur;
       });
+      console.log(`✅ Copie '${cheminFichier}' => '${cheminFichierSauvegarde}'.`);
     } catch (erreur) {
       quitterSurErreur(erreur);
     }
@@ -179,30 +179,32 @@ if (listeFichiersASauvegarder.length > 0) {
   console.log("✅ Aucun conflit trouvé.");
 }
 
-console.log(titre("Récupération de la mise à jour"));
+console.log(titre("Nettoyage avant mise à jour"));
 try {
   if (conflitsDetectes) {
-    console.log("🗑 Suppression des modifications locales pour éviter les conflits...");
+    console.log("🗑 Suppression des modifications locales...");
     execSync("git reset --hard");
     console.log("🗑 Suppression des fichiers n'appartenant pas au dépôt...");
     execSync(`git clean -f --exclude "*${SUFFIX_FICHIER_SAUVEGARDE}*"`);
   }
-  console.log("Mise à jour...");
+  console.log(titre("installation de la mise à jour"));
+  console.log("♻️ Mise à jour...");
   execSync("git pull 2>&1");
 } catch (erreur) {
   quitterSurErreur(erreur);
 }
-console.log("🎉 Mise à jour effectuée avec succès 🎉");
+console.log("🎉 Mise à jour effectuée avec succès ! 🎉");
 
 if (listeFichiersASauvegarder.length > 0) {
-  console.log(titre("Réutiliser votre code"));
+  console.log(titre("Comment réutiliser le code sauvegardé ?"));
   console.log("Pour réutiliser votre code, intégrez-le depuis les fichiers sauvegardes vers les nouveaux fichiers :");
   for (cheminFichier of listeFichiersASauvegarder) {
-    console.log(`Intégrez votre code depuis "${suffixerFichier(cheminFichier)}" vers "${cheminFichier}".`);
+    console.log(`▶️ Intégrez le code depuis "${suffixerFichier(cheminFichier)}" vers "${cheminFichier}".`);
   }
+  console.log(
+    `Une fois que c'est fait, vous pouvez supprimer les fichiers finissant par '${SUFFIX_FICHIER_SAUVEGARDE}'.`
+  );
 }
 
 console.log(titre("des questions ?"));
-console.log(
-  "Pour toutes question n'hésitez pas à me contacter sur Slack (https://javascriptdezero.slack.com) ou par email à jeremy@javascriptdezero.com."
-);
+console.log("Contactez-moi sur Slack (https://javascriptdezero.slack.com) ou par email à jeremy@javascriptdezero.com.");
