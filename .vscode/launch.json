@@ -9,13 +9,6 @@
       "request": "launch",
       "name": "Mettre à jour le dépôt",
       "program": "${workspaceFolder}/.scripts/mise-a-jour.js"
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Mettre à jour le dépôt (forcer)",
-      "program": "${workspaceFolder}/.scripts/mise-a-jour.js",
-      "args": ["--force"]
     }
   ]
 }
