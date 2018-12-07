@@ -23,7 +23,7 @@ try {
 } catch (erreur) {
   quitterSurErreur(erreur);
 }
-const DEPOT_DISTANT = devMode ? "origin/dev" : "origin/master";
+const BRANCHE_DISTANTE = devMode ? "origin/dev" : "origin/master";
 
 /* Cas spécial pour forcer le git pull si le git fetch a déjà eu lieu */
 let sauterGitFetch = false;
@@ -139,7 +139,7 @@ function miseAJourDisponible(sortieGitFetch) {
       partieInteressanteTrouvee = true;
     }
     if (partieInteressanteTrouvee) {
-      if (ligne.includes(DEPOT_DISTANT)) {
+      if (ligne.includes(BRANCHE_DISTANTE)) {
         return !ligne.includes(GIT_FETCH_CHAINE_DEJA_A_JOUR);
       }
     }
