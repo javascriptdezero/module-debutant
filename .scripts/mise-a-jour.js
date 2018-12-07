@@ -11,7 +11,7 @@ const EXECUTER_TESTS_UNITAIRES = false;
 
 if (EXECUTER_TESTS_UNITAIRES) {
   console.log(titre("Lancement des tests unitaires"));
-  const testSuffixerFichier = function (fichier, nomAvecSuffixe) {
+  const testSuffixerFichier = function(fichier, nomAvecSuffixe) {
     reponseFonction = suffixerFichier(fichier, SUFFIX_FICHIER_SAUVEGARDE);
     console.assert(reponseFonction === nomAvecSuffixe, "entrée: '%s', sortie: '%s'", fichier, reponseFonction);
   };
@@ -47,7 +47,7 @@ function titre(nom) {
 }
 
 function quitterSurErreur(messageErreur) {
-  console.log(titre("❌ erreur de mise à jour"));
+  console.log(titre("⛔️ Erreur de mise à jour"));
   console.log(messageErreur + "\n");
   console.log(`${titre("Que faire ?")}
 S'il vous plaît contactez-moi ! Je suis là pour ça !
@@ -75,27 +75,31 @@ function suffixerFichier(nom, suffixe) {
 }
 
 /*
- * # Tester s'il y a besoin d'une mise à jour 
+ * # Tester s'il y a besoin d'une mise à jour
  *
  * 1. On fetche les données
  * 2. On vérifie que le hash distant de origin/<branche> n'est pas contenu dans
  * la liste des commits déjà présents dans la branche locale
  * 3. S'il n'est pas présent, c'est qu'on doit mettre à jour
- * 
+ *
  * # Pourquoi je fais ça ?
- * 
+ *
  * Au début je testais uniquement la différence de hashs entre <branche> et origin/<branche>.
  * Le problème c'est que si l'étudiant commite son code, il y aura toujours une différence
  * entre les deux et il essaiera de mettre à jour alors qu'il ne faut pas !
- * 
+ *
  * En utilisant cette méthode je m'assure que l'étudiant peut faire ce qu'il veut avec
  * son dépôt et que les mises à jour se feront seulement quand c'est nécessaire.
  */
 function miseAJourDisponible(brancheDistante) {
   try {
-    execSync('git fetch');
-    const listeHashsBranche = execSync('git log --pretty=%H').toString().split('\n');
-    const hashBrancheDistante = execSync(`git show -s --pretty=%H ${brancheDistante}`).toString().trim();
+    execSync("git fetch");
+    const listeHashsBranche = execSync("git log --pretty=%H")
+      .toString()
+      .split("\n");
+    const hashBrancheDistante = execSync(`git show -s --pretty=%H ${brancheDistante}`)
+      .toString()
+      .trim();
     return !listeHashsBranche.includes(hashBrancheDistante);
   } catch (erreur) {
     quitterSurErreur(erreur);
@@ -120,7 +124,7 @@ console.log(titre("Mise à jour"));
 
 // On regarde s'il y a du nouveau sur le dépôt distant sauf si on utilise --force
 try {
-  console.log("Recherche d'une mise à jour disponible...");
+  console.log("🔍 Recherche d'une mise à jour disponible...");
   // Le dernier argument "2>&1" redirige stderr vers stdout car git fetch écrit sur stderr au lieu de stdout,
   // ça m'a coûté plusieurs heures de recherche pour trouver le problème...
   if (miseAJourDisponible(BRANCHE_DISTANTE)) {
@@ -135,7 +139,7 @@ try {
 
 let listeFichiersModifies;
 try {
-  console.log("Recherche de conflits potentiels...");
+  console.log("🔍 Recherche de conflits potentiels...");
   listeFichiersModifies = execSync("git status -s")
     .toString()
     .split("\n");
@@ -153,17 +157,18 @@ listeFichiersASauvegarder = listeFichiersModifies
 let conflitsDetectes = false;
 if (listeFichiersASauvegarder.length > 0) {
   conflitsDetectes = true;
-  console.log("Conflits potentiels trouvés, sauvegarde préventive...");
+  console.log("⚠️ Conflit(s) potentiel(s) trouvé(s).");
+  console.log("💾 Sauvegarde préventive de votre précieux code...");
   console.log(titre("Sauvegarde de vos fichiers"));
   console.log(
-    "Pour que vous ne perdiez pas votre code déjà écrit les fichiers en conflit avec la mise à jour vont être sauvegardés."
+    "ℹ️ Pour que vous ne perdiez pas votre code déjà écrit, les fichiers en conflit avec la mise à jour vont être sauvegardés."
   );
   for (cheminFichier of listeFichiersASauvegarder) {
     try {
       cheminFichierSauvegarde = suffixerFichier(cheminFichier, SUFFIX_FICHIER_SAUVEGARDE);
       console.log(`Copie "${cheminFichier}" => "${cheminFichierSauvegarde}".`);
       fs.copyFileSync(cheminFichier, cheminFichierSauvegarde, erreur => {
-        console.log(`Erreur pendant la copie de ${cheminFichier}`);
+        console.log(`⛔️ Erreur pendant la copie de ${cheminFichier}`);
         throw erreur;
       });
     } catch (erreur) {
@@ -171,15 +176,15 @@ if (listeFichiersASauvegarder.length > 0) {
     }
   }
 } else {
-  console.log("Aucun conflit trouvé.");
+  console.log("✅ Aucun conflit trouvé.");
 }
 
 console.log(titre("Récupération de la mise à jour"));
 try {
   if (conflitsDetectes) {
-    console.log("Suppression des modifications locales pour éviter les conflits...");
+    console.log("🗑 Suppression des modifications locales pour éviter les conflits...");
     execSync("git reset --hard");
-    console.log("Suppression des fichiers n'appartenant pas au dépôt...");
+    console.log("🗑 Suppression des fichiers n'appartenant pas au dépôt...");
     execSync(`git clean -f --exclude "*${SUFFIX_FICHIER_SAUVEGARDE}*"`);
   }
   console.log("Mise à jour...");
@@ -187,7 +192,7 @@ try {
 } catch (erreur) {
   quitterSurErreur(erreur);
 }
-console.log("✅ Mise à jour effectuée avec succès :)");
+console.log("🎉 Mise à jour effectuée avec succès 🎉");
 
 if (listeFichiersASauvegarder.length > 0) {
   console.log(titre("Réutiliser votre code"));
