@@ -2,6 +2,8 @@
 
 ## Exercices
 
+![capture d'écran exercice](../images/exercice.jpg)
+
 Pour faire les exercices [suivez ces instructions](#En-savoir-plus-sur-les-exercices).
 
 > Les noms de fichiers et répertoires sont sans accents pour éviter des problèmes dans Visual Studio Code.
