@@ -150,39 +150,39 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
    - [09:03](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=543s) Des questions ?
    - [09:12](https://www.youtube.com/watch?v=J7IFmQhKpd0&t=552s) Merci de cliquer sur J'aime et abonnez-vous :)
 
-6. [Les chaînes de caractères (Strings) en JavaScript [M0L05]](https://www.youtube.com/watch?v=JzHfxyH0BPg)
+6. [Les chaînes de caractères (Strings) en JavaScript [M0L05]](https://www.youtube.com/watch?v=YPY4Y7inlIc)
 
-   - [00:12](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=12s) But d'un programme informatique
-   - [00:24](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=24s) Les chaînes de caractères
-   - [00:35](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=35s) Exemple de chaîne de caractères
-   - [01:00](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=60s) Qu'est-ce qu'une chaîne de caractères ? Un caractère ?
-   - [01:15](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=75s) Exemple de caractères
-   - [01:20](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=80s) Les Emojis sont aussi des caractères
-   - [01:32](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=92s) Pas de nouvelle ligne dans les chaînes de caractères !
-   - [01:45](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=105s) Erreur littéral de chaîne inachevée
-   - [02:05](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=125s) Le caractère nouvelle ligne est invisible
-   - [02:35](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=155s) Comment créer une chaîne de caractères ?
-   - [02:40](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=160s) Avec les doubles guillemets
-   - [02:48](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=168s) Avec les guillemets simples (apostrophe)
-   - [03:00](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=180s) Quand utiliser l'une ou l'autre façon ?
-   - [03:15](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=195s) Quand utiliser les guillemets doubles
-   - [04:24](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=264s) Quand utiliser les guillemets simples
-   - [04:55](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=295s) Echapper un caractère avec anti-slash \
-   - [06:45](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=405s) Afficher plusieurs lignes avec la séquence d'échappement \n
-   - [07:49](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=469s) La concaténation de chaînes de caractères
-   - [09:25](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=565s) A quoi sert la concaténation ?
-   - [09:38](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=578s) Nouveauté EcmaScript 6 : modèles de libellés (template strings, literals)
-   - [10:25](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=625s) Avantages des modèles de libellés
-   - [11:20](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=680s) Inconvénient des modèles de libellés
-   - [11:28](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=688s) Bonne pratique : ne cassez pas les longues chaînes de caractères !
-   - [12:36](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=756s) Option pour réduire les longues chaînes de caractères dans Visual Studio Code
-   - [13:10](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=790s) Bonne pratique : utilisez les anti-slashs avec parcimonie !
-   - [14:00](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=840s) Bonne pratique : préférez les backticks
-   - [14:11](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=851s) Astuces Visual Studio Code
-   - [14:25](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=865s) Entourez votre sélection facilement avec Visual Studio Code
-   - [15:04](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=904s) Sélection rapide avec le clavier Cmd+Ctrl+Shift+→
-   - [15:30](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=930s) Exercices sur GitHub (à vous de coder !)
-   - [15:44](https://www.youtube.com/watch?v=JzHfxyH0BPg&t=944s) Des questions ? Posez-les dans les commentaires. Cliquez sur J'aime, Abonnez-vous :) !
+    - [00:12](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=12s) But d'un programme informatique
+    - [00:24](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=24s) Les chaînes de caractères
+    - [00:35](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=35s) Exemple de chaîne de caractères
+    - [01:00](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=60s) Qu'est-ce qu'une chaîne de caractères ? Un caractère ?
+    - [01:15](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=75s) Exemple de caractères
+    - [01:20](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=80s) Les Emojis sont aussi des caractères
+    - [01:32](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=92s) Pas de nouvelle ligne dans les chaînes de caractères !
+    - [01:45](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=105s) Erreur littéral de chaîne inachevée
+    - [02:05](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=125s) Le caractère nouvelle ligne est invisible
+    - [02:35](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=155s) Comment créer une chaîne de caractères ?
+    - [02:40](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=160s) Avec les doubles guillemets
+    - [02:48](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=168s) Avec les guillemets simples (apostrophe)
+    - [03:00](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=180s) Quand utiliser l'une ou l'autre façon ?
+    - [03:15](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=195s) Quand utiliser les guillemets doubles
+    - [04:24](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=264s) Quand utiliser les guillemets simples
+    - [04:55](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=295s) Echapper un caractère avec anti-slash \
+    - [06:45](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=405s) Afficher plusieurs lignes avec la séquence d'échappement \n
+    - [07:49](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=469s) La concaténation de chaînes de caractères
+    - [09:25](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=565s) A quoi sert la concaténation ?
+    - [09:38](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=578s) Nouveauté EcmaScript 6 : modèles de libellés (template strings, literals)
+    - [10:25](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=625s) Avantages des modèles de libellés
+    - [11:20](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=680s) Inconvénient des modèles de libellés
+    - [11:28](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=688s) Bonne pratique : ne cassez pas les longues chaînes de caractères !
+    - [12:36](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=756s) Option pour réduire les longues chaînes de caractères dans Visual Studio Code
+    - [13:10](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=790s) Bonne pratique : utilisez les anti-slashs avec parcimonie !
+    - [14:00](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=840s) Bonne pratique : préférez les backticks
+    - [14:11](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=851s) Astuces Visual Studio Code
+    - [14:25](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=865s) Entourez votre sélection facilement avec Visual Studio Code
+    - [15:04](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=904s) Sélection rapide avec le clavier Cmd+Ctrl+Shift+→
+    - [15:30](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=930s) Exercices sur GitHub (à vous de coder !)
+    - [15:44](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=944s) Des questions ? Posez-les dans les commentaires. Cliquez sur J'aime, Abonnez-vous :) !
 
 ## En savoir plus sur les exercices
 
