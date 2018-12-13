@@ -10,6 +10,25 @@ Tout le contenu du module débutant de la formation [JavaScript de Zéro](https:
 
 Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Questions](/faq).
 
+## Newsletter
+
+J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
+Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
+
+- [JavaScript de Zéro #13 — Les exercices sont prêts !](http://sh1.sendinblue.com/nme9c89fsc.html?t=1544717602)
+- [JavaScript de Zéro #12 — Les exercices arrivent bientôt !](http://sh1.sendinblue.com/nlltc89fsc.html?t=1544716750)
+- [JavaScript de Zéro #11 — Pas de vidéo mais des exercices à venir :-)](http://sh1.sendinblue.com/nktdc89fsc.html?t=1544716750)
+- [JavaScript de Zéro #10 — Comment lire la documentation JavaScript du MDN](http://sh1.sendinblue.com/nkjw089fsc.html?t=1544716750)
+- [JavaScript de Zéro #9 — Savoir utiliser la documentation JavaScript](http://sh1.sendinblue.com/nkaeo89fsc.html?t=1544716750)
+- [JavaScript de Zéro #8 — Votre premier programme JavaScript !](http://sh1.sendinblue.com/nk0xc89fsc.html?t=1544716750)
+- [JavaScript de Zéro #7 — Nouvelle (grosse) vidéo](http://sh1.sendinblue.com/njrg089fsc.html?t=1544716750)
+- [JavaScript de Zéro #6 — Présentation module débutant](http://sh1.sendinblue.com/njhyo89fsc.html?t=1544716750)
+- [JavaScript de Zéro #5 — Nouvelle vidéo : Comment apprendre à programmer ?](http://sh1.sendinblue.com/ni6k089fsc.html?t=1544716750)
+- [JavaScript de Zéro #4 — Site internet officiel javascriptdezero.com](http://sh1.sendinblue.com/nhx2o89fsc.html?t=1544716750)
+- [JavaScript de Zéro #3 — Vidéo terminée : Quel langage de programmation choisir ?](http://sh1.sendinblue.com/ngv5c89fsc.html?t=1544716750)
+- [JavaScript de Zéro #2 — Nouvelle vidéo : Quel langage de programmation choisir ?](http://sh1.sendinblue.com/nglo089fsc.html?t=1544716750)
+- [JavaScript de Zéro #1 — Les formations JS en français](http://sh1.sendinblue.com/ngc6o89fsc.html?t=1544716750)
+
 ## Quelques vidéos complémentaires à la formation
 
 1. [Quel langage de programmation choisir ?](https://www.youtube.com/watch?v=boAGXUq6ENU)
