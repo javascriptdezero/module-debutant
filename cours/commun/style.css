@@ -118,6 +118,7 @@ pre.valeur {
   font-size: 110%;
   display: inline-block;
   margin: 0;
+  white-space: pre-wrap;
 }
 
 p.code {
