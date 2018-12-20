@@ -28,7 +28,7 @@ initialiserEnonces();
 // On intercepte les appels vers console.log()
 const proxyDeConsole = new Proxy(console.log, {
   apply(cible, leThis, listeArgs) {
-    historiqueConsole.push(listeArgs.join(''));
+    historiqueConsole.push(...listeArgs);
   },
 });
 
