@@ -8,6 +8,8 @@
  * Merci 👍
  */
 
+/* globals enonces,document,reponsesEnonces */
+
 // On récupère les blocs d'énoncés dans un tableau
 reponsesEnonces.forEach((reponse, i) => {
   enonces.liste.push(document.getElementById(`enonce-${i}`));
