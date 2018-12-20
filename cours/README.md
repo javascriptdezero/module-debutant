@@ -184,6 +184,34 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [15:30](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=930s) Exercices sur GitHub (à vous de coder !)
     - [15:44](https://www.youtube.com/watch?v=YPY4Y7inlIc&t=944s) Des questions ? Posez-les dans les commentaires. Cliquez sur J'aime, Abonnez-vous :) !
 
+7. [Les nombres en JavaScript [M0L06]](https://www.youtube.com/watch?v=3zqxD-g7nEY)
+    - [00:16](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=16s) Pas besoin d'être fort en maths pour devenir développeur !
+    - [00:40](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=40s) Rappel : différence entre nombre et chiffre
+    - [00:55](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=55s) Pas besoin de délimiteurs pour utiliser un nombre
+    - [01:14](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=74s) Afficher le nombre 42
+    - [01:24](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=84s) Opérations de bases des mathématiques (+,-,*,/)
+    - [01:39](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=99s) Vocabulaire : les opérandes des opérateurs
+    - [02:18](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=138s) Interprétation de l'expression 40 + 7
+    - [02:44](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=164s) Étape à la volée effectuée par l'interpréteur JavaScript
+    - [03:00](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=180s) Nombre à virgules
+    - [03:25](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=205s) Utilisation du point décimal (et pas de la virgule)
+    - [03:54](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=234s) Interprétation de la formule (4 + 8 / 2) par l'interpréteur JavaScript
+    - [04:00](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=240s) Priorités (précédences) des opérateurs mathématiques
+    - [04:16](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=256s) Utiliser les parenthèses pour ordonner des opérations
+    - [04:42](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=282s) Les nombres négatifs
+    - [05:12](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=312s) Opérateur '+' : addition ou concaténation ?
+    - [06:09](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=369s) Conversion de type (transtypage)
+    - [07:00](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=420s) Explication du résultat de ("40" + "2") → 402
+    - [07:36](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=456s) Comportement de l'opérateur '+' en fonction des opérandes
+    - [07:46](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=466s) L'opérateur '-' soustraction
+    - [08:25](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=505s) La valeur NaN (Not A Number)
+    - [09:00](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=540s) Explication du résultat de ("40" - "2") → 38
+    - [09:34](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=574s) L'opérateur '*' multiplication
+    - [10:15](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=615s) L'opérateur '/' division
+    - [10:33](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=633s) Exercices sur GitHub (lien ci-dessous)
+    - [10:47](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=647s) Des questions ? Posez-les dans les commentaires !
+    - [10:55](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=655s) Partagez, cliquez sur J'aime et abonnez-vous ! Merci :).
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
