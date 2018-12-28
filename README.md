@@ -15,6 +15,7 @@ Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Ques
 J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [JavaScript de Zéro #16 — Joyeuses fêtes de fin d'année !](http://sh1.sendinblue.com/nn6pc89fsc.html?t=1545984392)
 - [JavaScript de Zéro #15 — Prenez RDV avec moi GRATUITEMENT avant le 1er Février 2019 !](http://sh1.sendinblue.com/nmx8089fsc.html?t=1545393974)
 - [JavaScript de Zéro #14 — Nouvelle vidéo : les chaînes de caractères](http://sh1.sendinblue.com/nmnqo89fsc.html?t=1544779520)
 - [JavaScript de Zéro #13 — Les exercices sont prêts !](http://sh1.sendinblue.com/nme9c89fsc.html?t=1544717602)
