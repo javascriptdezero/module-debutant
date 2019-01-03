@@ -19,7 +19,7 @@ const classesCSS = {
 const enonces = {
   attente: 'En attente de code à tester... À vous de jouer !',
   succes: 'Félicitations ! Vous avez réussi 👍 !',
-  echec: "Ce n'est pas la bonne réponse... Réessayez !",
+  echec: "Ce n'est pas la bonne réponse... 😭 Réessayez !",
 
   extraireMessage(enonce) {
     return enonce.getElementsByClassName(classesCSS.message)[0];
@@ -39,7 +39,7 @@ const enonces = {
     message.classList.remove(classesCSS.echec);
     message.classList.add(classesCSS.succes);
     message.innerHTML = `<p style="display: inline-block;">▶︎ Bonne réponse :&nbsp;<pre class="valeur">${bonneReponse}</pre></p>
-    <p>${this.succes}</p>`;
+    <p style="margin-top: var(--dim-triple)">${this.succes}</p>`;
   },
   definirEchec(enonce, valeurs) {
     enonce.classList.remove(classesCSS.succes);
@@ -47,13 +47,10 @@ const enonces = {
     const message = this.extraireMessage(enonce);
     message.classList.remove(classesCSS.succes);
     message.classList.add(classesCSS.echec);
-    message.innerHTML = this.echec;
-    if (valeurs) {
-      const { valeurRecue, valeurAttendue } = valeurs;
-      message.innerHTML += `<br>
-      <p>▶︎ Valeur reçue :</p><pre class="valeur">${valeurRecue || 'Aucune (undefined)'}</pre>
-      <p>▶︎ Valeur attendue :</p><pre class="valeur">${valeurAttendue}</pre>`;
-    }
+    const { valeurRecue, valeurAttendue } = valeurs;
+    message.innerHTML = `<p>▶︎ Valeur reçue :</p><pre class="valeur">${valeurRecue || 'Aucune (undefined)'}</pre>
+    <p>▶︎ Valeur attendue :</p><pre class="valeur">${valeurAttendue}</pre>
+    <p style="margin-top: var(--dim-triple)">${this.echec}</p>`;
   },
   liste: [],
 };
