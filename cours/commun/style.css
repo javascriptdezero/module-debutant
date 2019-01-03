@@ -180,7 +180,7 @@ p.code {
 }
 
 .enonce .message {
-  padding: var(--dim-double);
+  padding: var(--dim-base);
   border-radius: var(--dim-base);
   background-color: var(--gris-clair);
   color: var(--gris-fonce);
@@ -192,6 +192,7 @@ p.code {
 }
 
 .enonce.succes .message {
+  padding: var(--dim-double);
   background-color: var(--vert-clair);
   color: var(--vert-tres-fonce);
   border-left: var(--bordure-gauche) var(--vert);
