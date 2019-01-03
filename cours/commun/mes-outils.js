@@ -18,7 +18,7 @@ const classesCSS = {
 
 const enonces = {
   attente: 'En attente de code à tester... À vous de jouer !',
-  succes: 'Félicitations ! Vous avez réussi !',
+  succes: 'Félicitations ! Vous avez réussi 👍 !',
   echec: "Ce n'est pas la bonne réponse... Réessayez !",
 
   extraireMessage(enonce) {
@@ -32,13 +32,14 @@ const enonces = {
     message.classList = classesCSS.message;
     message.innerHTML = this.attente;
   },
-  definirSucces(enonce) {
+  definirSucces(enonce, bonneReponse) {
     enonce.classList.remove(classesCSS.echec);
     enonce.classList.add(classesCSS.succes);
     const message = this.extraireMessage(enonce);
     message.classList.remove(classesCSS.echec);
     message.classList.add(classesCSS.succes);
-    message.innerHTML = this.succes;
+    message.innerHTML = `<p style="display: inline-block;">▶︎ Bonne réponse :&nbsp;<pre class="valeur">${bonneReponse}</pre></p>
+    <p>${this.succes}</p>`;
   },
   definirEchec(enonce, valeurs) {
     enonce.classList.remove(classesCSS.succes);

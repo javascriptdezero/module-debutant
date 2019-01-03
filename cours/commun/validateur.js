@@ -33,7 +33,7 @@ switch (historiqueConsole.length) {
     reponsesEnonces.forEach((reponse, i) => {
       if (reponsesEnonces.includes(historiqueConsole[i])
       && reponsesEnonces.indexOf(historiqueConsole[i]) === i) {
-        enonces.definirSucces(enonces.liste[reponsesEnonces.indexOf(historiqueConsole[i])]);
+        enonces.definirSucces(enonces.liste[reponsesEnonces.indexOf(historiqueConsole[i])], reponsesEnonces[i]);
       } else if (historiqueConsole[i] === undefined) {
         enonces.definirAttente(enonces.liste[i]);
       } else {

@@ -156,10 +156,6 @@ p.code {
 }
 
 .enonce.succes {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
   -webkit-box-shadow: var(--vert) 0 0 var(--dim-double);
   box-shadow: var(--vert) 0 0 var(--dim-double);
 }
@@ -179,25 +175,20 @@ p.code {
   border-bottom: var(--bordure-titre-succes) var(--dim-demie);
 }
 
-.enonce.succes p {
-  display: none;
-}
-
 .enonce.echec h2 {
   border-bottom: var(--bordure-titre-echec) var(--dim-demie);
 }
 
 .enonce .message {
-  padding: var(--dim-base);
+  padding: var(--dim-double);
   border-radius: var(--dim-base);
   background-color: var(--gris-clair);
   color: var(--gris-fonce);
   border-left: var(--bordure-gauche) var(--gris);
 }
 
-.enonce.succes .message::after {
-  content: "👍";
-  margin: var(--dim-base);
+.enonce .message p {
+  margin: var(--dim-base) auto;
 }
 
 .enonce.succes .message {
@@ -246,10 +237,6 @@ p.code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.enonce.bogue.succes p.code {
-  display: none;
 }
 
 /* The layout for success is different */
