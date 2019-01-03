@@ -19,7 +19,7 @@ const classesCSS = {
 const enonces = {
   attente: 'En attente de code à tester... À vous de jouer !',
   succes: 'Félicitations ! Vous avez réussi !',
-  echec: "Ce n'est pas la bonne réponse... Réssayez !",
+  echec: "Ce n'est pas la bonne réponse... Réessayez !",
 
   extraireMessage(enonce) {
     return enonce.getElementsByClassName(classesCSS.message)[0];
