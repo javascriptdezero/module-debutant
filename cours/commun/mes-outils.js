@@ -38,7 +38,7 @@ const enonces = {
     const message = this.extraireMessage(enonce);
     message.classList.remove(classesCSS.echec);
     message.classList.add(classesCSS.succes);
-    message.innerHTML = `<p style="display: inline-block;">▶︎ Bonne réponse :&nbsp;<pre class="valeur">${bonneReponse}</pre></p>
+    message.innerHTML = `<p style="display: inline-block;">▶︎ Bonne réponse :&nbsp;</p><pre class="valeur">${bonneReponse}</pre>
     <p style="margin-top: var(--dim-triple)">${this.succes}</p>`;
   },
   definirEchec(enonce, valeurs) {
