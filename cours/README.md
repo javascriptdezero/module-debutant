@@ -232,7 +232,7 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
    2. Si une erreur apparaît en bas à droite après avoir appuyé sur ENTRÉE il faut [installer Git](#installer-git) avant de continuer. Une fois que c'est fait suivez les instructions suivantes.
       ![erreur git non trouvé](../images/git-clone-erreur.jpg)
    3. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
-      ![capture d'écran lien github](../images/depot-git.jpg)
+      ![capture d'écran dépôt github](../images/depot-git.jpg)
    4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix (par exemple **Documents**), puis validez.
    5. Une fois le téléchargement effectué vous aurez un nouveau répertoire **Documents/module-debutant**. Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
       ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.jpg)
@@ -243,8 +243,9 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 8. Lancez le serveur Web en cliquant sur **Go Live** tout en bas dans la barre d'état bleue.
 9. Le navigateur Chrome devrait se lancer tout seul et vous afficher les exercices.
 10. Dernière étape ouvrez le fichier **exercices.js** (ou le fichier se terminant par **.js**) pour commencer à coder vos réponses !
-    ![capture d'écran ouvrir le cours](../images/exercices-js.jpg)
+    ![capture d'écran fichier exercices.js](../images/exercices-js.jpg)
 11. Dès que vous enregistrez vos modifications dans le fichier **exercices.js** le navigateur se mettra à jour et vous dira si vous avez réussi ou pas les exercices. Bon courage !
+![capture d'écran correction des exercices](../images/correction-exercices.jpg)
 12. Pour faire les exercices d'un autre cours, il suffit de recommencer à l'étape 6 en sélectionnant le cours de votre choix.
 13. Comme je mets à jour régulièrement les exercices, pensez à lire la section [mettre à jour le dépôt Git de la formation](#Mettre-à-jour-le-dépôt-Git-de-la-formation).
 14. Pour toute question, merci de me contacter via [Slack](https://javascriptdezero.slack.com).
