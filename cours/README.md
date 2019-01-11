@@ -212,6 +212,31 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [10:47](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=647s) Des questions ? Posez-les dans les commentaires !
     - [10:55](https://www.youtube.com/watch?v=3zqxD-g7nEY&t=655s) Partagez, cliquez sur J'aime et abonnez-vous ! Merci :).
 
+8. [Les booléens en JavaScript [M0L07]](https://www.youtube.com/watch?v=Od0AvGgXuWs)
+    - [00:16](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=16s) Qu'est-ce qu'un booléen ?
+    - [00:30](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=30s) Valeurs d'un booléen vrai et faux (true et false)
+    - [00:55](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=55s) À quoi servent les booléens ?
+    - [01:04](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=64s) Exemple concret, tarifs préférentiels
+    - [01:25](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=85s) Les opérateurs de comparaisons
+    - [01:30](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=90s) Opérateur strictement inférieur
+    - [02:18](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=138s) Opérateur strictement supérieur
+    - [02:34](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=154s) Opérateur inférieur ou égal
+    - [03:28](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=208s) Opérateur supérieur ou égal
+    - [03:45](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=225s) Opérateur égalité stricte (===)
+    - [04:35](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=275s) Opérateur d'inégalité stricte (!==)
+    - [05:10](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=310s) Opérateurs d'égalité et d'inégalité simples (== et !=)
+    - [06:03](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=363s) Combinaisons de comparaisons
+    - [06:15](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=375s) Présentations des opérateurs logiques (ET, OU et NON)
+    - [06:22](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=382s) Opérateur logique ET (&amp;&amp;)
+    - [06:40](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=400s) Opérateur logique OU (||)
+    - [07:03](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=423s) Opérateur logique NON (!)
+    - [07:17](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=437s) Réécriture de l'opérateur inférieur ou égal l'opérateur logique OU
+    - [08:00](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=480s) Application des opérateurs logiques à un exemple concret
+    - [09:33](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=573s) Prochaine vidéo : les variables
+    - [10:00](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=600s) Exercices sur GitHub
+    - [10:10](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=610s) Posez vos questions dans les commentaires
+    - [10:13](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=613s) Partagez la vidéo, cliquez sur "J'aime" et abonnez-vous ! Merci :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
