@@ -31,9 +31,15 @@ switch (historiqueConsole.length) {
     break;
   default:
     reponsesEnonces.forEach((reponse, i) => {
+      const estUneReponseBooleenne = typeof reponse === 'boolean';
       if (reponsesEnonces.includes(historiqueConsole[i])
-      && reponsesEnonces.indexOf(historiqueConsole[i]) === i) {
-        enonces.definirSucces(enonces.liste[reponsesEnonces.indexOf(historiqueConsole[i])], reponsesEnonces[i]);
+      && (reponsesEnonces.indexOf(historiqueConsole[i]) === i
+          || (estUneReponseBooleenne && reponse === historiqueConsole[i]))) {
+        if (estUneReponseBooleenne) {
+          enonces.definirSucces(enonces.liste[i], reponse);
+        } else {
+          enonces.definirSucces(enonces.liste[reponsesEnonces.indexOf(historiqueConsole[i])], reponsesEnonces[i]);
+        }
       } else if (historiqueConsole[i] === undefined) {
         enonces.definirAttente(enonces.liste[i]);
       } else {
