@@ -61,9 +61,9 @@
 
 // let maVariable;
 // maVariable = "bonjour";
-
-// Lire la valeur d'une variable
 // console.log(maVariable);
+
+// Changer la valeur d'une variable
 // maVariable = true;
 // console.log(maVariable);
 // maVariable = 42;
