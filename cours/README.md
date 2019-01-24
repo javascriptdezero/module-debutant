@@ -237,6 +237,46 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [10:10](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=610s) Posez vos questions dans les commentaires
     - [10:13](https://www.youtube.com/watch?v=Od0AvGgXuWs&t=613s) Partagez la vidéo, cliquez sur "J'aime" et abonnez-vous ! Merci :)
 
+9. [Les variables en JavaScript [M0L08]](https://www.youtube.com/watch?v=h3U69LLTrLY)
+    - [00:12](https://www.youtube.com/watch?v=h3U69LLTrLY&t=12s) Qu'est-ce qu'une variable ?
+    - [00:17](https://www.youtube.com/watch?v=h3U69LLTrLY&t=17s) À quoi sert une variable ?
+    - [00:26](https://www.youtube.com/watch?v=h3U69LLTrLY&t=26s) Déclarer une variable avec let
+    - [00:35](https://www.youtube.com/watch?v=h3U69LLTrLY&t=35s) Qu'est-ce qu'un mot-clé ?
+    - [00:43](https://www.youtube.com/watch?v=h3U69LLTrLY&t=43s) Exemple de déclaration avec let
+    - [01:00](https://www.youtube.com/watch?v=h3U69LLTrLY&t=60s) L'ancienne façon de faire : le mot-clé var
+    - [01:05](https://www.youtube.com/watch?v=h3U69LLTrLY&t=65s) Conseil : n'utilisez que let !
+    - [01:25](https://www.youtube.com/watch?v=h3U69LLTrLY&t=85s) D'où viennent ces mots-clés ?
+    - [01:40](https://www.youtube.com/watch?v=h3U69LLTrLY&t=100s) Règles de dommage à respecter
+    - [02:10](https://www.youtube.com/watch?v=h3U69LLTrLY&t=130s) Exemples de noms de variables corrects
+    - [02:18](https://www.youtube.com/watch?v=h3U69LLTrLY&t=138s) Convention de nommage
+    - [02:34](https://www.youtube.com/watch?v=h3U69LLTrLY&t=154s) Pourquoi cette convention ?
+    - [02:49](https://www.youtube.com/watch?v=h3U69LLTrLY&t=169s) Pièges à éviter
+    - [02:54](https://www.youtube.com/watch?v=h3U69LLTrLY&t=174s) Liste des mots-clés réservés ES8+
+    - [03:10](https://www.youtube.com/watch?v=h3U69LLTrLY&t=190s) Mot-clés à éviter
+    - [03:16](https://www.youtube.com/watch?v=h3U69LLTrLY&t=196s) Explications du message d'erreur : unexpected token X
+    - [03:32](https://www.youtube.com/watch?v=h3U69LLTrLY&t=212s) Mots-clés réservés dans le futur
+    - [03:46](https://www.youtube.com/watch?v=h3U69LLTrLY&t=226s) JavaScript est sensible à la casse
+    - [04:00](https://www.youtube.com/watch?v=h3U69LLTrLY&t=240s) Une erreur fréquente des débutants
+    - [04:17](https://www.youtube.com/watch?v=h3U69LLTrLY&t=257s) Console is not defined
+    - [04:50](https://www.youtube.com/watch?v=h3U69LLTrLY&t=290s) Bonnes pratiques : la notation camelCase
+    - [05:00](https://www.youtube.com/watch?v=h3U69LLTrLY&t=300s) Qu'est-ce que ça signifie ?
+    - [05:10](https://www.youtube.com/watch?v=h3U69LLTrLY&t=310s) Comment ça marche ?
+    - [05:25](https://www.youtube.com/watch?v=h3U69LLTrLY&t=325s) Utilisez des noms qui ont du sens
+    - [05:47](https://www.youtube.com/watch?v=h3U69LLTrLY&t=347s) Affectation d'une valeur, opérateur égal
+    - [06:58](https://www.youtube.com/watch?v=h3U69LLTrLY&t=418s) Comment affecter une valeur ?
+    - [06:10](https://www.youtube.com/watch?v=h3U69LLTrLY&t=370s) Comment lire la valeur d'une variable ?
+    - [06:24](https://www.youtube.com/watch?v=h3U69LLTrLY&t=384s) Comment changer la valeur d'une variable ?
+    - [06:44](https://www.youtube.com/watch?v=h3U69LLTrLY&t=404s) Affecter une valeur lors de la déclaration de variable
+    - [07:00](https://www.youtube.com/watch?v=h3U69LLTrLY&t=420s) Que se passe-t-il dans la mémoire de l'ordinateur ? (ANIMATION)
+    - [08:36](https://www.youtube.com/watch?v=h3U69LLTrLY&t=516s) Pourquoi est-ce important de comprendre le fonctionnement interne ?
+    - [09:02](https://www.youtube.com/watch?v=h3U69LLTrLY&t=542s) Affectations d'expressions complexes
+    - [09:20](https://www.youtube.com/watch?v=h3U69LLTrLY&t=560s) Évaluation d'une expression complexe
+    - [09:30](https://www.youtube.com/watch?v=h3U69LLTrLY&t=570s) Affecter une variable avec sa propre valeur à droite
+    - [09:50](https://www.youtube.com/watch?v=h3U69LLTrLY&t=590s) La valeur undefined
+    - [10:10](https://www.youtube.com/watch?v=h3U69LLTrLY&t=610s) Exercices disponibles sur le GitHub de la formation
+    - [10:20](https://www.youtube.com/watch?v=h3U69LLTrLY&t=620s) Si vous avez des questions, direction les commentaires !
+    - [10:25](https://www.youtube.com/watch?v=h3U69LLTrLY&t=625s) Partagez, cliquez sur J'aime et abonnez-vous ! Merci :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
