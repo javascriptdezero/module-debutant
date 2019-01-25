@@ -81,6 +81,16 @@ footer {
   margin-bottom: var(--dim-quadruple);
 }
 
+.img-auto-redimensionne {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: var(--dim-base) 0;
+}
+
 /**************************
  * Classes personnalisées *
  **************************/
@@ -276,7 +286,7 @@ p.code {
   margin-right: var(--dim-demie);
 }
 
-.attention {
+.attention, .information {
   display: inline-block;
   background-color: var(--orange-clair);
   color: var(--orange-tres-fonce);
