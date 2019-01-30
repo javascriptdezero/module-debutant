@@ -1,10 +1,85 @@
 # Module débutant
 
-Tout le contenu du module débutant de la formation [JavaScript de Zéro](https://www.javascriptdezero.com) est sur cette page.
+Vous trouverez ici tout le contenu du module débutant de la formation [JavaScript de Zéro](https://www.javascriptdezero.com).
 
 ## Cours et exercices
 
-[Accéder aux cours vidéos et aux exercices](/cours)
+[Accéder à tous les cours vidéos et aux exercices](/cours)
+
+## LA roadmap qu'il vous faut
+
+Vous souhaitez créer des sites web ou des applications mobiles mais vous ne savez pas quoi apprendre en premier ?
+
+J'ai créé pour vous une roadmap des ressources en ligne à consulter, **dans l'ordre**, pour devenir développeur.
+
+Mais avant ça... quelques conseils en or pour les débutants.
+
+### 🏆 A LIRE ABSOLUMENT : Conseils pour les débutants
+
+Les ressources disponibles pour apprendre à programmer sont très (trop) nombreuses. N'essayez pas de tout lister, vous n'y arriverez jamais et surtout ça ne sert à rien. 
+
+En effet, de nouvelles ressources pour devenir développeur sont produites chaque jour. Vous ne pourriez pas toutes les consulter même si vous y passiez toute votre vie !
+
+Restez concentré sur les technologies de base HTML / CSS / JavaScript. Apprenez à les maîtriser avant d'apprendre des Frameworks ou d'autres outils avancés.
+
+Choisissez une ressource et exploitez-là jusqu'au bout ! Tout vouloir apprendre en même temps est une erreur fréquente chez les étudiants.
+
+Comme je l'explique dans la vidéo [Comment apprendre à programmer ?](https://www.youtube.com/watch?v=LtsubKU8dzA), il est bien de diversifier vos sources d'informations : podcasts, vidéos, livres, conférences etc.
+
+⚠️ Mais attention ! Ne passez pas tout votre temps sur ces ressources secondaires. Le but est d'apprendre la programmation, pas de connaître les derniers Frameworks à la mode ou d'aller dans toutes les conférences possibles.
+
+👍 Sélectionnez **une à deux sources** d'informations complémentaires **et c'est tout** ! Pour le reste, suivez la roadmap.
+
+Il faut apprendre à dire **NON** aux articles "Comment je suis devenu développeur en 2 mois" sur Medium et Quora.
+
+Il faut apprendre à dire **NON** aux réseaux sociaux chronophages qui captent votre énergie, votre attention et surtout votre temps.
+
+Il faut apprendre à dire **NON** aux sirènes des "nouvelles" et "nouveautés" en tout genre. Pendant que vous lisez *juste cet article* ou que vous regardez *juste cette vidéo*, vous n'étudiez pas.
+
+Il faut apprendre à dire **NON**, je ne connais pas l'outil / framework / buzzword / blog / podcast X dont vous me parlez. Ne pas connaître tout sur tout est **une qualité nécessaire** pour devenir un professionnel spécialiste dans son domaine.
+
+Si vous avez peur de dire que vous ne connaissez pas quelque chose dans un entretien, laissez-moi vous retirer cette peur tout de suite : c'est une **qualité** que de réussir à rester concentré dans la société actuelle et particulièrement dans le domaine du développement Web. Si la personne en face de vous en entretien ne comprends pas ça, ce n'est PAS un développeur professionnel. FUYEZ.
+
+Restez concentré sur la roadmap, résistez aux sirènes du web et tout se passera bien 👌.
+
+Bon courage !
+
+### Les fondamentaux
+
+Apprenez les fondamentaux correctement sinon vous serez vite limité pour progresser !
+Faites-moi confiance, vous en aurez pour plusieurs mois d'études avec HTML, CSS et JavaScript.
+
+#### 1. Apprendre le HTML et le CSS
+
+1. [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web)
+2. [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3)
+3. Lire les 3 premiers chapitres du [MDN : Apprendre le développement Web](https://developer.mozilla.org/fr/docs/Apprendre) :
+    1. [Débuter avec le développement web](https://developer.mozilla.org/fr/Apprendre/Commencer_avec_le_web)
+    2. [HTML — structuration du web](https://developer.mozilla.org/fr/Apprendre/HTML)
+    3. [CSS — style du web ](https://developer.mozilla.org/fr/docs/Apprendre/CSS)
+
+#### 2. Apprendre le JavaScript
+
+1. [MDN : JavaScript](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript)
+2. [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript)
+3. [Dynamisez vos sites web avec JavaScript !](https://openclassrooms.com/fr/courses/1916641-dynamisez-vos-sites-web-avec-javascript)
+4. [Écrivez du JavaScript pour le web](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web)
+
+### Si vous voulez créer des applications mobiles
+
+1. [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native)
+
+### BONUS : Aller plus loin
+
+1. [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github)
+2. [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes)
+3. [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur)
+4. [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web)
+5. 🇬🇧 Pour ceux qui parlent Anglais, je vous conseille [freeCodeCamp](https://www.freecodecamp.org/), [The Odin Project](https://www.theodinproject.com/) et [javascript.info](http://javascript.info/) qui sont d'excellentes ressources pour apprendre le métier de développeur web.
+
+### Combien de temps pour devenir développeur ?
+
+C'est une question qu'on me pose souvent. Si vous êtes débutant complet et si vous avez la possibilité de vous former à plein temps, ça prend entre 6 mois et 1 an.
 
 ## FAQ
 
