@@ -90,6 +90,7 @@ Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Ques
 J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [JavaScript de Zéro #21 — LA roadmap qu'il vous faut (+ conseils en or)](http://sh1.sendinblue.com/noi4089fsc.html?t=1549016576) 
 - [JavaScript de Zéro #20 — Ressources pour apprendre le JavaScript en Anglais](http://sh1.sendinblue.com/no8mo89fsc.html?t=1548422997)
 - [JavaScript de Zéro #19 — Ressources pour apprendre le JavaScript en Français](http://sh1.sendinblue.com/nnz5c89fsc.html?t=1548339185)
 - [JavaScript de Zéro #18 — Nouvelle vidéo : les booléens !](http://sh1.sendinblue.com/nnpo089fsc.html?t=1547223144)
