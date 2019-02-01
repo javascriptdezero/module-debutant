@@ -277,6 +277,57 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [10:20](https://www.youtube.com/watch?v=h3U69LLTrLY&t=620s) Si vous avez des questions, direction les commentaires !
     - [10:25](https://www.youtube.com/watch?v=h3U69LLTrLY&t=625s) Partagez, cliquez sur J'aime et abonnez-vous ! Merci :)
 
+10. [Le débogueur JavaScript (VSCode, Google Chrome) [M0L09]](https://www.youtube.com/watch?v=_imeD5H-yCw)
+    - [00:13](https://www.youtube.com/watch?v=_imeD5H-yCw&t=13s) À quoi sert un débogueur ?
+    - [00:20](https://www.youtube.com/watch?v=_imeD5H-yCw&t=20s) Utilisation dans le cadre de cette formation
+    - [00:28](https://www.youtube.com/watch?v=_imeD5H-yCw&t=28s) Comment utiliser le débogueur de VSCode ?
+    - [00:55](https://www.youtube.com/watch?v=_imeD5H-yCw&t=55s) L'onglet débogueur
+    - [01:00](https://www.youtube.com/watch?v=_imeD5H-yCw&t=60s) La console de débogage
+    - [01:03](https://www.youtube.com/watch?v=_imeD5H-yCw&t=63s) Les différentes façons de lancer le débogueur
+    - [01:15](https://www.youtube.com/watch?v=_imeD5H-yCw&t=75s) Affichage de la sortie du programme
+    - [01:20](https://www.youtube.com/watch?v=_imeD5H-yCw&t=80s) Placer un point d'arrêt (breakpoint)
+    - [01:38](https://www.youtube.com/watch?v=_imeD5H-yCw&t=98s) Exécution du débogueur
+    - [01:45](https://www.youtube.com/watch?v=_imeD5H-yCw&t=105s) Voir la valeur des variables
+    - [01:57](https://www.youtube.com/watch?v=_imeD5H-yCw&t=117s) Le débogueur s'arrête au début de la ligne
+    - [02:10](https://www.youtube.com/watch?v=_imeD5H-yCw&t=130s) Exécuter le programme pas à pas
+    - [02:17](https://www.youtube.com/watch?v=_imeD5H-yCw&t=137s) Voir le changement de valeurs des variables en temps réel
+    - [02:43](https://www.youtube.com/watch?v=_imeD5H-yCw&t=163s) Revenir au début du programme
+    - [02:50](https://www.youtube.com/watch?v=_imeD5H-yCw&t=170s) Arrêter le débogueur
+    - [02:57](https://www.youtube.com/watch?v=_imeD5H-yCw&t=177s) Fonctions avancées
+    - [03:10](https://www.youtube.com/watch?v=_imeD5H-yCw&t=190s) Exécuter le programme jusqu'au prochain point d'arrêt
+    - [03:36](https://www.youtube.com/watch?v=_imeD5H-yCw&t=216s) Isoler les variables avec le panneau Espion
+    - [04:00](https://www.youtube.com/watch?v=_imeD5H-yCw&t=240s) Voir la valeur d'une variable en survolant son nom
+    - [04:09](https://www.youtube.com/watch?v=_imeD5H-yCw&t=249s) Modifier une valeur de variable à la volée
+    - [05:01](https://www.youtube.com/watch?v=_imeD5H-yCw&t=301s) Les configurations de lancement de Visual Studio Code
+    - [05:10](https://www.youtube.com/watch?v=_imeD5H-yCw&t=310s) Ouvrir un dossier (projet VSCode)
+    - [05:30](https://www.youtube.com/watch?v=_imeD5H-yCw&t=330s) Création d'un nouveau fichier JavaScript
+    - [05:41](https://www.youtube.com/watch?v=_imeD5H-yCw&t=341s) Explication des configurations
+    - [05:56](https://www.youtube.com/watch?v=_imeD5H-yCw&t=356s) Créer une configuration
+    - [06:10](https://www.youtube.com/watch?v=_imeD5H-yCw&t=370s) Exécuter une configuration
+    - [06:33](https://www.youtube.com/watch?v=_imeD5H-yCw&t=393s) Limitation de la configuration par défaut
+    - [07:00](https://www.youtube.com/watch?v=_imeD5H-yCw&t=420s) Déboguer le fichier ouvert avec ${file}
+    - [07:38](https://www.youtube.com/watch?v=_imeD5H-yCw&t=458s) Déboguer les exercices de la formation JavaScript de Zéro
+    - [07:55](https://www.youtube.com/watch?v=_imeD5H-yCw&t=475s) Configuration launch.json : mettre à jour le dépôt
+    - [08:20](https://www.youtube.com/watch?v=_imeD5H-yCw&t=500s) Comment déboguer un fichier exercices.js
+    - [08:43](https://www.youtube.com/watch?v=_imeD5H-yCw&t=523s) Ajouter une configuration pour déboguer
+    - [09:15](https://www.youtube.com/watch?v=_imeD5H-yCw&t=555s) Le débogueur de Google Chrome
+    - [09:25](https://www.youtube.com/watch?v=_imeD5H-yCw&t=565s) Lancement du serveur web
+    - [09:30](https://www.youtube.com/watch?v=_imeD5H-yCw&t=570s) Ouverture de la console développeur dans Chrome
+    - [09:38](https://www.youtube.com/watch?v=_imeD5H-yCw&t=578s) Ouverture du script exercices.js
+    - [09:52](https://www.youtube.com/watch?v=_imeD5H-yCw&t=592s) Création d'un point d'arrêt dans le script
+    - [10:05](https://www.youtube.com/watch?v=_imeD5H-yCw&t=605s) Rafraîchir la page web pour activer le point d'arrêt
+    - [10:12](https://www.youtube.com/watch?v=_imeD5H-yCw&t=612s) Commandes du débogueur
+    - [10:25](https://www.youtube.com/watch?v=_imeD5H-yCw&t=625s) Le panneau Scope pour les variables
+    - [10:46](https://www.youtube.com/watch?v=_imeD5H-yCw&t=646s) Particularité des exercices de la formation (console.log)
+    - [11:18](https://www.youtube.com/watch?v=_imeD5H-yCw&t=678s) Bogue VSCode : attention aux accents !
+    - [11:33](https://www.youtube.com/watch?v=_imeD5H-yCw&t=693s) Description du bogue des accents
+    - [11:40](https://www.youtube.com/watch?v=_imeD5H-yCw&t=700s) Exemple du bogue
+    - [12:08](https://www.youtube.com/watch?v=_imeD5H-yCw&t=728s) Message d'erreur
+    - [12:15](https://www.youtube.com/watch?v=_imeD5H-yCw&t=735s) Solution au bogue
+    - [12:47](https://www.youtube.com/watch?v=_imeD5H-yCw&t=767s) Entraînez-vous avec le débogueur !
+    - [13:04](https://www.youtube.com/watch?v=_imeD5H-yCw&t=784s) Posez vos questions dans les commentaires
+    - [13:10](https://www.youtube.com/watch?v=_imeD5H-yCw&t=790s) Partagez la vidéo, abonnez-vous ! Merci :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
