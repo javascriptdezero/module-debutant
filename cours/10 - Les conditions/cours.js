@@ -1,11 +1,11 @@
 /* Les conditions */
 
 // Exécuter du code lorsqu'une expression est vraie : if ()
-let expression = true;
+// let expression = true;
 
-if (expression) {
-  console.log("L'expression (expression) est vraie");
-}
+// if (expression) {
+//   console.log("L'expression (expression) est vraie");
+// }
 
 // console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
@@ -23,6 +23,8 @@ if (expression) {
 //     console.log("La réponse est toujours " + reponse);
 //   }
 // }
+
+// console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
 // Exécuter du code lorsqu'une expression est fausse : else {}
 // let expression = false;
@@ -61,40 +63,29 @@ if (expression) {
 
 // Guides de style de programmation (AirBnB, Google, JS Standard)
 
-// 1. Problème pour les débutants
-// 2. Plus facile d'ajouter une instruction supplémentaire
-// 3. Débogage plus facile
+// Utilisation systématique des accolades
+// 1. Débogage plus facile, si faux ça prête à confusion !
+// 2. Problème pour les débutants
+// 3. Plus facile d'ajouter une instruction supplémentaire
+// 4. Position du else
+// let expression = false;
+// if (expression) console.log("Je suis la seule instruction");
 
-// let expression = true;
+// console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
-// if (expression) {
-//   console.log("(expression) est vraie");
-//   console.log("exécute toi seulement si expression est vraie");
-// }
+// Gestion de longues expressions
+let reponse = 42;
+let langageFavori = "JavaScript";
 
-// Position du else
-// let expression = true;
+if ((reponse === 42 || reponse === "42") && reponse != 1337 || langageFavori === "JavaScript") {
+  console.log("Faciliter la lisibilité du code est une bonne pratique");
+}
 
-// if (expression) {
-//   console.log("Je m'exécute si (expression) est vraie");
-//   console.log("Moi aussi ! Moi aussi !");
-// } else {
-//   console.log("Pas moi... je m'exécute que si");
-// }
-
-// Gestion des longues expressions
-// let reponse = 42;
-// let langageFavori = "JavaScript";
-// if ((reponse === 42 || reponse === "42") && reponse != 1337 || langageFavori === "JavaScript") {
-//   console.log("Faciliter la lisibilité du code est une bonne pratique");
-// }
-
-// Facilement lisible
-// if (
-//   (reponse === 42 || reponse === "42") 
-//   && reponse != 1337 
-//   || langageFavori === "JavaScript"
-// ) {
-//   console.log("On aligne le nom des variables et les opérateurs");
-// }
+if (
+  (reponse === 42 || reponse === "42") 
+  && reponse != 1337 
+  || langageFavori === "JavaScript"
+) {
+  console.log("On aligne le nom des variables et les opérateurs");
+}
 
