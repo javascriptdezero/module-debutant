@@ -1,13 +1,13 @@
 /* Les conditions */
 
 // Exécuter du code lorsqu'une expression est vraie : if ()
-// let expression = true;
+let expression = true;
 
-// if (expression) {
-//   console.log("L'expression (expression) est vraie");
-// }
+if (expression) {
+  console.log("L'expression (expression) est vraie");
+}
 
-// console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
+console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
 /* Les blocs d'instructions */
 
@@ -47,7 +47,7 @@
 // let ageDuClient = 22;
 // let poidsDuClient = 80;
 
-// if (ageDuClient >= 18 && poidsDuClient < poidsMaxAutorise) {
+// if (ageDuClient >= ageMajorite && poidsDuClient < poidsMaxAutorise) {
 //   console.log("Vous pouvez monter dans ce manège");
 // } else {
 //   console.log("Vous ne pouvez pas monter dans ce manège");
@@ -68,24 +68,27 @@
 // 2. Problème pour les débutants
 // 3. Plus facile d'ajouter une instruction supplémentaire
 // 4. Position du else
-// let expression = false;
-// if (expression) console.log("Je suis la seule instruction");
+// let expression = true;
+// if (expression) {
+//   console.log("Je suis la seule instruction");
+// }
 
 // console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
-// Gestion de longues expressions
-let reponse = 42;
-let langageFavori = "JavaScript";
+/* Gestion de longues expressions */
 
-if ((reponse === 42 || reponse === "42") && reponse != 1337 || langageFavori === "JavaScript") {
-  console.log("Faciliter la lisibilité du code est une bonne pratique");
-}
+// let reponse = 42;
+// let langageFavori = "JavaScript";
 
-if (
-  (reponse === 42 || reponse === "42") 
-  && reponse != 1337 
-  || langageFavori === "JavaScript"
-) {
-  console.log("On aligne le nom des variables et les opérateurs");
-}
+// if ((reponse === 42 || reponse === "42") && reponse != 1337 || langageFavori === "JavaScript") {
+//   console.log("Faciliter la lisibilité du code est une bonne pratique");
+// }
+
+// if (
+//   (reponse === 42 || reponse === "42") 
+//   && reponse != 1337 
+//   || langageFavori === "JavaScript"
+// ) {
+//   console.log("On aligne le nom des variables et les opérateurs");
+// }
 
