@@ -1,13 +1,13 @@
 /* Les conditions */
 
 // Exécuter du code lorsqu'une expression est vraie : if ()
-let expression = true;
+// let expression = true;
 
-if (expression) {
-  console.log("L'expression (expression) est vraie");
-}
+// if (expression) {
+//   console.log("L'expression (expression) est vraie");
+// }
 
-console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
+// console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
 /* Les blocs d'instructions */
 
@@ -86,7 +86,7 @@ console.log("Ligne pour éviter que le débogueur saute à fin du fichier...");
 
 // if (
 //   (reponse === 42 || reponse === "42") 
-//   && reponse != 1337 
+//   && reponse !== 1337 
 //   || langageFavori === "JavaScript"
 // ) {
 //   console.log("On aligne le nom des variables et les opérateurs");
