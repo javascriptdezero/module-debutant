@@ -91,6 +91,10 @@ footer {
   padding: var(--dim-base) 0;
 }
 
+li {
+  margin-top: var(--dim-base);
+}
+
 /**************************
  * Classes personnalisées *
  **************************/
