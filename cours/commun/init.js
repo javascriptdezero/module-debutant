@@ -8,19 +8,27 @@
  * Merci 👍
  */
 
-/* globals enonces,document,reponsesEnonces */
+/* globals enonces,document */
 
 // On récupère les blocs d'énoncés dans un tableau
-reponsesEnonces.forEach((reponse, i) => {
-  enonces.liste.push(document.getElementById(`enonce-${i}`));
-});
+{
+  let numeroEnonce = 0;
+  let enonce;
+  do {
+    enonce = document.getElementById(`enonce-${numeroEnonce}`);
+    if (enonce !== null) {
+      enonces.liste.push(enonce);
+      numeroEnonce += 1;
+    }
+  } while (enonce);
+}
 
 // On stockera chaque appel à console.log dans ce tableau
 const historiqueConsole = [];
 
 // On initialise le statut des énoncés
 function initialiserEnonces() {
-  reponsesEnonces.forEach((reponse, i) => {
+  enonces.liste.forEach((enonce, i) => {
     enonces.definirAttente(enonces.liste[i]);
   });
 }
