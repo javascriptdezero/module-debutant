@@ -54,3 +54,14 @@ const enonces = {
   },
   liste: [],
 };
+
+function formaterPourLeHtml(valeur) {
+  return (
+    String(valeur)
+      // Les espaces en trop en fin et début de ligne sont mis en surbrillance
+      .replace(/^( +)/g, '<span class="espace">$1</span>')
+      .replace(/( +)$/g, '<span class="espace">$1</span>')
+      .replace(/( +)\n/g, '<span class="espace">$1</span>\n')
+      .replace(/\n/g, '<br/>')
+  );
+}

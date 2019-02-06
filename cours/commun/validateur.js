@@ -14,17 +14,6 @@
 /* eslint-disable-next-line no-console */
 console.log = fonctionConsoleLog;
 
-function formaterPourLeHtml(valeur) {
-  return (
-    String(valeur)
-      // Les espaces en trop en fin et début de ligne sont mis en surbrillance
-      .replace(/^( +)/g, '<span class="espace">$1</span>')
-      .replace(/( +)$/g, '<span class="espace">$1</span>')
-      .replace(/( +)\n/g, '<span class="espace">$1</span>\n')
-      .replace(/\n/g, '<br/>')
-  );
-}
-
 switch (historiqueConsole.length) {
   case 0:
     initialiserEnonces();
