@@ -8,7 +8,7 @@
  * Merci 👍
  */
 
-/* globals enonces,initialiserEnonces,reponsesEnonces,historiqueConsole,fonctionConsoleLog */
+/* globals enonces,initialiserEnonces,reponsesEnonces,historiqueConsole,fonctionConsoleLog, formaterPourLeHtml */
 
 // On réutilise la fonction console.log de base sans le proxy (pour déboguer)
 /* eslint-disable-next-line no-console */
