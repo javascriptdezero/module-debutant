@@ -48,8 +48,8 @@ const enonces = {
     message.classList.remove(classesCSS.succes);
     message.classList.add(classesCSS.echec);
     const { valeurRecue, valeurAttendue } = valeurs;
-    message.innerHTML = `<p>▶︎ Valeur reçue :</p><pre class="valeur">${valeurRecue || 'Aucune (undefined)'}</pre>
-    <p>▶︎ Valeur attendue :</p><pre class="valeur">${valeurAttendue}</pre>
+    message.innerHTML = `<p>▶︎ Votre code affiche :</p><pre class="valeur">${valeurRecue || 'Rien (undefined)'}</pre>
+    <p>▶︎ Alors qu'il devrait afficher :</p><pre class="valeur">${valeurAttendue}</pre>
     <p style="margin-top: var(--dim-triple)">${this.echec}</p>`;
   },
   liste: [],

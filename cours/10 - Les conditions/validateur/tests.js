@@ -110,7 +110,7 @@ switch (historiqueConsole.length) {
           // On est dans un exercice complexe avec une fonction pour tester
           enonces.definirSucces(enonces.liste[reponseAttendue.idExercice], 'Tous les tests ont été réussis !');
         } else {
-          const valeurRecue = `Pour un âge de <code>${reponseAttendue.ageDuClient}</code> ans et un poids de <code>${reponseAttendue.poidsDuClient}</code> kg:<br>${formaterPourLeHtml(valeurConsole)}`;
+          const valeurRecue = `${formaterPourLeHtml(valeurConsole)}<br>(pour un âge de <code>${reponseAttendue.ageDuClient}</code> ans et un poids de <code>${reponseAttendue.poidsDuClient}</code> kg)`;
           const reponseComplete = { valeurRecue, valeurAttendue: reponseAttendue.reponse };
           enonces.definirEchec(enonces.liste[reponseAttendue.idExercice], reponseComplete);
           break;
