@@ -328,6 +328,41 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [13:04](https://www.youtube.com/watch?v=_imeD5H-yCw&t=784s) Posez vos questions dans les commentaires
     - [13:10](https://www.youtube.com/watch?v=_imeD5H-yCw&t=790s) Partagez la vidéo, abonnez-vous ! Merci :)
 
+11. [Les conditions en JavaScript [M0L10]](https://www.youtube.com/watch?v=MZjYfIx3fxI)
+    - [00:14](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=14s) À quoi servent les conditions ?
+    - [00:22](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=22s) Comment utiliser les conditions (mot-clé if) ?
+    - [00:45](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=45s) Exemple d'exécution d'une condition vraie
+    - [01:11](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=71s) Exemple d'exécution d'une condition fausse
+    - [01:31](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=91s) Les blocs d'instructions
+    - [01:51](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=111s) Convention : on indente les instructions d'un bloc
+    - [02:00](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=120s) Qu'est-ce que l'indentation ?
+    - [02:17](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=137s) Exemple d'exécution d'un bloc d'instructions
+    - [02:30](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=150s) Que signifie "rentrer" dans un "if" ?
+    - [02:52](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=172s) Exécuter du code quand une condition est fausse (mot-clé else)
+    - [03:05](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=185s) Syntaxe du if... else
+    - [03:18](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=198s) Exécution d'une condition fausse avec else
+    - [03:48](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=228s) Évaluation d'une expression complexe
+    - [04:03](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=243s) Exemple concret et explications du code
+    - [05:19](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=319s) Les espaces blancs
+    - [05:37](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=337s) Exemple : utilisation des espaces blancs
+    - [05:50](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=350s) Qu'est-ce qu'un espace blanc ?
+    - [06:02](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=362s) Quel intérêt ?
+    - [06:18](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=378s) Les bonnes pratiques
+    - [06:35](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=395s) Omission des accolades dans un if / else
+    - [07:04](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=424s) Exemple de mauvaise pratique
+    - [07:26](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=446s) Bonne pratique : toujours mettre les accolades
+    - [07:42](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=462s) Pourquoi cette pratique ? Exemple de piège !
+    - [08:20](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=500s) Code trompeur équivalent
+    - [08:42](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=522s) Facilité d'ajout d'une nouvelle instruction
+    - [08:48](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=528s) Position du else
+    - [09:30](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=570s) Gestion de longues expressions et de longues lignes
+    - [09:48](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=588s) Un exemple de bonne pratique avec du code propre
+    - [10:17](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=617s) Avantages de cette pratique
+    - [10:38](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=638s) Futur mini projet : validez un rendez-vous !
+    - [11:00](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=660s) Exercices sur GitHub
+    - [11:10](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=670s) Posez vos questions en commentaire, j'y répondrai !
+    - [11:21](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=681s) Abonnez-vous, cliquez sur J'aime etc. Merci beaucoup :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
