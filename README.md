@@ -90,6 +90,9 @@ Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Ques
 J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [JavaScript de Zéro #26 — Je ferai la #BattleDev en LIVE le 26 Mars 2019 à 20h !](http://sh1.sendinblue.com/nszao89fsc.html?t=1552644922)
+- [JavaScript de Zéro #25 — Liste des développeurs web Français sur YouTube](http://sh1.sendinblue.com/nsptc89fsc.html?t=1552644922)
+- [JavaScript de Zéro #24 — Le développement web, c'est sérieux](http://sh1.sendinblue.com/nr4xc89fsc.html?t=1552644922)
 - [JavaScript de Zéro #23 — J'aimerai connaître vos points de blocages en HTML/CSS/JS](http://sh1.sendinblue.com/nqlyo89fsc.html?t=1550373253)
 - [JavaScript de Zéro #22 — Bientôt le mini-projet en JavaScript !](http://sh1.sendinblue.com/norlc89fsc.html?t=1549529851)
 - [JavaScript de Zéro #21 — LA roadmap qu'il vous faut (+ conseils en or)](http://sh1.sendinblue.com/noi4089fsc.html?t=1549016576) 
