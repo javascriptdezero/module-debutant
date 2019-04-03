@@ -15,27 +15,28 @@ let finJourneeMinutes = 30;
 // Durée du RDV : 25 minutes
 let duree = 25;
 
-// Calcul de la fin du RDV
+// ETAPE 1 : Calcul de la fin du RDV
 let finRdvHeures = debutRdvHeures;
 let finRdvMinutes = debutRdvMinutes + duree;
 
-// Gestion du cas particulier où les minutes sont >= 60
+// ETAPE 1.1 : Gestion du cas particulier où les minutes sont >= 60
 if (finRdvMinutes >= 60) {
   finRdvHeures = finRdvHeures + 1;
   finRdvMinutes = finRdvMinutes - 60;
 }
 
-// Est-ce que la fin du RDV est avant la fin de la journée ?
+// ETAPE 1.2 Calcul des minutes totales pour comparaison
 let finRdvTotalMinutes = finRdvHeures * 60 + finRdvMinutes;
 let finJourneeTotalMinutes = finJourneeHeures * 60 + finJourneeMinutes;
 
+// ETAPE 2 : Est-ce que la fin du RDV est avant la fin de la journée ?
 if (finRdvTotalMinutes < finJourneeTotalMinutes) {
   console.log("RDV OK");
 } else {
   console.log("RDV impossible");
 }
 
-// Gestion du format HHhMM
+// ETAPE 3 : Affichage de l'heure de fin du RDV au format HHhMM
 if (finRdvMinutes < 10) {
   console.log("Le RDV se terminera à " + finRdvHeures + "h0" + finRdvMinutes);
 } else {
