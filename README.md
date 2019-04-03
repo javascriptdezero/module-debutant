@@ -16,17 +16,17 @@ Mais avant ça... quelques conseils en or pour les débutants.
 
 ### 🏆 A LIRE ABSOLUMENT : Conseils pour les débutants
 
-Les ressources disponibles pour apprendre à programmer sont très (trop) nombreuses. N'essayez pas de tout lister, vous n'y arriverez jamais et surtout ça ne sert à rien. 
+Les ressources disponibles pour apprendre à programmer sont **très** nombreuses. N'essayez pas de tout lister, vous n'y arriverez jamais et surtout ça ne sert à rien. 
 
 En effet, de nouvelles ressources pour devenir développeur sont produites chaque jour. Vous ne pourriez pas toutes les consulter même si vous y passiez toute votre vie !
 
-Restez concentré sur les technologies de base HTML / CSS / JavaScript. Apprenez à les maîtriser avant d'apprendre des Frameworks ou d'autres outils avancés.
+Restez concentré sur les technologies de base HTML / CSS / JavaScript. Apprenez à les maîtriser avant d'apprendre des frameworks ou d'autres outils avancés.
 
 Choisissez une ressource et exploitez-là jusqu'au bout ! Tout vouloir apprendre en même temps est une erreur fréquente chez les étudiants.
 
 Comme je l'explique dans la vidéo [Comment apprendre à programmer ?](https://www.youtube.com/watch?v=LtsubKU8dzA), il est bien de diversifier vos sources d'informations : podcasts, vidéos, livres, conférences etc.
 
-⚠️ Mais attention ! Ne passez pas tout votre temps sur ces ressources secondaires. Le but est d'apprendre la programmation, pas de connaître les derniers Frameworks à la mode ou d'aller dans toutes les conférences possibles.
+⚠️ Mais attention ! Ne passez pas tout votre temps sur ces ressources secondaires. Le but est d'apprendre la programmation, pas de connaître les derniers frameworks à la mode ou d'aller dans toutes les conférences possibles.
 
 👍 Sélectionnez **une à deux sources** d'informations complémentaires **et c'est tout** ! Pour le reste, suivez la roadmap.
 
@@ -36,7 +36,7 @@ Il faut apprendre à dire **NON** aux réseaux sociaux chronophages qui captent 
 
 Il faut apprendre à dire **NON** aux sirènes des "nouvelles" et "nouveautés" en tout genre. Pendant que vous lisez *juste cet article* ou que vous regardez *juste cette vidéo*, vous n'étudiez pas.
 
-Il faut apprendre à dire **NON**, je ne connais pas l'outil / framework / buzzword / blog / podcast X dont vous me parlez. Ne pas connaître tout sur tout est **une qualité nécessaire** pour devenir un professionnel spécialiste dans son domaine.
+Il faut apprendre à dire **NON**, je ne connais pas l'outil / framework / buzzword / blog / podcast X dont vous me parlez. Ne pas connaître tout sur tout **est une qualité nécessaire** pour devenir un professionnel spécialiste dans son domaine.
 
 Si vous avez peur de dire que vous ne connaissez pas quelque chose dans un entretien, laissez-moi vous retirer cette peur tout de suite : c'est une **qualité** que de réussir à rester concentré dans la société actuelle et particulièrement dans le domaine du développement Web. Si la personne en face de vous en entretien ne comprends pas ça, ce n'est PAS un développeur professionnel. FUYEZ.
 
@@ -79,9 +79,23 @@ Faites-moi confiance, vous en aurez pour plusieurs mois d'études avec HTML, CSS
 
 ### Combien de temps pour devenir développeur ?
 
-C'est une question qu'on me pose souvent. Si vous êtes débutant complet et si vous avez la possibilité de vous former à plein temps, ça prend entre 6 mois et 1 an.
+C'est une question qu'on me pose souvent. Si vous êtes débutant complet et si vous avez la possibilité de vous former à plein temps, ça prend entre 6 mois et 1 an pour prétendre à un poste de développeur web junior.
 
-## FAQ
+### Comment décrocher votre premier job ?
+
+La réponse est simple. Il faut posséder les compétences demandées sur le marché du travail. Avant de vous spécialiser je vous conseille de regarder les compétences recherchées dans votre région ou dans le domaine qui vous intéresse (frontend / backend) *puis* d'acquérir ces compétences rapidement.
+
+Voici quelques sites de qualité pour trouver des offres d'emploi :
+- [welcometothejungle.co](http://welcometothejungle.co)
+- [hired.com](http://hired.com)
+- [malt.fr](https://malt.fr)
+- [remixjobs.com](http://remixjobs.com/)
+- [indeed.fr](http://www.indeed.fr/)
+- [talent.io](http://talent.io)
+- [angel.co](http://angel.co)
+
+
+## FAQ sur le langage JavaScript
 
 Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Questions](/faq).
 
