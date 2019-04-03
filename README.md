@@ -104,6 +104,7 @@ Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Ques
 J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [JavaScript de Zéro #29 — 🚀 www.ledevweb.fr + BattleDev (live de 2h) !](http://sh1.sendinblue.com/nuto089fsc.html?t=1554301686)
 - [JavaScript de Zéro #28 — Replay du LIVE #2 (2h) + ledevweb.fr !](http://sh1.sendinblue.com/nuapc89fsc.html?t=1553242914)
 - [JavaScript de Zéro #27 — Replay du LIVE (vidéo de 2h30 !)](http://sh1.sendinblue.com/nu18089fsc.html?t=1553242914)
 - [JavaScript de Zéro #26 — Je ferai la #BattleDev en LIVE le 26 Mars 2019 à 20h !](http://sh1.sendinblue.com/nszao89fsc.html?t=1552644922)
