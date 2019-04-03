@@ -363,6 +363,31 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [11:10](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=670s) Posez vos questions en commentaire, j'y répondrai !
     - [11:21](https://www.youtube.com/watch?v=MZjYfIx3fxI&t=681s) Abonnez-vous, cliquez sur J'aime etc. Merci beaucoup :)
 
+12. [Comment penser comme un développeur JavaScript ? (Mini projet #1) [M0L11]](https://www.youtube.com/watch?v=QfOmxnSPWj8)
+    - [00:32](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=32s) Objectif de cette leçon
+    - [00:47](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=47s) Spécifications du problème : définition et présentation
+    - [01:43](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=103s) Quelques précisions sur les étapes de développement du logiciel
+    - [02:10](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=130s) Les 3 questions auxquelles on va répondre
+    - [02:18](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=138s) Les 3 étapes clés à appliquer pour commencer son programme
+    - [02:38](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=158s) Qu'est-ce qu'une implémentation ?
+    - [02:58](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=178s) Tests et itération sur le programme
+    - [03:17](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=197s) Phase 1 : découverte du problème, exemple avec une durée de 15 min
+    - [04:18](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=258s) Phase 2 : rédaction d'un algorithme
+    - [04:45](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=285s) Comment gérer les données à traiter du problème ? (horaire)
+    - [05:10](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=310s) Exemple de solution pour le type de données, utiliser 2 variables
+    - [05:45](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=345s) Calcul de la fin du RDV
+    - [06:40](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=400s) Comparer la fin du RDV avec la fin de la journée
+    - [07:20](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=440s) Afficher l'heure de fin du RDV grâce à la concaténation
+    - [07:42](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=462s) Implémentation de l'algorithme dans Visual Studio Code
+    - [07:56](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=476s) Algorithme en JavaScript : présentation
+    - [08:50](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=530s) Exécution du programme dans Visual Studio Code
+    - [09:00](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=540s) Tests supplémentaires avec 5 min et 25 min
+    - [09:20](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=560s) Détection d'un bogue : fin du RDV à 15h65 pour une durée de 25 min !
+    - [09:38](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=578s) Quelques devoirs à faire chez vous ;-)
+    - [09:50](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=590s) Code source en ligne sur GitHub pour vous !
+    - [10:10](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=610s) Des questions ? Mettez-les dans les commentaires, merci !
+    - [10:18](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=618s) Merci de partager cette vidéo et de vous abonner :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
