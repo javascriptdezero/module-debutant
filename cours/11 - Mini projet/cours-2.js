@@ -25,7 +25,8 @@ if (finRdvMinutes >= 60) {
 }
 
 // ETAPE 2 : Est-ce que la fin du RDV est avant la fin de la journée ?
-if (finRdvHeures < finJourneeHeures) {
+if (finRdvHeures < finJourneeHeures
+  || (finRdvHeures === finJourneeHeures && finRdvMinutes < finJourneeMinutes)) {
   console.log("RDV OK");
 } else {
   console.log("RDV impossible");
