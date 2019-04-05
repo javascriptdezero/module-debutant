@@ -26,12 +26,9 @@ if (finRdvMinutes >= 60) {
 }
 
 // ETAPE 2 : Est-ce que la fin du RDV est avant la fin de la journée ?
-// Calcul en utilisant les 2 variables
-let dureeMaximalePossible = (finJourneeHeures - debutRdvHeures) * 60 + (finJourneeMinutes - debutRdvMinutes);
-// Calcul en utilisant le nombre total de minutes
-// let dureeMaximalePossible = finJourneeHeures * 60 + finJourneeMinutes - (debutRdvHeures * 60 + debutRdvMinutes);
+let dureeRdvMax = (finJourneeHeures - debutRdvHeures) * 60 + (finJourneeMinutes - debutRdvMinutes);
 
-if (duree < dureeMaximalePossible) {
+if (duree < dureeRdvMax) {
   console.log("RDV OK");
 } else {
   console.log("RDV impossible");
