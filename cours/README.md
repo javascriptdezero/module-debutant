@@ -388,6 +388,42 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [10:10](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=610s) Des questions ? Mettez-les dans les commentaires, merci !
     - [10:18](https://www.youtube.com/watch?v=QfOmxnSPWj8&t=618s) Merci de partager cette vidéo et de vous abonner :)
 
+13. [Comment corriger un algorithme en JavaScript ? (Mini projet #2) [M0L12]](https://www.youtube.com/watch?v=ts42EX2XZ6A)
+    - [00:15](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=15s) Rappel du bogue
+    - [00:36](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=36s) Nouvelle itération sur l'algorithme
+    - [00:48](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=48s) Retour à la phase 1 : calcul de la fin du RDV
+    - [01:16](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=76s) Test de l'algorithme en cours avec la durée de 25 minutes
+    - [01:30](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=90s) Le code devra prendre en compte 15 et 25 minutes
+    - [02:00](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=120s) Nouvelle étape intermédiaire dans l'algorithme
+    - [02:28](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=148s) Explications de l'étape intermédiaire
+    - [02:58](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=178s) Vérification du nouveau code avec 25 minutes
+    - [03:40](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=220s) Vérification du nouveau code avec 15 minutes
+    - [04:13](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=253s) Phase 2 de l'algorithme, comparaison 16h05 et 16h30
+    - [04:33](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=273s) Vérification du code avec 25 minutes
+    - [05:04](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=304s) Proposition d'une nouvelle condition pour cette partie
+    - [05:25](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=325s) Explications de la nouvelle condition
+    - [05:55](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=355s) Vérification du nouveau code avec 25 minutes
+    - [06:43](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=403s) Vérification du nouveau code avec 15 minutes
+    - [07:16](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=436s) Affichage de Le RDV se terminera à telle heure
+    - [07:30](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=450s) Implémentation du nouvel algorithme dans Visual Studio Code
+    - [07:50](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=470s) Nouveau bogue d'affichage 16h5 au lieu de 16h05
+    - [08:00](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=480s) Explications du petit bogue d'affichage
+    - [08:10](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=490s) Correction rapide en live du bogue
+    - [08:45](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=525s) Vérifions le code avec une valeur de 45 minutes, puis 90 minutes
+    - [09:05](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=545s) Découverte d'un nouveau bogue le RDV se terminera à 16h70 ah ah ah
+    - [09:10](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=550s) Utilisons le débogueur pour comprendre le problème
+    - [09:35](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=575s) Ajout des variables dans la fenêtre Espion
+    - [10:15](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=615s) Première approche de correction du bogue
+    - [10:43](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=643s) Limitation de cette approche
+    - [10:55](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=655s) Introduction au concept de boucle
+    - [11:09](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=669s) Solutions alternatives
+    - [11:31](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=691s) Première solution, calculer le nombre de minutes totales
+    - [12:35](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=755s) Deuxième solution, calculer la durée max d'un RDV en faisant la différence entre les 2 horaires de début du RDV et de fin de journée
+    - [13:50](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=830s) Quelle est la meilleure façon de faire ?
+    - [14:36](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=876s) Je code en live et j'explique toutes mes réflexions
+    - [15:03](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=903s) Code source sur GitHub
+    - [15:28](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=928s) Partagez la vidéo, abonnez-vous, merci :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
