@@ -86,14 +86,20 @@ C'est une question qu'on me pose souvent. Si vous êtes débutant complet et si 
 La réponse est simple. Il faut posséder les compétences demandées sur le marché du travail. Avant de vous spécialiser je vous conseille de regarder les compétences recherchées dans votre région ou dans le domaine qui vous intéresse (frontend / backend) *puis* d'acquérir ces compétences rapidement.
 
 Voici quelques sites de qualité pour trouver des offres d'emploi :
-- [welcometothejungle.co](http://welcometothejungle.co)
-- [hired.com](http://hired.com)
+- [welcometothejungle.co](https://welcometothejungle.co)
+- [hired.com](https://hired.com)
 - [malt.fr](https://malt.fr)
-- [remixjobs.com](http://remixjobs.com/)
-- [indeed.fr](http://www.indeed.fr/)
-- [talent.io](http://talent.io)
-- [angel.co](http://angel.co)
+- [remixjobs.com](https://remixjobs.com/)
+- [indeed.fr](https://www.indeed.fr/)
+- [talent.io](https://talent.io)
+- [angel.co](https://angel.co)
+- [chooseyourboss.com](https://www.chooseyourboss.com/)
 
+Quelques autres sites moins connus :
+- [altersis.com](https://altersis.com/fr/)
+- [easypartner.fr](https://www.easypartner.fr)
+- [omniciel.fr](https://www.omniciel.fr)
+- [carriere-info.fr](https://www.carriere-info.fr/)
 
 ## FAQ sur le langage JavaScript
 
