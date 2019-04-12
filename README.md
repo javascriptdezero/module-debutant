@@ -104,6 +104,7 @@ Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Ques
 J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [JavaScript de Zéro #31 — Nouvelle vidéo + comment décrocher votre 1er job ?](http://sh1.sendinblue.com/nvvlc89fsc.html?t=1555053295)
 - [JavaScript de Zéro #30 — Nouvelle vidéo + The Whale](http://sh1.sendinblue.com/nv35c89fsc.html?t=1554887343)
 - [JavaScript de Zéro #29 — 🚀 www.ledevweb.fr + BattleDev (live de 2h) !](http://sh1.sendinblue.com/nuto089fsc.html?t=1554301686)
 - [JavaScript de Zéro #28 — Replay du LIVE #2 (2h) + ledevweb.fr !](http://sh1.sendinblue.com/nuapc89fsc.html?t=1553242914)
