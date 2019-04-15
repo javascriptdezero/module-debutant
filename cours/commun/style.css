@@ -131,7 +131,7 @@ a.wikipedia::before {
 pre.valeur {
   font-size: 110%;
   display: inline-block;
-  margin: 0;
+  margin: 8px 0;
   white-space: pre-wrap;
 }
 
