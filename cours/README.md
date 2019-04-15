@@ -424,6 +424,39 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [15:03](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=903s) Code source sur GitHub
     - [15:28](https://www.youtube.com/watch?v=ts42EX2XZ6A&t=928s) Partagez la vidéo, abonnez-vous, merci :)
 
+14. [Les boucles en JavaScript [M0L13]](https://www.youtube.com/watch?v=-6KfFIoktuY)
+    - [00:12](https://www.youtube.com/watch?v=-6KfFIoktuY&t=12s) À quoi servent les boucles ?
+    - [00:25](https://www.youtube.com/watch?v=-6KfFIoktuY&t=25s) Les boucles while (tant que)
+    - [00:43](https://www.youtube.com/watch?v=-6KfFIoktuY&t=43s) Exemple de boucle while
+    - [01:05](https://www.youtube.com/watch?v=-6KfFIoktuY&t=65s) Exécution et explications de l'exemple pas à pas
+    - [01:45](https://www.youtube.com/watch?v=-6KfFIoktuY&t=105s) L'interpréteur JavaScript "remonte" dans le code
+    - [02:25](https://www.youtube.com/watch?v=-6KfFIoktuY&t=145s) Sortie de la boucle
+    - [02:48](https://www.youtube.com/watch?v=-6KfFIoktuY&t=168s) Les boucles infinies
+    - [03:19](https://www.youtube.com/watch?v=-6KfFIoktuY&t=199s) Exemple de boucle infinie
+    - [03:54](https://www.youtube.com/watch?v=-6KfFIoktuY&t=234s) Utilité des boucles infinies
+    - [04:49](https://www.youtube.com/watch?v=-6KfFIoktuY&t=289s) Les boucles do... while (faire... tant que)
+    - [05:00](https://www.youtube.com/watch?v=-6KfFIoktuY&t=300s) Exemple de boucle do... while
+    - [05:35](https://www.youtube.com/watch?v=-6KfFIoktuY&t=335s) Signification de la boucle do... while
+    - [06:00](https://www.youtube.com/watch?v=-6KfFIoktuY&t=360s) Les boucles for
+    - [06:08](https://www.youtube.com/watch?v=-6KfFIoktuY&t=368s) Composition d'une boucle for
+    - [06:25](https://www.youtube.com/watch?v=-6KfFIoktuY&t=385s) Exemple d'exécution d'une boucle for pas à pas
+    - [07:56](https://www.youtube.com/watch?v=-6KfFIoktuY&t=476s) On peut utiliser autre chose que des compteurs dans les boucles !
+    - [08:10](https://www.youtube.com/watch?v=-6KfFIoktuY&t=490s) Exemple avec une chaîne de caractères
+    - [09:12](https://www.youtube.com/watch?v=-6KfFIoktuY&t=552s) Comparaison visuelle des 3 types de boucles
+    - [09:33](https://www.youtube.com/watch?v=-6KfFIoktuY&t=573s) L'initialisation des boucles
+    - [09:43](https://www.youtube.com/watch?v=-6KfFIoktuY&t=583s) Condition de boucle
+    - [09:46](https://www.youtube.com/watch?v=-6KfFIoktuY&t=586s) Bloc d'instructions, particularité de l'expression finale
+    - [10:18](https://www.youtube.com/watch?v=-6KfFIoktuY&t=618s) Expression finale
+    - [10:25](https://www.youtube.com/watch?v=-6KfFIoktuY&t=625s) La boucle do... while nécessite un point-virgule à la fin !
+    - [11:07](https://www.youtube.com/watch?v=-6KfFIoktuY&t=667s) Quand utiliser telle ou telle boucle ?
+    - [11:16](https://www.youtube.com/watch?v=-6KfFIoktuY&t=676s) Quand utiliser une boucle while ?
+    - [11:54](https://www.youtube.com/watch?v=-6KfFIoktuY&t=714s) Quand utiliser une boucle do... while ?
+    - [12:57](https://www.youtube.com/watch?v=-6KfFIoktuY&t=777s) Quand utiliser une boucle for ?
+    - [13:13](https://www.youtube.com/watch?v=-6KfFIoktuY&t=793s) Les erreurs classiques quand on utilise des boucles : le décalage de 1
+    - [14:27](https://www.youtube.com/watch?v=-6KfFIoktuY&t=867s) Exercices sur GitHub
+    - [14:39](https://www.youtube.com/watch?v=-6KfFIoktuY&t=879s) Des questions ? Mettez-les dans les commentaires !
+    - [14:45](https://www.youtube.com/watch?v=-6KfFIoktuY&t=885s) Partagez la vidéo et abonnez-vous, merci ! :)
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
