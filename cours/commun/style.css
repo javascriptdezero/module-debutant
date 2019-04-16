@@ -73,6 +73,7 @@ p.code {
   font-family: "Courier New", Courier, monospace;
   border-radius: var(--dim-base);
   padding: var(--dim-demie) var(--dim-base);
+  margin: 1px 0;
 }
 
 footer {
