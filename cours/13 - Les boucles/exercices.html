@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Les boucles - Exercices</title>
+    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  </head>
+
+  <body>
+    <h1>Les boucles</h1>
+    <p>
+      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.<br />
+      N'oubliez pas d'ouvrir la console développeur de Chrome pour voir vos erreurs JavaScript.
+    </p>
+    <p>Vous êtes bloqué ? <a href="https://javascriptdezero.slack.com">Demandez de l'aide sur Slack</a>.</p>
+
+    <div class="objectifs">
+      <h2>Objectifs</h2>
+      <ul>
+        <li>Comprendre le fonctionnement des boucles <code>while</code>, <code>do... while</code> et <code>for</code>.</li>
+        <li>Utiliser les boucles pour résoudre des problèmes de plus en plus complexes.</li>
+        <li>Détecter des bogues liés aux boucles et savoir les corriger.</li>
+        <li>Éviter de coder une boucle infinie 🤣.</li>
+      </ul>
+    </div>
+
+    <div class="enonce" id="enonce-0">
+      <h2>Exercice 0</h2>
+
+      <p>La société <strong>SensationsGaranties</strong> vient de sortir un nouveau manège nommé <strong>Vibrations</strong>.</p>
+
+      <p>Le sol de ce manège vibre rapidement. Pour ne pas trop solliciter la mécanique sous le manège, le poids total des clients sur celui-ci doit toujours être inférieur ou égal à <code>500 kg</code>.</p>
+
+      <p>Des balances sont placées dans la file d'attente du manège pour mesurer le poids de tous les clients. Pour récupérer chaque poids, il faut utiliser l'instruction <code>prochainClient.mesurerPoids()</code> dans le code.</p>
+
+      <p>Évidemment c'est Tom qui s'y colle une fois de plus !</p>
+      
+      <p>Dans un premier temps, il veut déjà vérifier que les balances fonctionnent bien et décide d'afficher le poids du tout premier client en indiquant l'unité <code>kg</code> sous la forme <code>42 kg</code> par exemple.</p>
+
+      <p>Il a déjà rédigé du code, aidez-le à le finir !</p>
+
+      <div class="message"></div>
+
+    </div>
+
+    <div class="enonce" id="enonce-1">
+      <h2>Exercice 1</h2>
+
+      <p>Toujours dans le but de vérifier que tout fonctionne bien avec les balances et <code>prochainClient.mesurerPoids()</code>, Tom décide d'afficher simplement la valeur renvoyée par cette instruction 2 fois de suite pour voir si le poids renvoyé change bien à chaque utilisation.</p>
+
+      <p>Aidez-le à terminer son code.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-2">
+      <h2>Exercice 2</h2>
+
+      <p>Super ! À priori tout fonctionne bien avec le système des balances.</p>
+      
+      <p>Lorsqu'il n'y a plus de clients dans la file d'attente, la balance renvoie la valeur <code>0</code>.</p>
+      
+      <p>Tom va donc maintenant passer à la dernière étape de ses tests. Il va lire et afficher les poids de tous les clients dans la file d'attente. C'est-à-dire jusqu'à ce que <code>prochainClient.mesurerPoids()</code> retourne la valeur <code>0</code>.</p>
+
+      <p>Pour ça, il est sûr qu'il faut utiliser une boucle <code>while</code> mais il a du mal à savoir quoi mettre comme condition de boucle et comme instructions à l'intérieur, il vous demande de l'aide.</p>
+
+      <p class="attention">La dernière valeur <code>0</code> retournée par la balance ne doit <strong>pas</strong> être affichée !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-3">
+      <h2>Exercice 3</h2>
+      
+      <p>Chaque tour de manège dure <code>12 minutes</code>.</p>
+      
+      <p>Tom doit afficher le temps d'attente correspondant au nombre de tours au format <code>01h42</code> : 2 chiffres pour les heures et 2 chiffres pour les minutes.</p>
+
+      <p>Tom récupère directement le nombre de tours dans une variable <code>nombreDeTours</code>.</p>
+
+      <p>Aidez Tom a finir son code.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-4">
+      <h2>Exercice 4</h2>
+      
+      <p>C'est bientôt Noël et les dirigeants de <strong>SensationsGaranties</strong> veulent marquer le coup en affichant des petites guirlandes de Noël de différentes tailles sur les écrans.</p>
+
+      <p>Une guirlande de Noël se compose d'une suite d'étoiles.</p>
+
+      <p>Tom doit sortir ses talents créatifs de développeur pour réussir à afficher une guirlande de Noël en fonction de sa longueur. Par exemple pour la longueur <code>4</code> il faut faire une guirlande comme celle-ci :</p>
+
+      <pre>****</pre>
+
+      <p>Il sait qu'il doit utiliser des boucles <code>for</code> car la longueur des guirlandes lui est communiqué dans son programme via la variable <code>longueurGuirlande</code>.</p>
+
+      <p>Aidez-le à mettre en place sa fonction en utilisant des boucles <code>for</code>.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-5">
+      <h2>Exercice 5</h2>
+      
+      <p>Les guirlandes avec des étoiles uniquement ne sont pas très jolies, on décide d'ajouter des ampoules lumineuses un symbole sur deux symbolisées par la lettre minuscule <code>o</code> comme ceci :</p>
+
+      <pre>*o*o*o*o</pre>
+
+      <p>Il utilisera des boucles <code>for</code> car la longueur des guirlandes est communiquée dans le programme via la variable <code>longueurGuirlande</code>.</p>
+
+      <p>Aidez-le à mettre en place sa fonction en utilisant des boucles <code>for</code>.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce bogue" id="enonce-6">
+      <h2>Chassez le bogue ! 0</h2>
+      <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+      <p>Tom se dit qu'il pourrait faire des figures en 2D comme des triangles pour essayer de rendre encore plus joli la présentation sur les écrans.</p>
+
+      <p>Il aimerait pouvoir afficher un triangle comme celui-ci à partir d'une valeur <code>largeurTriangle</code> qu'il récupère depuis son code. Par exemple pour une valeur de <code>largeurTriangle</code> qui vaut <code>7</code> :</p>
+
+      <pre>*******
+*****
+***
+*</pre>
+
+      <p>Pour faciliter les choses, <code>largeurTriangle</code> est toujours une valeur <code>impaire</code>.</p>
+      
+      <p>Malheureusement son code semble avoir un bogue, pouvez-vous le corriger ?</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce bogue" id="enonce-7">
+      <h2>Chassez le bogue ! 1</h2>
+      <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+      <p>Tom se dit qu'il pourrait améliorer l'esthétique de ces triangles...</p>
+
+      <p>Il aimerait pouvoir afficher un triangle comme celui-ci pour une valeur de <code>largeurTriangle</code> qui vaut <code>7</code> :</p>
+
+      <pre>*
+***
+*****
+*******
+*****
+***
+*</pre>
+
+      <p>Pour faciliter les choses, <code>largeurTriangle</code> est toujours une valeur <code>impaire</code>.</p>
+      
+      <p>Malheureusement son code semble avoir un bogue, pouvez-vous le corriger ?</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-8">
+      <h2>Exercice 8</h2>
+
+      <p>Place aux choses sérieuses maintenant !</p>
+
+      <p>Juste avant de rentrer dans la file d'attente du manège <strong>Vibrations</strong>, on place un écran affichant le nombre de tours qu'il faudra pour faire passer toute la file d'attente actuelle.</p>
+
+      <p>Comme indiqué précédemment, la somme des poids des clients à chaque tour doit être inférieure ou égale à <code>500 kg</code>.</p>
+      
+      <p>On peut donc faire rentrer des nouveaux clients sur le manège tant qu'on ne dépasse pas cette valeur de <code>500 kg</code>. Mais si le poids du prochain client fait dépasser les <code>500 kg</code>, ce client doit attendre le prochain tour pour passer.</p>
+
+      <p>Exemple avec cette file d'attente : 80, 92, 102, 76, 120, 88, 95, 45, 98, 107, 96. Ici on affichera <code>3 tours</code>.</p>
+        
+      <p>Explications : un premier tour avec les clients 80, 92, 102, 76, 120 (total 470 kg, si on ajoutait le client d'après de 88 kg, on dépasserait les 500 kg donc il attend le prochain tour). Deuxième tour avec 88, 95, 45, 98, 107 (total 433 kg). Et un dernier tour avec le dernier client de 96 kg.</p>
+
+      <p>L'objectif est d'afficher sous la forme <code>5 tours</code> le nombre de tours total pour faire passer tous les clients déjà présents dans la file d'attente. Notez qu'il faudra afficher <code>0 tour</code> et <code>1 tour</code> (sans le s final à tour !).</p>
+
+      <p class="attention">Cet exercice est difficile, prenez votre temps, ne vous découragez pas !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <p>D'autres exercices arrivent bientôt... patience !</p>
+
+    <footer>
+      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+    </footer>
+
+    <script src="../commun/mes-outils.js"></script>
+    <script src="../commun/init.js"></script>
+    <script src="exercices.js"></script>
+    <script src="validateur/tests.js"></script>
+  </body>
+</html>
