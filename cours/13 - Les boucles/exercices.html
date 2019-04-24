@@ -33,7 +33,9 @@
 
       <p>Le sol de ce manège vibre rapidement. Pour ne pas trop solliciter la mécanique sous le manège, le poids total des clients sur celui-ci doit toujours être inférieur ou égal à <code>500 kg</code>.</p>
 
-      <p>Des balances sont placées dans la file d'attente du manège pour mesurer le poids de tous les clients. Pour récupérer chaque poids, il faut utiliser l'instruction <code>prochainClient.mesurerPoids()</code> dans le code.</p>
+      <p>Des balances sont placées dans la file d'attente du manège pour mesurer le poids de chaque client. Pour récupérer le poids de chacun des clients, il faut utiliser l'instruction <code>prochainClient.mesurerPoids()</code>.</p>
+
+      <p>La 1<sup>ère</sup> fois que vous utilisez <code>prochainClient.mesurerPoids()</code> sa valeur est égale au poids du 1<sup>er</sup> client dans la file d'attente. La 2<sup>ème</sup> fois que vous utilisez <code>prochainClient.mesurerPoids()</code>, sa valeur est égale au poids du 2<sup>ème</sup> client dans la file d'attente etc.</p>
 
       <p>Évidemment c'est Tom qui s'y colle une fois de plus !</p>
       
@@ -48,7 +50,7 @@
     <div class="enonce" id="enonce-1">
       <h2>Exercice 1</h2>
 
-      <p>Toujours dans le but de vérifier que tout fonctionne bien avec les balances et <code>prochainClient.mesurerPoids()</code>, Tom décide d'afficher simplement la valeur renvoyée par cette instruction 2 fois de suite pour voir si le poids renvoyé change bien à chaque utilisation.</p>
+      <p>Toujours dans le but de vérifier que tout fonctionne bien avec les balances et <code>prochainClient.mesurerPoids()</code>, Tom décide d'utiliser 2 fois de suite cette instruction pour obtenir le poids du 1<sup>er</sup> et du 2<sup>ème</sup> client de la file d'attente.</p>
 
       <p>Aidez-le à terminer son code.</p>
 
