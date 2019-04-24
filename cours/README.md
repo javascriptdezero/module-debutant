@@ -457,6 +457,29 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [14:39](https://www.youtube.com/watch?v=-6KfFIoktuY&t=879s) Des questions ? Mettez-les dans les commentaires !
     - [14:45](https://www.youtube.com/watch?v=-6KfFIoktuY&t=885s) Partagez la vidéo et abonnez-vous, merci ! :)
 
+15. [Comment utiliser une boucle en JavaScript ? (Mini projet #3) [M0L14]](https://www.youtube.com/watch?v=lCrAB-nB-ZQ)
+    - [00:15](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=15s) Rappel du bogue
+    - [00:50](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=50s) Démonstration du bogue dans le débogueur
+    - [01:20](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=80s) Solution au bogue grâce à une boucle while
+    - [01:43](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=103s) Vérification de la nouvelle version, ça marche !
+    - [02:26](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=146s) Comment tester du code avec du code ?
+    - [02:57](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=177s) Utilisation d'une boucle for pour tester le code
+    - [03:52](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=232s) Exécution du code de test
+    - [04:45](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=285s) Proposition d'amélioration : tout afficher sur une seule ligne avec la durée
+    - [05:15](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=315s) Création d'une variable intermédiaire rdvOk
+    - [06:00](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=360s) Utilisation de rdvOk pour afficher RDV ok ou impossible
+    - [06:31](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=391s) Astuce VSCode : comment dupliquer les lignes ?
+    - [06:54](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=414s) Explication de la condition if (rdvOk)
+    - [07:15](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=435s) Test du code : ça fonctionne
+    - [07:30](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=450s) Ajout de la durée dans la sortie du programme
+    - [07:43](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=463s) Astuce VSCode : le multicurseur avec Alt+Clic
+    - [08:05](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=485s) Exécution du code, tout est sur une ligne
+    - [08:23](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=503s) Limitations de ce code : début rdv, fin de journée sont fixes
+    - [08:45](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=525s) Prochaine étape : rendre flexible le code grâce aux fonctions
+    - [09:33](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=573s) Code source sur GitHub
+    - [09:47](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=587s) Des questions ? Mettez-les dans les commentaires
+    - [09:53](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=593s) Partagez la vidéo, abonnez-vous à ma chaîne :), merci !
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
