@@ -1,5 +1,4 @@
 /* Mini projet : valider un rendez-vous */
-// Retrouvez chaque version du projet dans cours-1.js, cours-2.js etc.
 
 // Exemple 1 : pour une durée de RDV de 15 minutes
 
