@@ -480,6 +480,25 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [09:47](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=587s) Des questions ? Mettez-les dans les commentaires
     - [09:53](https://www.youtube.com/watch?v=lCrAB-nB-ZQ&t=593s) Partagez la vidéo, abonnez-vous à ma chaîne :), merci !
 
+16. [Les fonctions en JavaScript (partie 1) [M0L15]](https://www.youtube.com/watch?v=QTPbgb4G7Hs)
+    - [00:12](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=12s) Qu'est-ce qu'une fonction ?
+    - [00:20](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=20s) Comment déclarer une fonction ?
+    - [00:55](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=55s) Faire un appel de fonction
+    - [01:13](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=73s) Démonstration avec le débogueur
+    - [02:35](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=155s) Explication du pas à pas principal et détaillé du débogueur (F10/F11)
+    - [03:45](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=225s) Description des 4 étapes effectuées lors d'un appel de fonction
+    - [04:12](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=252s) console.log() est une fonction !
+    - [04:40](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=280s) Si on appuie sur F11 on rentre dans console.log !
+    - [05:18](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=318s) Les paramètres de fonctions : exemple
+    - [05:45](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=345s) Comment utiliser les paramètres dans l'appel de fonction ?
+    - [06:10](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=370s) Vocabulaire : définition d'argument et paramètre
+    - [06:53](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=413s) Comportement de l'interpréteur JavaScript lors d'un appel avec argument
+    - [07:41](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=461s) Analogie avec une variable prénom dans le corps de la fonction
+    - [08:10](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=490s) Utilisation d'une variable comme argument lors d'un appel de fonction
+    - [09:36](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=576s) Exercices sur GitHub (lien ci-dessous)
+    - [09:57](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=597s) Des questions ? Posez-les dans les commentaires !
+    - [10:02](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=602s) Partagez la vidéo et abonnez-vous :), merci !
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
