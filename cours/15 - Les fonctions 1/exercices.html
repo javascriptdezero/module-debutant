@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Les fonctions (partie 1) - Exercices</title>
+    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  </head>
+
+  <body>
+    <h1>Les fonctions (partie 1)</h1>
+    <p>
+      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.<br />
+      N'oubliez pas d'ouvrir la console développeur de Chrome pour voir vos erreurs JavaScript.
+    </p>
+    <p>
+      <a class="mdn" href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions" target="_blank"
+        >Consulter la doc MDN sur les fonctions</a
+      >
+    </p>
+    <p>Vous êtes bloqué ? <a href="https://javascriptdezero.slack.com">Demandez de l'aide sur Slack</a>.</p>
+
+    <div class="objectifs">
+      <h2>Objectifs</h2>
+      <ul>
+        <li>Comprendre le fonctionnement de fonctions simples (avec un seul paramètre).</li>
+        <li>Savoir déclarer et appeler une fonction.</li>
+      </ul>
+    </div>
+
+    <div class="enonce" id="enonce-0">
+      <h2>Exercice 0</h2>
+
+      <p>Tom est très fier de lui aujourd'hui, il a écrit sa première fonction !</p>
+
+      <p>
+        Malheureusement, lorsqu'il lance son programme, rien ne se passe. Il est sûr que sa fonction est bien écrite,
+        mais il ne comprend pas pourquoi le code ne s'exécute pas.
+      </p>
+
+      <p>Aidez-le à faire en sorte que sa fonction soit exécutée.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-1">
+      <h2>Exercice 1</h2>
+
+      <p>
+        Hugo, le patron de Tom, veut automatiser l'écriture de l'en-tête des lettres qui seront envoyées pour la prochaine campagne marketing de l'agence <strong>MagiciensDuCode</strong>.
+      </p>
+
+      <p>Voici le format de l'en-tête qu'il veut :</p>
+
+      <p class="code">===[ Notre adresse ]===<br />
+        MagiciensDuCode<br />
+        42 avenue de l'accolade ouvrante<br />
+        1337 POINT-VIRGULE<br />
+        <br />
+        ===[ Vos références ]===<br />
+        N° de client : 420000
+      </p>
+
+      <p>Tom doit rédiger une fonction <code>afficherEntete(numeroClient)</code> permettant d'afficher cet en-tête pour un numéro de client donné.</p>
+
+      <p>Il décide de découper cette tâche en 2 parties : la rédaction d'une fonction <code>afficherTitre(titre)</code> et d'une fonction <code>afficherNumeroClient(numero)</code>.</p>
+
+      <p>Pour l'instant il se concentre sur la fonction <code>afficherTitre(titre)</code> qui permet d'afficher un titre au format <code>===[ titre ]===</code>. Cette première version permettra d'afficher l'adresse de l'en-tête uniquement, sans la section "Vos références".</p>
+
+      <p>Il a déjà écrit une partie du code mais ne voit pas comment continuer. Aidez-le !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-2">
+      <h2>Exercice 2</h2>
+
+      <p>L'affichage des titres et de l'adresse fonctionne bien. Maintenant Tom passe à la gestion du numéro client.</p>
+
+      <p>À cause de certaines règles de gestion client obscures, le format doit toujours être sur <code>6</code> chiffres et doit toujours commencer par <code>42</code>.</p>
+
+      <p>
+        Il doit donc créer une fonction <code>afficherNumeroClient(numero)</code> qui respectera cette règle. Il a décidé de tester son code avec les numéros client <code>0, 1, 9, 10, 99, 100, 999, 1000 et 9999</code>. Ce code de test est déjà rédigé.
+      </p>
+
+      <p>
+        Il a fait la majorité du travail, mais le formatage sur 6 chiffres... il ne voit pas comment faire, aidez-le !
+      </p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-3">
+      <h2>Exercice 3</h2>
+
+      <p>
+        Dernière étape, il faut maintenant que Tom utilise toutes ces fonctions dans le corps d'une ultime fonction <code>afficherEntete(numeroClient)</code> qui affichera l'intégralité de l'en-tête.
+      </p>
+
+      <p>Par exemple <code>afficherEntete(1337)</code> devra afficher :</p>
+
+      <p class="code">
+        ===[ Notre adresse ]===<br />
+MagiciensDuCode<br />
+42 avenue de l'accolade ouvrante<br />
+1337 POINT-VIRGULE<br />
+<br />
+===[ Vos références ]===<br />
+N° de client : 421337
+      </p>
+
+      <p>Tom essaye de s'appuyer sur toutes les fonctions et variables déjà écrites pour rédiger cette dernière fonction mais il a du mal à terminer.</p>
+
+      <p>Un petit coup de main de votre part ne serait pas de refus !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce bogue" id="enonce-4">
+      <h2>Chassez le bogue ! 0</h2>
+      <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+      <p>Tom a reçu le code d'un stagiaire qui est censé afficher un triangle d'étoiles grâce à une fonction <code>afficherTriangleEtoile(longueurMax)</code>.</p>
+      
+      <p>Par exemple <code>afficherTriangleEtoile(7)</code> doit afficher :</p>
+
+      <pre>
+*
+***
+*****
+*******
+*****
+***
+*</pre>
+
+      <p>Malheureusement ce code est complètement bogué. Tom doit le corriger, aidez-le !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <p>D'autres exercices arrivent bientôt... patience !</p>
+
+    <footer>
+      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+    </footer>
+
+    <script src="../commun/mes-outils.js"></script>
+    <script src="../commun/init.js"></script>
+    <script src="exercices.js"></script>
+    <script src="validateur/tests.js"></script>
+  </body>
+</html>
