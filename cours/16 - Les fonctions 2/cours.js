@@ -21,8 +21,7 @@ presentation("Jérémy", 33, "Développeur");
 
 // Utilisation du mot-clé "return"
 // function calculerPrixTTC(prixHorsTaxe, TVAEnPourcent) {
-//   let prixTTC = prixHorsTaxe * (1 + TVAEnPourcent / 100);
-//   return prixTTC;
+//   return prixHorsTaxe * (1 + TVAEnPourcent / 100);
 // }
 
 // On n'utilise pas la valeur de retour
