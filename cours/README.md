@@ -499,6 +499,26 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [09:57](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=597s) Des questions ? Posez-les dans les commentaires !
     - [10:02](https://www.youtube.com/watch?v=QTPbgb4G7Hs&t=602s) Partagez la vidéo et abonnez-vous :), merci !
 
+17. [Les fonctions en JavaScript (partie 2) [M0L16]](https://www.youtube.com/watch?v=yR9ei5XpIU0)
+    - [00:24](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=24s) Déclarer une fonction avec plusieurs paramètres
+    - [00:50](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=50s) Appel de fonction à plusieurs paramètres
+    - [01:35](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=95s) Utiliser des variables comme argument
+    - [02:10](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=130s) Que se passe-t-il quand on appelle une fonction avec le mauvais nombre d'arguments ?
+    - [02:20](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=140s) 1er cas : sans aucun argument
+    - [02:48](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=168s) Rappel de ce qu'est la valeur undefined
+    - [03:24](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=204s) 2e cas : avec un argument en moins
+    - [03:50](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=230s) 3e cas : avec un argument en trop
+    - [04:20](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=260s) Comment retourner une valeur depuis une fonction ?
+    - [04:25](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=265s) Le mot-clé return
+    - [04:34](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=274s) Exemple avec un calcul de prix TTC, pas à pas
+    - [06:12](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=372s) Utilisation de la valeur de retour
+    - [06:45](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=405s) Calcul de la valeur de retour
+    - [07:47](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=467s) L'appel de fonction est "substitué" à la valeur de retour
+    - [08:23](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=503s) Stocker la valeur de retour dans une variable
+    - [09:08](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=548s) Retourner une valeur via une variable
+    - [10:09](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=609s) Exercices sur le GitHub de la formation (lien ci-dessous)
+    - [10:28](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=628s) Des questions ? Mettez-les dans les commentaires !
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
