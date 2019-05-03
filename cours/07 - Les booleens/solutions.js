@@ -8,7 +8,7 @@
 console.log(65 < 70 && 4 < 3);
 
 // Exercice 1
-console.log(140 > 150 || 16 > 14);
+console.log(140 > 150 || 16 >= 14);
 
 // Exercice 2
 console.log((15 > 16 || 170 > 150) && 79 < 80);
