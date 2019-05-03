@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Les fonctions (partie 2) - Exercices</title>
+    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  </head>
+
+  <body>
+    <h1>Les fonctions (partie 2)</h1>
+    <p>
+      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.<br />
+      N'oubliez pas d'ouvrir la console développeur de Chrome pour voir vos erreurs JavaScript.
+    </p>
+    <p>
+      <a class="mdn" href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions" target="_blank"
+        >Consulter la doc MDN sur les fonctions</a
+      >
+    </p>
+    <p>Vous êtes bloqué ? <a href="https://javascriptdezero.slack.com">Demandez de l'aide sur Slack</a>.</p>
+
+    <div class="objectifs">
+      <h2>Objectifs</h2>
+      <ul>
+        <li>Comprendre le fonctionnement de fonctions avec plusieurs paramètres.</li>
+        <li>Savoir déclarer et appeler une fonction possédant plusieurs paramètres.</li>
+        <li>Savoir retourner une valeur depuis une fonction grâce au mot-clé <code>return</code>.</li>
+      </ul>
+    </div>
+
+    <div class="enonce" id="enonce-0">
+      <h2>Exercice 0</h2>
+
+      <p>
+        Hugo demande à Tom de faire une mise à jour sur l'entête des lettres de la campagne marketing. On a oublié d'y
+        ajouter le nom du destinataire !
+      </p>
+
+      <p>
+        Le but étant de pouvoir imprimer à la chaîne toutes les lettres comme il faut pour chaque client. L'adresse du
+        client devra ressembler à ça :
+      </p>
+
+      <p class="code">
+        ===[ Destinataire ]===<br />
+        Tom REDOCEMIA<br />
+        21 rue du bloc d'instructions<br />
+        1337 POINT-VIRGULE<br />
+      </p>
+
+      <p>
+        Biensûr, il faudra être capable d'afficher l'adresse de chaque client à partir des informations de la base de
+        données de la société <strong>MagiciensDuCode</strong>.
+      </p>
+
+      <p>
+        Pour chaque client, on connaît, le nom, le numéro de rue, le nom de la rue, le code postal et le nom de la
+        ville.
+      </p>
+
+      <p>
+        Pour faire les choses proprement, Tom décide d'utiliser une fonction avec plusieurs paramètres. Il a utilisé des
+        variables pour simuler les données de la base de données et sa propre adresse pour faire un test.
+      </p>
+
+      <p>Il a écrit l'appel de la fonction, mais ne voit pas trop comment rédiger la fonction elle-même.</p>
+
+      <p>Aidez-le à finir son code !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-1">
+      <h2>Exercice 1</h2>
+
+      <p>Hugo revérifie l'entête et s'aperçoit que le numéro de client n'est pas formaté correctement.</p>
+
+      <p>
+        En effet il existe plusieurs types de clients chez <strong>MagiciensDuCode</strong> : les clients
+        <em>standard</em> et les clients <em>premium</em> qui ont payés une assistance 7/7j 24/24h pour leur logiciel.
+      </p>
+
+      <p>
+        Les clients premium ont un numéro de client supérieur ou égal à <code>5000</code> et strictement inférieur à
+        <code>7000</code>. Leur numéro doit être affiché sous la forme <code>PR5132</code> au lieu de
+        <code>425132</code> (pour le client numéro <code>5132</code> par exemple).
+      </p>
+
+      <p>
+        Tom doit créer une fonction <code>formaterNumeroClient(numero)</code> qui <code>renvoie</code> le format
+        approprié sous la forme d'une chaîne de <code>6</code> caractères.
+      </p>
+
+      <p>Exemple :</p>
+
+      <p class="code">
+        formaterNumeroClient(42) doit renvoyer "420042"<br />
+        formaterNumeroClient(1864) doit renvoyer "421864"<br />
+        formaterNumeroClient(5132) doit renvoyer "PR5132"
+      </p>
+
+      <p>
+        Tom a déjà rédigé la déclaration de la fonction mais il ne sait pas trop quoi mettre dans le corps de celle-ci,
+        aidez-le !
+      </p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-2">
+      <h2>Exercice 2</h2>
+
+      <p>Tout fonctionne bien. Maintenant il va falloir utiliser toutes ces fonctions pour créer l'entête final.</p>
+
+      <p>Tom essaye d'afficher tout l'entête avec son adresse, et un numéro premium <code>5842</code>, ça doit donner ça :</p>
+
+      <p class="code">
+        ===[ Notre adresse ]===<br />
+        MagiciensDuCode<br />
+        42 avenue de l'accolade ouvrante<br />
+        1337 POINT-VIRGULE<br />
+        <br />
+        ===[ Destinataire ]===<br />
+        Tom REDOCEMIA<br />
+        21 rue du bloc d'instructions<br />
+        1337 POINT-VIRGULE<br />
+        <br />
+        ===[ Vos références ]===<br />
+        N° de client : PR5842
+      </p>
+      
+      <p>Tom a déjà créé toutes les variables manquantes, tout le contenu est là pour l'affichage, il ne reste plus qu'à appeler les fonctions dans le bon ordre. Aidez-le à finir son code !</p>
+
+      <div class="attention">Pour espacer chaque partie (adresse, destinaire, vos références) avec une ligne vide, utilisez simplement l'instruction <code>console.log("")</code>.</div><br />
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce" id="enonce-3">
+      <h2>Exercice 3</h2>
+
+      <p>
+        Tom est tellement fier d'avoir fini cet entête ! Il s'octroie un peu de repos avec un petit challenge.
+      </p>
+
+      <p>Il veut rédiger du code permettant de faire un joli logo au format texte comme ceci :</p>
+
+      <pre>      **              **      **
+    **               **         **
+  **                **            **
+**                 **               **
+  **              **              **
+    **           **             **
+      **        **            **</pre>
+
+      <p>
+        Pour ça, il veut créer une fonction avec 3 paramètres : <code>afficherLigneLogo(esp1, esp2, esp3)</code>. Chaque paramètre correspond au nombre d'espaces avant les symboles <code>**</code>.
+      </p>
+
+      <p>Par exemple l'appel <code>afficherLigneLogo(2, 4, 6)</code> doit afficher une ligne avec 2 espaces, 2 étoiles, 4 espaces, 2 étoiles puis 6 espaces et enfin 2 étoiles comme ça :</p>
+
+      <code>&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**</code>
+
+      <p>Il a déjà rédigé la liste des appels de cette fonction pour créer le logo comme il faut, mais il a besoin d'un coup de main pour rédiger le corps de cette fonction.</p>
+
+      <div class="message"></div>
+    </div>
+
+    <div class="enonce bogue" id="enonce-4">
+      <h2>Chassez le bogue ! 0</h2>
+      <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+      <p>
+        Tom continue avec ses petits challenges, il essaye de rédiger un code pour afficher un sapin de Noël comme celui-là :</code>
+      </p>
+
+      <pre>     *
+    *o*
+   *o*o*
+  *o*o*o*
+ *o*o*o*o*
+*o*o*o*o*o*
+    ***
+    ***
+    ***</pre>
+
+      <p>Malheureusement son code est bogué. Corrigez-le !</p>
+
+      <div class="message"></div>
+    </div>
+
+    <p>D'autres exercices arrivent bientôt... patience !</p>
+
+    <footer>
+      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+    </footer>
+
+    <script src="../commun/mes-outils.js"></script>
+    <script src="../commun/init.js"></script>
+    <script src="exercices.js"></script>
+    <script src="validateur/tests.js"></script>
+  </body>
+</html>
