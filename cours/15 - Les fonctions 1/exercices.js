@@ -95,13 +95,13 @@ function afficherEntete(numeroClient) {
 // Décommentez le code du stagiaire ci-dessous et corrigez tous les bogues !
 // function afficherPlusieursEtoiles(nombre) {
 //   let ligne = "";
-//   for (let position = 0; position <= nombre; position++) {
+//   for (let position = 0; position <= nombre; position = position + 1) {
 //     ligne = ligne + "*";
 //   }
 //   console.log(ligne);
 // }
 // function afficherTriangleEtoile(longueurMax) {
-//   for (let position = 0; position < longueurMax; position++) {
+//   for (let position = 0; position < longueurMax; position = position + 1) {
 //     afficherPlusieursEtoiles(position);
 //   }
 //   for (let position = longueurMax - 2; position > 0; position = position - 2) {

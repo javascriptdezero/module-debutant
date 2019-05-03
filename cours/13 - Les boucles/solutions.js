@@ -43,7 +43,7 @@ console.log(nombreHeures + "h" + nombreMinutes);
 
 // Exercice 4
 let ligne = "";
-for (let i = 0; i < longueurGuirlande; i++) {
+for (let i = 0; i < longueurGuirlande; i = i + 1) {
   ligne = ligne + "*";
 }
 console.log(ligne);
@@ -51,7 +51,7 @@ console.log(ligne);
 // Exercice 5
 let ligne = "";
 let symbole = "*";
-for (let i = 0; i < longueurGuirlande; i++) {
+for (let i = 0; i < longueurGuirlande; i = i + 1) {
   ligne = ligne + symbole;
   if (symbole === "*") {
     symbole = "o";

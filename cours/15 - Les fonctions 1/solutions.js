@@ -89,7 +89,7 @@ afficherEntete(1337);
 // Chassez le bogue ! 0
 function afficherPlusieursEtoiles(nombre) {
   let ligne = "";
-  for (let position = 0; position < nombre; position++) {
+  for (let position = 0; position < nombre; position = position + 1) {
     ligne = ligne + "*";
   }
   console.log(ligne);
