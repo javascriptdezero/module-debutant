@@ -32,7 +32,7 @@
 // Exercice 0
 function exercice0(prochainClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez l'instruction prochainClient.mesurerPoids() pour récupérer la valeur du poids du
   // prochain client. N'oubliez pas de mettre les parenthèses "()" à la fin de cette instruction !
 
@@ -47,7 +47,7 @@ function exercice0(prochainClient) { // Ne supprimez/commentez pas cette ligne
 // Exercice 1
 function exercice1(prochainClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 
   // Décommentez le code de Tom ci-dessous
   // let poidsClient = prochainClient.mesurerPoids();
@@ -61,7 +61,7 @@ function exercice1(prochainClient) { // Ne supprimez/commentez pas cette ligne
 // Exercice 2
 function exercice2(prochainClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 
   // Décommentez le code de Tom ci-dessous
   // let poidsClient = prochainClient.mesurerPoids();
@@ -74,7 +74,7 @@ function exercice2(prochainClient) { // Ne supprimez/commentez pas cette ligne
 // Exercice 3
 function exercice3(nombreDeTours) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez la variable nombreDeTours qui contient le nombre de tours à faire pour la file d'attente actuelle
 
   // Décommentez le code de Tom ci-dessous
@@ -90,7 +90,7 @@ function exercice3(nombreDeTours) { // Ne supprimez/commentez pas cette ligne
 // Exercice 4
 function exercice4(longueurGuirlande) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez la variable longueurGuirlande qui contient le nombre d'étoiles à afficher pour la guirlande
 
   // Décommentez le code de Tom ci-dessous
@@ -104,7 +104,7 @@ function exercice4(longueurGuirlande) { // Ne supprimez/commentez pas cette lign
 // Exercice 5
 function exercice5(longueurGuirlande) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez la variable longueurGuirlande qui contient la longueur de la guirland à afficher
 
   // Décommentez le code de Tom ci-dessous
@@ -118,7 +118,7 @@ function exercice5(longueurGuirlande) { // Ne supprimez/commentez pas cette lign
 // Chassez le bogue ! 0
 function exercice6(largeurTriangle) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez la variable largeurTriangle qui contient la largeur du triangle à afficher
 
   // Décommentez le code de Tom ci-dessous
@@ -139,7 +139,7 @@ function exercice6(largeurTriangle) { // Ne supprimez/commentez pas cette ligne
 // Chassez le bogue ! 1
 function exercice7(largeurTriangle) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez la variable largeurTriangle qui contient la largeur du triangle à afficher
 
   // Décommentez le code de Tom ci-dessou
@@ -169,7 +169,7 @@ function exercice7(largeurTriangle) { // Ne supprimez/commentez pas cette ligne
 // Exercice 8
 function exercice8(prochainClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 
   // Décommentez le code de Tom ci-dessous
   // let poidsClient = prochainClient.mesurerPoids();

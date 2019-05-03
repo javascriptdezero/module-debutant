@@ -26,7 +26,7 @@ function maPremiereFonction() {
   console.log("Ma première fonction");
 }
 
-// <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+// <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 // Qu'est-ce que Tom a oublié de faire ? Rédigez le code manquant ci-dessous :
 
 
@@ -43,7 +43,7 @@ function maPremiereFonction() {
 let adresseMagiciensDuCode = `MagiciensDuCode
 42 avenue de l'accolade ouvrante
 1337 POINT-VIRGULE`;
-// <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+// <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 // Rédigez la fonction afficherTitre(titre) ci-dessous
 
 
@@ -60,7 +60,7 @@ console.log(adresseMagiciensDuCode);
 
 // Modifiez la fonction afficherNumeroClient pour que le format du numéro client soit toujours correct
 function afficherNumeroClient(numero) {
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   console.log("N° de client : " + numero);
   // <===== FIN DE VOTRE CODE CI-DESSUS =====>
 }
@@ -82,7 +82,7 @@ function afficherNumeroClient(numero) {
 // 2. Complétez la fonction afficherEntete() comme il faut ci-dessous
 function afficherEntete(numeroClient) {
   afficherTitre("Notre adresse");
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Ici vous pouvez accéder à toutes les fonctions déclarées dans les exercices précédents.
   // Vous avez également accès à la variable adresseMagiciensDuCode, profitez-en ;).
 

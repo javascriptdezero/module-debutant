@@ -42,7 +42,7 @@ let limitePoidsEnfant = 50;
 // Exercice 0
 function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez les variables ageDuClient, poidsDuClient, limiteAge, et
   // limitePoids pour construire vos conditions
 
@@ -62,7 +62,7 @@ function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 // Exercice 1
 function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez les variables ageDuClient, poidsDuClient, limiteAgeEnfant, et
   // limitePoidsEnfant pour construire vos conditions
 
@@ -79,7 +79,7 @@ function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 // Exercice 2
 function exercice2(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez les variables ageDuClient, poidsDuClient, limiteAgeEnfant, et
   // limitePoidsEnfant pour construire vos conditions
 
@@ -98,7 +98,7 @@ function exercice2(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 // Chassez le bogue ! 0
 function exercice3() { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 
   // Décommentez le code de Tom ci-dessous
   // let zero = 0;
@@ -117,7 +117,7 @@ function exercice3() { // Ne supprimez/commentez pas cette ligne
 // Chassez le bogue ! 1
 function exercice4() { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 
   // Décommentez le code de Tom ci-dessous
   // let reponse = 42;
@@ -137,7 +137,7 @@ function exercice4() { // Ne supprimez/commentez pas cette ligne
 // Chassez le bogue ! 2
 function exercice5() { // Ne supprimez/commentez pas cette ligne
 
-  // <===== VOTRE CODE ICI: Insérez/modifier le code à partir d'ici =====>
+  // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 
   // Décommentez le code de Tom ci-dessous
   // let reponse = 1337;
