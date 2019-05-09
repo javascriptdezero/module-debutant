@@ -519,6 +519,33 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [10:09](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=609s) Exercices sur le GitHub de la formation (lien ci-dessous)
     - [10:28](https://www.youtube.com/watch?v=yR9ei5XpIU0&t=628s) Des questions ? Mettez-les dans les commentaires !
 
+18. [Les fonctions en JavaScript (partie 3) [M0L17]](https://www.youtube.com/watch?v=aQDhZndDuos)
+    - [00:15](https://www.youtube.com/watch?v=aQDhZndDuos&t=15s) Présentation du code sans fonctions (sale)
+    - [00:40](https://www.youtube.com/watch?v=aQDhZndDuos&t=40s) Qu'est-ce que les nombres magiques ?
+    - [01:08](https://www.youtube.com/watch?v=aQDhZndDuos&t=68s) Objectif du code : afficher un ticket de caisse
+    - [01:30](https://www.youtube.com/watch?v=aQDhZndDuos&t=90s) Amélioration du code grâce aux fonctions
+    - [01:55](https://www.youtube.com/watch?v=aQDhZndDuos&t=115s) Configuration VSCode pour lancer le fichier ouvert (astuce $file)
+    - [02:50](https://www.youtube.com/watch?v=aQDhZndDuos&t=170s) Refactoring (remaniement) du code
+    - [03:10](https://www.youtube.com/watch?v=aQDhZndDuos&t=190s) Factorisation des titres : fonction ecrireTitre(titre)
+    - [03:54](https://www.youtube.com/watch?v=aQDhZndDuos&t=234s) Factorisation des articles : fonction ecrireArticle(nomArticle, prixHT)
+    - [04:40](https://www.youtube.com/watch?v=aQDhZndDuos&t=280s) Factorisation calcul de la TVA : fonction calculerTVA(prixHT)
+    - [05:53](https://www.youtube.com/watch?v=aQDhZndDuos&t=353s) Avantages de la factorisation : meilleure lisibilité
+    - [07:01](https://www.youtube.com/watch?v=aQDhZndDuos&t=421s) Faciliter la maintenance
+    - [07:15](https://www.youtube.com/watch?v=aQDhZndDuos&t=435s) Ças d'étude : modification des titres pour économiser de l'encre
+    - [08:58](https://www.youtube.com/watch?v=aQDhZndDuos&t=538s) Cas d'étude : changement de la valeur de la TVA
+    - [09:50](https://www.youtube.com/watch?v=aQDhZndDuos&t=590s) Faire du code propre : supprimer les nombres magiques
+    - [10:15](https://www.youtube.com/watch?v=aQDhZndDuos&t=615s) Création de variables pour les prix des articles
+    - [10:22](https://www.youtube.com/watch?v=aQDhZndDuos&t=622s) Astuce VSCode : command+D pour sélectionner la prochaine occurence
+    - [11:03](https://www.youtube.com/watch?v=aQDhZndDuos&t=663s) Le programme est déjà beaucoup plus lisible (récapitulatif)
+    - [11:23](https://www.youtube.com/watch?v=aQDhZndDuos&t=683s) Ajout d'espace vertical
+    - [11:55](https://www.youtube.com/watch?v=aQDhZndDuos&t=715s) Déléguer du code à une fonction
+    - [12:47](https://www.youtube.com/watch?v=aQDhZndDuos&t=767s) Explication avantages/inconvénients des deux façons de faire
+    - [14:58](https://www.youtube.com/watch?v=aQDhZndDuos&t=898s) Explications du code délégué dans chaque cas
+    - [15:47](https://www.youtube.com/watch?v=aQDhZndDuos&t=947s) Entraînez-vous !
+    - [16:08](https://www.youtube.com/watch?v=aQDhZndDuos&t=968s) Le code source est sur le GitHub de la formation (lien ci-dessous) !
+    - [16:30](https://www.youtube.com/watch?v=aQDhZndDuos&t=990s) Des questions ? Posez-les dans les commentaires !
+    - [16:38](https://www.youtube.com/watch?v=aQDhZndDuos&t=998s) Abonnez-vous à ma chaîne, merci :) !
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
