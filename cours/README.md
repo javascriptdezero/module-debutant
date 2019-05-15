@@ -546,6 +546,26 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [16:30](https://www.youtube.com/watch?v=aQDhZndDuos&t=990s) Des questions ? Posez-les dans les commentaires !
     - [16:38](https://www.youtube.com/watch?v=aQDhZndDuos&t=998s) Abonnez-vous à ma chaîne, merci :) !
 
+19. [Comment utiliser une fonction en JavaScript ? (Mini projet #4) [M0L18]](https://www.youtube.com/watch?v=a_AwdXrWVbI)
+    - [00:12](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=12s) Rappel du code du mini projet et limitations
+    - [00:25](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=25s) Objectif de la nouvelle fonction
+    - [00:44](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=44s) Déclaration de la fonction validerRdv()
+    - [01:04](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=64s) Suppression des anciennes variables inutiles
+    - [01:35](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=95s) Présentation de la fonction créée
+    - [01:43](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=103s) Appel de la fonction
+    - [01:55](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=115s) Astuce VSCode : info bulle pour voir l'ordre des paramètres de la fonction
+    - [02:30](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=150s) Exécution du code
+    - [02:40](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=160s) Vérification rapide de la cohérence du résultat
+    - [02:54](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=174s) Deuxième exemple
+    - [03:16](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=196s) Avantages d'utiliser cette fonction : la généricité
+    - [03:34](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=214s) Explication de la prochaine étape : créer une interface avec un site internet
+    - [04:04](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=244s) Test de la fonction avec du code (via une boucle)
+    - [04:30](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=270s) Exécution du test : tout fonctionne !
+    - [04:57](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=297s) Entraînez-vous !
+    - [05:05](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=305s) Quelques devoirs pour vous ;-)
+    - [05:28](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=328s) Des questions ? Mettez-les dans les commentaires !
+    - [05:35](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=335s) Partagez la vidéo, et abonnez-vous :) merci !
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
