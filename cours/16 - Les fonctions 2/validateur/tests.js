@@ -65,9 +65,9 @@ idExercice++;
 // Exercice 2
 ajouterReponse([
   "===[ Notre adresse ]===",
-  `MagiciensDuCode
-42 avenue de l'accolade ouvrante
-1337 POINT-VIRGULE`,
+  "MagiciensDuCode",
+  "42 avenue de l'accolade ouvrante",
+  "1337 POINT-VIRGULE",
   "",
   "===[ Destinataire ]===",
   "Tom REDOCEMIA",
@@ -121,6 +121,12 @@ switch (historiqueConsole.length) {
       while (nombreDeLignesManquantes--) {
         let valeur = historiqueConsole.shift();
         if (valeur !== undefined) {
+          // Si l'étudiant écrit plusieurs lignes d'un coup via \n ou les backticks
+          let lignesDistinctes = valeur.split("\n");
+          if (lignesDistinctes.length !== 1) {
+            // On retire d'autant le nombre de lignes manquantes
+            nombreDeLignesManquantes -= lignesDistinctes.length - 1;
+          }
           valeurConsole += valeur + '\n';
         }
       }
