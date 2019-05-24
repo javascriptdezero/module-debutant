@@ -110,6 +110,7 @@ Vous avez des questions sur le langage JavaScript ? Consultez la [Foire aux Ques
 J'envoie une newsletter chaque vendredi à tous les étudiants, vous pouvez les consulter ici (de la plus récente à la plus ancienne).
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [JavaScript de Zéro #37 — Coding Dojo : exercices JS en français depuis VSCode !](http://sh1.sendinblue.com/nxghc89fsc.html?t=1558684780)
 - [JavaScript de Zéro #36 — Avant-dernière vidéo du module débutant : mini projet 4](http://sh1.sendinblue.com/nx70089fsc.html?t=1558083011)
 - [JavaScript de Zéro #35 — 2 nouvelles vidéos sur les fonctions (partie 2 & 3)](http://sh1.sendinblue.com/nwxio89fsc.html?t=1557912127)
 - [JavaScript de Zéro #34 — Nouvelle vidéo sur les fonctions (partie 1)](http://sh1.sendinblue.com/nwo1c89fsc.html?t=1556876870)
