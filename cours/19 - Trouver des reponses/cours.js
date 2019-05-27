@@ -1,12 +1,9 @@
 /* Trouver des réponses sur Internet */
 
 // Résoudre un problème de syntaxe
-// function souhaiterLaBienvenue(prenom) {
-//   console.log("Bienvenue ' + prenom + " dans cette formation !");
-// }
-
-let maVariable = "bonjour";
-console.log(mavariable);
+function souhaiterLaBienvenue(prenom) {
+  console.log("Bienvenue ' + prenom + " dans cette formation !");
+}
 
 // Résoudre un problème fonctionnel
 // function estCeZero(chiffre) {
