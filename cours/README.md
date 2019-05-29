@@ -566,6 +566,47 @@ Utilisez la fonction recherche du navigateur pour trouver ce qui vous intéresse
     - [05:28](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=328s) Des questions ? Mettez-les dans les commentaires !
     - [05:35](https://www.youtube.com/watch?v=a_AwdXrWVbI&t=335s) Partagez la vidéo, et abonnez-vous :) merci !
 
+20. [Trouver des réponses à ses problèmes de programmation JavaScript [M0L19]](https://www.youtube.com/watch?v=ExT6dm0SAhY)
+    - [00:30](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=30s) Corriger une erreur de syntaxe : exemple
+    - [00:45](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=45s) Analyse d'un message d'erreur de l'interpréteur JavaScript
+    - [01:15](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=75s) Les messages d'erreur sont idiots : pourquoi ?
+    - [02:34](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=154s) Utiliser le MDN pour avoir des informations sur les messages d'erreurs JavaScript
+    - [03:15](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=195s) Une mine d'or pour débutants : la référence des erreurs JavaScript du MDN
+    - [04:17](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=257s) Corriger une erreur fonctionnelle : exemple
+    - [04:55](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=295s) Première méthode : utiliser le débogueur
+    - [05:45](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=345s) Explication du bogue
+    - [06:30](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=390s) Demander de l'aide sur un forum de discussion
+    - [06:40](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=400s) Le forum developpez.com
+    - [07:15](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=435s) Lisez les règles du forum et soyez respectueux
+    - [07:25](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=445s) Règles à respecter pour obtenir des réponses
+    - [08:31](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=511s) Comment faire quelque chose de particulier en JavaScript ?
+    - [08:33](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=513s) Exemple : comment récupérer la première lettre d'une chaîne de caractères ?
+    - [08:54](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=534s) Que taper dans le moteur de recherche ?
+    - [09:05](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=545s) Astuce pour filtrer les réponses par langage de programmation
+    - [09:55](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=595s) Une fois le nom d'une méthode trouvé, direction le MDN
+    - [10:29](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=629s) Si on ne trouve pas de doc en français, faites votre recherche en anglais
+    - [10:45](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=645s) Si vous ne parlez pas anglais, utilisez Google Translate
+    - [11:05](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=665s) Traduisez la page de résultats de recherche en français grâce à Chrome
+    - [11:30](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=690s) Premier lien sur stackoverflow
+    - [11:40](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=700s) StackOverflow.com : LA référence des forums de développeurs
+    - [11:55](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=715s) Comment bien utiliser stackoverflow ?
+    - [12:20](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=740s) Le système d'upvotes (votes positifs)
+    - [12:45](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=765s) Rendez-vous service, apprenez à lire l'anglais
+    - [13:29](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=809s) Le système de commentaires (avec son propre système d'upvotes)
+    - [14:19](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=859s) La réponse acceptée par l'auteur de la question
+    - [14:43](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=883s) Intérêt des commentaires dans StackOverflow : apporter des précisions ou pointer des problèmes avec la solution apportée
+    - [15:45](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=945s) Regardez toujours les messages juste en dessous de la réponse acceptée !
+    - [16:57](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1017s) Approfondir un concept via le MDN
+    - [17:15](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1035s) Exemple avec les chaînes de caractères
+    - [17:35](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1055s) Astuce : utiliser le mot anglais pour chercher dans la doc
+    - [17:55](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1075s) La liste des méthodes pour manipuler les chaînes de caractères
+    - [18:05](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1085s) Conseil pour tous les débutants : connaissez vos méthodes (au moins le résumé de ce qu'elles font !)
+    - [19:33](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1173s) Signification des crochets dans la syntaxe de la documentation
+    - [20:00](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1200s) Signification des points de suspension dans la syntaxe de la documentation
+    - [20:16](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1216s) Une ressource en français pour apprendre le JavaScript seul
+    - [20:43](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1243s) Le module débutant est terminé !
+    - [21:10](https://www.youtube.com/watch?v=ExT6dm0SAhY&t=1270s) Présentation en 2 mots du module intermédiaire
+
 ## En savoir plus sur les exercices
 
 ### Comment faire les exercices ?
