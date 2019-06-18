@@ -111,6 +111,7 @@ J'envoie une newsletter chaque vendredi à tous les étudiants pour leur indique
 
 Vous pouvez vous inscrire à cette newsletter gratuitement sur [www.javascriptdezero.com](https://www.javascriptdezero.com).
 
+- [Premier épisode du Coding Dojo + Rappel migration nouvelle plateforme Podia](http://sh1.sendinblue.com/nzauo89fsc.html?t=1559974785)
 - [Votre accès à la plateforme de formation JavaScript de Zéro](http://sh1.sendinblue.com/ny8xc89fsc.html?t=1559816022)
 - [JavaScript de Zéro #38 — Dernière vidéo module débutant + Nouvelle plateforme de formation !](http://sh1.sendinblue.com/nxpyo89fsc.html?t=1559816022)
 - [JavaScript de Zéro #37 — Coding Dojo : exercices JS en français depuis VSCode !](http://sh1.sendinblue.com/nxghc89fsc.html?t=1558684780)
