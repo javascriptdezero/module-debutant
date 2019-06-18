@@ -699,7 +699,7 @@ Vous devrez alors vous entraîner à consulter la documentation pour trouver com
 
 ### Chassez les bogues !
 
-L'objectif de ce type d'exercice est de trouver et corriger le ou les bugs d'un programme informatique.
+L'objectif de ce type d'exercice est de trouver et corriger le ou les bogues d'un programme informatique.
 
 Là aussi il s'agit d'entraîner votre logique et votre capacité de lecture et d'analyse d'un programme informatique écrit par autrui. Une compétence indispensable pour devenir développeur et contribuer à des projets déjà existants.
 
