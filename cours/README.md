@@ -631,7 +631,7 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
    4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix (par exemple **Documents**), puis validez.
    5. Une fois le téléchargement effectué vous aurez un nouveau répertoire **Documents/module-debutant**. Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
       ![capture d'écran ouvrir le dépot](../images/ouvrir-depot.jpg)
-   6. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **Documents/module-debutant**. Sélectionnez bien le répertoire **module-parent** et pas **Documents** avant de cliquer sur `Ouvrir`.
+   6. Si vous ne voyez pas la popup de l'étape précédente, utilisez le menu **Fichier > Ouvrir** puis sélectionnez le répertoire **Documents/module-debutant**. Sélectionnez bien le répertoire **module-debutant** et pas **Documents** avant de cliquer sur `Ouvrir`.
 6. Dans ce nouveau projet, cliquez sur le répertoire **cours** puis sur le cours de votre choix par exemple **05 - Les chaines de caractères**.
    ![capture d'écran ouvrir le cours](../images/go-live.jpg)
 7. Sélectionnez le fichier **exercices.html** (ou un des fichiers se terminant par **.html**).
