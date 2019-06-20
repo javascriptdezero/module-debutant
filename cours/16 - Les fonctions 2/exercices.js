@@ -39,9 +39,7 @@ function afficherTitre(titre) {
 // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
 // Rédigez la fonction afficherAdresseClient ci-dessous
 function afficherAdresseClient(nom, numeroRue, nomRue, codePostal, ville) {
-  // console.log(nom);
-  // console.log(numeroRue + " " + nomRue);
-  // console.log(codePostal + " " + ville);
+
 }
 // <===== FIN DE VOTRE CODE CI-DESSUS =====>
 
