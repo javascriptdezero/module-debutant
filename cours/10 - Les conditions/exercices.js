@@ -80,8 +80,8 @@ function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 function exercice2(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les variables ageDuClient, poidsDuClient, limiteAgeEnfant, et
-  // limitePoidsEnfant pour construire vos conditions
+  // Utilisez les variables ageDuClient, poidsDuClient, limiteAge, et
+  // limitePoids pour construire vos conditions
 
   // Décommentez le code de Tom ci-dessous
   // console.log("Bienvenue dans le manège !");
