@@ -75,7 +75,11 @@ Faites-moi confiance, vous en aurez pour plusieurs mois d'études avec HTML, CSS
 2. [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes)
 3. [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur)
 4. [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web)
-5. 🇬🇧 Pour ceux qui parlent Anglais, je vous conseille [freeCodeCamp](https://www.freecodecamp.org/), [The Odin Project](https://www.theodinproject.com/) et [javascript.info](http://javascript.info/) qui sont d'excellentes ressources pour apprendre le métier de développeur web.
+5. 🇬🇧 D'excellentes ressources en anglais :
+    1. [webgems.io](https://www.webgems.io) (annuaire regroupant le meilleur du meilleur)
+    2. [freeCodeCamp](https://www.freecodecamp.org/)
+    3. [The Odin Project](https://www.theodinproject.com/)
+    4. [javascript.info](http://javascript.info/)
 
 ### Combien de temps pour devenir développeur ?
 
