@@ -37,4 +37,4 @@
 // Chassez le bogue 0
 // 1. Retirez les commentaires devant le code de Tom
 // 2. En utilisant uniquement des parenthèses, corrigez le bogue !
-// console.log(150 > 120 || 16 > 15 && 95 < 90);
+// console.log(150 >= 120 || 16 > 15 && 95 < 90);
