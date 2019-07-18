@@ -50,8 +50,8 @@ let adresseMagiciensDuCode = `MagiciensDuCode
 // <===== FIN DE VOTRE CODE CI-DESSUS =====>
 
 // Voici le code de départ de Tom, décommentez-le.
-afficherTitre("Notre adresse");
-console.log(adresseMagiciensDuCode);
+// afficherTitre("Notre adresse");
+// console.log(adresseMagiciensDuCode);
 
 // Exercice 2
 // Pour faire cet exercice :
