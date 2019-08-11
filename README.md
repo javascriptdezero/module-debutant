@@ -77,9 +77,10 @@ Faites-moi confiance, vous en aurez pour plusieurs mois d'études avec HTML, CSS
 4. [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web)
 5. 🇬🇧 D'excellentes ressources en anglais :
     1. [webgems.io](https://www.webgems.io) (annuaire regroupant le meilleur du meilleur)
-    2. [freeCodeCamp](https://www.freecodecamp.org/)
-    3. [The Odin Project](https://www.theodinproject.com/)
-    4. [javascript.info](http://javascript.info/)
+    2. [internetingishard](https://internetingishard.com)
+    3. [freeCodeCamp](https://www.freecodecamp.org/)
+    4. [The Odin Project](https://www.theodinproject.com/)
+    5. [javascript.info](http://javascript.info/)
 
 ### Combien de temps pour devenir développeur ?
 
