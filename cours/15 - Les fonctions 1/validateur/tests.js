@@ -95,7 +95,6 @@ switch (historiqueConsole.length) {
       while (nombreDeLignesManquantes--) {
         let valeur = historiqueConsole.shift();
         if (valeur !== undefined) {
-          debugger;
           // Si l'étudiant écrit plusieurs lignes d'un coup via \n ou les backticks
           let lignesDistinctes = valeur.split("\n");
           if (lignesDistinctes.length !== 1) {
