@@ -643,7 +643,7 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 ![capture d'écran correction des exercices](../images/correction-exercices.jpg)
 12. Pour faire les exercices d'un autre cours, il suffit de recommencer à l'étape 6 en sélectionnant le cours de votre choix.
 13. Comme je mets à jour régulièrement les exercices, pensez à lire la section [mettre à jour le dépôt Git de la formation](#Mettre-à-jour-le-dépôt-Git-de-la-formation).
-14. Pour toute question, merci de me contacter via [Slack](https://javascriptdezero.slack.com).
+14. Pour toute question, merci de me contacter par email sur jeremy@javascriptdezero.com.
 
 ### Mettre à jour le dépôt Git de la formation
 
@@ -713,7 +713,7 @@ Voici quelques conseils pour résoudre les exercices :
 - Résolvez les exercices dans l'ordre. La difficulté est croissante et certains exercices utilisent le précédent comme base de solution
 - Utilisez le débogueur pour vous aider à comprendre le fonctionnement du programme rapidement
 - Si vous bloquez sur un exercice, prenez une pause comme je l'explique dans la section ["Sortir d'une situation bloquante" sur cette vidéo](https://www.youtube.com/watch?v=LtsubKU8dzA&t=298s).
-- Si vous bloquez toujours, venez demander des indices sur le [Slack de la formation](https://javascriptdezero.slack.com)
+- Si vous bloquez toujours, demandez-moi des indices par email à jeremy@javascriptdezero.com.
 
 ### Contributions
 

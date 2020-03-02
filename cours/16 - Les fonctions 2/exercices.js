@@ -3,7 +3,7 @@
  * Vous devez faire les exercices dans l'ordre !
  *
  * Si vous rencontrez un bogue, contactez-moi par email à l'adresse
- * jeremy@javascriptdezero.com ou via slack : https://javascriptdezero.slack.com.
+ * jeremy@javascriptdezero.com.
  *
  * Merci et bon courage ! 🤘
  */
