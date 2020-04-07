@@ -51,7 +51,7 @@ function quitterSurErreur(messageErreur) {
   console.log(messageErreur + "\n");
   console.log(`${titre("Que faire ?")}
 S'il vous plaît contactez-moi ! Je suis là pour ça !
-Merci de me transmettre tout le texte ci-dessus via Slack (https://javascriptdezero.slack.com) ou par email sur jeremy@javascriptdezero.com pour que je puisse vous aider.
+Merci de me transmettre tout le texte ci-dessus par email sur jeremy@javascriptdezero.com pour que je puisse vous aider.
 Je compte sur vous ! Merci beaucoup.`);
   process.exit(1);
 }
@@ -204,4 +204,4 @@ if (listeFichiersASauvegarder.length > 0) {
 }
 
 console.log(titre("des questions ?"));
-console.log("Contactez-moi sur Slack (https://javascriptdezero.slack.com) ou par email à jeremy@javascriptdezero.com.");
+console.log("Contactez-moi par email à jeremy@javascriptdezero.com.");
