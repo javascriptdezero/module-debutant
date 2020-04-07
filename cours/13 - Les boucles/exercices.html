@@ -49,15 +49,14 @@
 
       <p>La société <strong>SensationsGaranties</strong> vient de sortir un nouveau manège nommé <strong>Vibrations</strong>.</p>
 
-      <p>Le sol de ce manège vibre rapidement. Pour ne pas trop solliciter la mécanique sous le manège, le poids total des clients sur celui-ci doit toujours être inférieur ou égal à <code>500 kg</code>.</p>
+      <p>Le sol de ce manège vibre rapidement. Pour ne pas trop solliciter la mécanique sous le manège, on ne fait pas monter trop de clients à la fois lors d'un tour.</p>
 
-      <p>Des balances sont placées dans la file d'attente du manège pour mesurer le poids de chaque client. Pour récupérer le poids de chacun des clients, il faut utiliser l'instruction <code>prochainClient.mesurerPoids()</code>.</p>
-
-      <p>La 1<sup>ère</sup> fois que vous utilisez <code>prochainClient.mesurerPoids()</code> sa valeur est égale au poids du 1<sup>er</sup> client dans la file d'attente. La 2<sup>ème</sup> fois que vous utilisez <code>prochainClient.mesurerPoids()</code>, sa valeur est égale au poids du 2<sup>ème</sup> client dans la file d'attente etc.</p>
+      <p>Une balance est placée au début de la file d'attente du manège pour mesurer le poids du prochain client qui doit monter sur le manège.</p>
+      <p>Pour obtenir le poids de ce client, il faut utiliser l'instruction <code>prochainClient.mesurerPoids()</code> qui va renvoyer le poids sous la forme d'un nombre : par exemple elle va renvoyer la valeur <code>42</code> pour un client qui pèse 42 kg.</p>
 
       <p>Évidemment c'est Tom qui s'y colle une fois de plus !</p>
       
-      <p>Dans un premier temps, il veut déjà vérifier que les balances fonctionnent bien et décide d'afficher le poids du tout premier client en indiquant l'unité <code>kg</code> sous la forme <code>42 kg</code> par exemple.</p>
+      <p>Dans un premier temps, il veut déjà vérifier que la balance fonctionne bien et décide d'afficher le poids du premier client sous la forme <code>42 kg</code>, en rajoutant donc l'unité <code>kg</code> après la valeur du poids du client.</p>
 
       <p>Il a déjà rédigé du code, aidez-le à le finir !</p>
 
@@ -68,7 +67,12 @@
     <div class="enonce" id="enonce-1">
       <h2>Exercice 1</h2>
 
-      <p>Toujours dans le but de vérifier que tout fonctionne bien avec les balances et <code>prochainClient.mesurerPoids()</code>, Tom décide d'utiliser 2 fois de suite cette instruction pour obtenir le poids du 1<sup>er</sup> et du 2<sup>ème</sup> client de la file d'attente.</p>
+      <p>Pour améliorer l'expérience utilisateur, chaque client ne se fait peser qu'une seule fois.</p>
+
+      <p>Par conséquent, la 1<sup>ère</sup> fois que vous utilisez l'instruction <code>prochainClient.mesurerPoids()</code> sa valeur est égale au poids du 1<sup>er</sup> client de la file d'attente.</p>
+      <p>La 2<sup>ème</sup> fois que vous utilisez <code>prochainClient.mesurerPoids()</code>, sa valeur est égale au poids du 2<sup>ème</sup> client de la file d'attente etc.</p>
+
+      <p>Toujours dans le but de vérifier que tout fonctionne bien avec la balance et l'instruction <code>prochainClient.mesurerPoids()</code>, Tom décide d'utiliser 2 fois de suite cette instruction pour afficher le poids du 1<sup>er</sup> et du 2<sup>ème</sup> client de la file d'attente.</p>
 
       <p>Aidez-le à terminer son code.</p>
 
@@ -78,11 +82,12 @@
     <div class="enonce" id="enonce-2">
       <h2>Exercice 2</h2>
 
-      <p>Super ! À priori tout fonctionne bien avec le système des balances.</p>
+      <p>Super ! À priori tout fonctionne bien avec la balance.</p>
       
-      <p>Lorsqu'il n'y a plus de clients dans la file d'attente, la balance renvoie la valeur <code>0</code>.</p>
+      <p>Lorsqu'il n'y a plus de clients dans la file d'attente et qu'on utilise l'instruction <code>prochainClient.mesurerPoids()</code>, celle-ci renvoie la valeur <code>0</code>.</p>
       
-      <p>Tom va donc maintenant passer à la dernière étape de ses tests. Il va lire et afficher les poids de tous les clients dans la file d'attente. C'est-à-dire jusqu'à ce que <code>prochainClient.mesurerPoids()</code> retourne la valeur <code>0</code>.</p>
+      <p>Tom va donc maintenant passer à la dernière étape de ses tests. Il veut afficher les poids de tous les clients dans la file d'attente.</p>
+      <p>Autrement dit, il veut afficher les poids de tous les clients jusqu'à ce que <code>prochainClient.mesurerPoids()</code> retourne la valeur <code>0</code>.</p>
 
       <p>Pour ça, il est sûr qu'il faut utiliser une boucle <code>while</code> mais il a du mal à savoir quoi mettre comme condition de boucle et comme instructions à l'intérieur, il vous demande de l'aide.</p>
 
@@ -93,10 +98,20 @@
 
     <div class="enonce" id="enonce-3">
       <h2>Exercice 3</h2>
+
+      <p>Toujours dans le but d'améliorer l'expérience utilisateur, on a placé un écran à l'entrée du chemin de la file d'attente qui doit indiquer combien de temps il faudra patienter avant de passer sur le manège.</p>
+
+      <p>Ça permet aux visiteurs de savoir en gros combien de temps ils vont devoir attendre avant de passer sur le manège et de prendre la décision de s'engager dans la file d'attente ou pas.</p>
+
+      <p>En fonction de la longueur actuelle de la file d'attente, un prestataire de service externe estime le nombre de tours à patienter avant que le dernier client de la file d'attente passe enfin sur le manège.</p>
       
-      <p>Chaque tour de manège dure <code>12 minutes</code>. Tom récupère le nombre de tours restants selon la file d'attente dans une variable <code>nombreDeTours</code>.</p>
+      <p>Ce prestataire envoie à Tom le nombre de tours restants à effectuer. Par exemple <code>6</code>.</p>
+
+      <p>Chaque tour de manège dure <code>12 minutes</code>.
+        
+      <p>Tom récupère le nombre de tours restants à effectuer dans une variable <code>nombreDeTours</code>.</p>
       
-      <p>Tom doit afficher le temps d'attente correspondant au nombre de tours au format <code>01h42</code> : 2 chiffres pour les heures et 2 chiffres pour les minutes.</p>
+      <p>À partir de ces informations il doit afficher le temps d'attente sur l'écran au format <code>01h42</code> : 2 chiffres pour les heures et 2 chiffres pour les minutes.</p>
 
       <p>Aidez Tom a finir son code.</p>
 
@@ -185,17 +200,20 @@
 
       <p>Place aux choses sérieuses maintenant !</p>
 
-      <p>Tom se demande comment est calculé le nombre de tours qu'il faudra pour faire passer toute la file d'attente actuelle. Il se pose le challenge de coder un programme pour le calculer.</p>
+      <p>Tom se demande comment le prestataire externe estime combien de tours il reste à faire avant que le dernier client puisse monter dans le manège. Il se pose le challenge de coder un programme pour le calculer.</p>
 
-      <p>Comme indiqué précédemment, la somme des poids des clients à chaque tour doit être inférieure ou égale à <code>500 kg</code>.</p>
+      <p>À chaque tour, plusieurs clients peuvent monter sur le manège.</p>
+
+      <p>Comme indiqué dans les spécifications du manège, la somme des poids des clients à chaque tour doit être inférieure ou égale à <code>500 kg</code> pour éviter de trop solliciter la mécanique vibrante de celui-ci.</p>
       
       <p>On peut donc faire rentrer des nouveaux clients sur le manège tant qu'on ne dépasse pas cette valeur de <code>500 kg</code>. Mais si le poids du prochain client fait dépasser les <code>500 kg</code>, ce client doit attendre le prochain tour pour passer.</p>
 
-      <p>Exemple avec cette file d'attente : 80, 92, 102, 76, 120, 88, 95, 45, 98, 107, 96. Ici on affichera <code>3 tours</code>.</p>
+      <p>Exemple avec cette file d'attente : 80, 92, 102, 76, 120, 88, 95, 45, 98, 107, 96. On devra attendre <code>3 tours</code>.</p>
         
       <p>Explications : un premier tour avec les clients 80, 92, 102, 76, 120 (total 470 kg, si on ajoutait le client d'après de 88 kg, on dépasserait les 500 kg donc il attend le prochain tour). Deuxième tour avec 88, 95, 45, 98, 107 (total 433 kg). Et un dernier tour avec le dernier client de 96 kg.</p>
 
-      <p>L'objectif est d'afficher sous la forme <code>5 tours</code> le nombre de tours total pour faire passer tous les clients déjà présents dans la file d'attente. Notez qu'il faudra afficher <code>0 tour</code> et <code>1 tour</code> (sans le s final à tour !).</p>
+      <p>L'objectif de Tom est d'afficher sous la forme <code>5 tours</code> le nombre de tours total pour faire passer tous les clients déjà présents dans la file d'attente.</p>
+      <p>Notez qu'il faudra afficher <code>0 tour</code> et <code>1 tour</code> (sans le s final à tour !).</p>
 
       <p class="attention">Cet exercice est difficile, prenez votre temps, ne vous découragez pas !</p>
 
