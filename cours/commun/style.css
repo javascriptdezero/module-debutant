@@ -10,6 +10,7 @@
   --vert: #9ceb60;
   --vert-tres-fonce: #265700;
   --bleu: #80ddff;
+  --bleu-fonce: #0077ff;
   --rouge: #ff866e;
   --rouge-transparent: #ff866e;
   --rouge-clair: #ffb59e;
@@ -299,4 +300,8 @@ p.code {
   padding: var(--dim-base);
   border-radius: var(--dim-base);
   margin-top: 0;
+}
+
+.attention a {
+  color: var(--bleu-fonce);
 }
