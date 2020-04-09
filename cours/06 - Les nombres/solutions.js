@@ -13,7 +13,7 @@ console.log((1337 + 256) * 2);
 // Exercice 3
 console.log((1337 + 256) * 1.5 + 500);
 // Exercice 4
-console.log(((17 - -5) / 2) * 3);
+console.log(((35 - 23) / 2) * 3);
 
 // Chassez le bogue 0
 // Retirez les commentaires devant le code de Tom pour commencer

@@ -15,7 +15,7 @@ const reponsesEnonces = [
   13,
   3186,
   2889.5,
-  33,
+  18,
   3068,
   `Montant récolté auprès des 5 investisseurs : 5 x 470 = 2350 €
 Montant récolté auprès de 10 amis : 10 x 100 = 1000 €
