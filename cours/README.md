@@ -626,7 +626,12 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
       ![capture d'écran git clone](../images/git-clone.jpg)
    2. Si une erreur apparaît en bas à droite après avoir appuyé sur ENTRÉE il faut [installer Git](#installer-git) avant de continuer. Une fois que c'est fait suivez les instructions suivantes.
       ![erreur git non trouvé](../images/git-clone-erreur.jpg)
-   3. Copier-collez le lien du dépôt GitHub de la formation et validez : https://github.com/javascriptdezero/module-debutant.git (attention à ne pas insérer d'espace en trop à la fin du lien !)
+   3. Copier-collez le lien suivant du dépôt GitHub de la formation et validez  (attention à ne pas insérer d'espace en trop à la fin du lien !) : 
+   
+      https://github.com/javascriptdezero/module-debutant.git
+
+      Voici une capture d'écran de ce que vous devez obtenir dans VSCode :
+
       ![capture d'écran dépôt github](../images/depot-git.jpg)
    4. Visual Studio Code va vous demander dans quel répertoire vous voulez télécharger le dépôt GitHub de la formation. Sélectionnez le répertoire de votre choix (par exemple **Documents**), puis validez.
    5. Une fois le téléchargement effectué vous aurez un nouveau répertoire **Documents/module-debutant**. Visual Studio Code va vous demander dans une popup en bas à droite si vous voulez ouvrir le dépôt cloné : cliquez sur le bouton **Ouvrir le dépôt**.
