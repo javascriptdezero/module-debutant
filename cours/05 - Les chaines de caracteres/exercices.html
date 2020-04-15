@@ -1,164 +1,227 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Les chaînes de caractères - Exercices</title>
-    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
-    <link rel="icon" type="image/png" href="../../images/favicon-64px.png"/>
-  </head>
 
-  <body>
-    <h1>Les chaînes de caractères</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Les chaînes de caractères - Exercices</title>
+  <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  <link rel="icon" type="image/png" href="../../images/favicon-64px.png" />
+</head>
+
+<body>
+  <h1>Les chaînes de caractères</h1>
+  <p>
+    Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
+  </p>
+
+  <h2>En cas de problèmes techniques</h2>
+  <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
+  Lisez leur solution au moins une fois avant de commencer les exercices.</p>
+  <ul>
+    <li><p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est qu'il y
+      a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur et corrigez l'erreur.</p>
+      <details>
+        <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
+        <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le menu (les 3
+          petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
+          développement.</p>
+        <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien allez dans le
+          menu Afficher > Options pour les développeurs > Console JavaScript.</p>
+        <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
+          noté sur la droite au numéro de ligne indiqué :<br><br>
+          <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur" style="width: 100%">
+        </p>
+      </details>
+    </li>
+    <li>
+      <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment : c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code et relancez tout le site web.</p>
+      <details>
+        <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
+        <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment :<br /><br /><img
+            src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
+        <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
+        <p class="code">
+          let poidsClient = prochainClient.mesurerPoids();<br><br>
+
+          while (poidsClient !== 0) {<br>
+          &nbsp;&nbsp;console.log(poidsClient);<br>
+          }
+        </p>
+        <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
+          toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle, par
+          conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
+        <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
+        <ol>
+          <li>Corrigez le code de la boucle infinie dans VSCode</li>
+          <li>Fermez l'onglet où la boucle infinie s'est produite (celui où l'icône tourne indéfiniment). S'il ne se ferme pas quand vous cliquez sur la croix, allez dans le menu de Chrome > Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.</li>
+          <li>Dans VSCode, désactivez le serveur web en cliquant sur <code>🚫 Port : 5500</code> dans la barre bleue
+            tout en bas</li>
+          <li>Relancez à nouveau le serveur web en ouvrant le fichier <code>exercices.html</code> et en cliquant sur le
+            bouton <code>Go Live</code> en bas dans la barre bleue. Vous pouvez également faire un clic droit sur
+            <code>exercices.html</code> dans la liste des fichiers à gauche et cliquer sur
+            <code>Open with Live Server</code> si le bouton <code>Go Live</code> n'était pas présent dans la barre bleue en bas.</li>
+        </ol>
+        <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
+        <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
+          automatique.</p>
+        <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+          style="width: 100%">
+        <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
+          sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
+          votre code actuel génère une boucle infinie, Chrome va planter !</p>
+        <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
+          votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
+          avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que votre code fonctionne.</p>
+      </details>
+    </li>
+    <li>
+      <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557">dans cette vidéo</a>.</p>
+    </li>
+    <li><p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p></li>
+  </ul>
+
+  <h2>Documentation</h2>
+  <ul>
+    <li>
+      <a class="mdn" href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String"
+        target="_blank">Consulter la doc MDN sur les chaînes de caractères</a>
+    </li>
+  </ul>
+
+  <h2>Objectifs</h2>
+  <ul>
+    <li>Utiliser l'instruction <code>console.log()</code> pour afficher des chaînes de caractères.</li>
+    <li>Échapper des caractères avec <code>\</code>.</li>
+    <li>Concaténer plusieurs chaînes de caractères avec l'opérateur <code>+</code>.</li>
+    <li>Utiliser les littéraux de gabarit <code>``</code> pour construire des chaînes de caractères.</li>
+  </ul>
+
+  <div class="enonce" id="enonce-0">
+    <h2>Exercice 0</h2>
+
+    <p>Affichez la phrase <code>JavaScript est facile</code>.</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-1">
+    <h2>Exercice 1</h2>
+
+    <p>Affichez la phrase <code>JavaScript c'est facile</code>.</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-2">
+    <h2>Exercice 2</h2>
+
+    <p>Affichez la phrase <code>C'est Lao Tseu qui a dit : "L'échec est le fondement de la réussite"</code>.</p>
+    <p class="attention">Pensez à inclure les guillements simples et doubles !</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-3">
+    <h2>Exercice 3</h2>
+
+    <p>Affichez la phrase <code>Afficher un \ n'est pas si évident</code>.</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-4">
+    <h2>Exercice 4</h2>
+
     <p>
-      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.<br />
-      N'oubliez pas d'ouvrir la console développeur de Chrome pour voir vos erreurs JavaScript.
+      Affichez les phrases suivantes en utilisant <strong>une seule</strong> instruction <code>console.log()</code> :
+    </p>
+    <p class="code">
+      Ceci est la première ligne<br />
+      Ceci est la deuxième ligne
+    </p>
+    <p class="attention">
+      Insérez le caractère <code>nouvelle ligne</code> au bon endroit dans votre chaîne en utilisant <code>\</code>.
+    </p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-5">
+    <h2>Exercice 5</h2>
+
+    <p>
+      Affichez le poème suivant en utilisant <strong>une seule</strong> instruction <code>console.log()</code> grâce
+      aux littéraux de gabarit <code>``</code> :
+    </p>
+    <p class="code">
+      Un jour le JavaScript n'aura plus de secrets pour moi<br />
+      Lire du code ne sera plus une gageure mais une joie<br />
+      Mes doigts seront habitués à tous ces symboles particuliers<br />
+      Et ma créativité de développeur pourra enfin s'exprimer
+    </p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce bogue" id="enonce-6">
+    <h2>Chassez le bogue ! 0</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+    <p>
+      Tom vient juste de se faire embaucher dans la société <strong>MagiciensDuCode</strong> en tant que développeur
+      JavaScript junior.
     </p>
     <p>
-      <a
-        class="mdn"
-        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String"
-        target="_blank"
-        >Consulter la doc MDN sur les chaînes de caractères</a
-      >
+      Aujourd'hui, son patron Hugo vient le voir car il prépare une grosse campagne marketing. Il a besoin d'envoyer
+      une lettre personnalisée à chaque client qui commence comme ça :
+    </p>
+    <p class="code">Bonjour &lt;prénom du client&gt;, aujourd'hui nous faisons une promo "la fidélité paye" !</p>
+    <p class="clearboth">
+      Tom doit écrire une chaîne de caractère qui permet d'écrire cette phrase pour chaque client. Pour l'instant il
+      essaye de faire fonctionner son code avec le prénom "Bob".
+    </p>
+    <p>Malheureusement son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce bogue" id="enonce-7">
+    <h2>Chassez le bogue ! 1</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+    <p>
+      Hugo vient voir Tom pour lui demander de formater un peu le début de sa lettre car on ne plaisante pas avec le
+      marketing chez <strong>MagiciensDuCode</strong>.
+    </p>
+    <p>Il aimerait qu'elle ressemble plutôt à ça :</p>
+    <p class="code">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bonjour &lt;prénom du client&gt;,<br /><br />Aujourd'hui nous
+      faisons une promo "la fidélité paye" !
     </p>
 
-    <div class="objectifs">
-      <h2>Objectifs</h2>
-      <ul>
-        <li>Utiliser l'instruction <code>console.log()</code> pour afficher des chaînes de caractères.</li>
-        <li>Échapper des caractères avec <code>\</code>.</li>
-        <li>Concaténer plusieurs chaînes de caractères avec l'opérateur <code>+</code>.</li>
-        <li>Utiliser les littéraux de gabarit <code>``</code> pour construire des chaînes de caractères.</li>
-      </ul>
-    </div>
+    <p class="clearboth">
+      La première ligne contient 2 caractères <code>tabulation</code> juste avant le <code>Bonjour</code>. Tom a
+      cherché un peu
+      <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String">dans la doc</a>
+      et commencé à rédiger du code.
+    </p>
+    <p>Malheureusement son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
+    <p class="attention">Veillez à utiliser des caractères <code>tabulation</code> et pas des espaces !</p>
+    <br />
+    <div class="message"></div>
+  </div>
 
-    <div class="enonce" id="enonce-0">
-      <h2>Exercice 0</h2>
+  <footer>
+    Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+    <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+  </footer>
 
-      <p>Affichez la phrase <code>JavaScript est facile</code>.</p>
+  <script src="../commun/mes-outils.js"></script>
+  <script src="validateur/reponses.js"></script>
+  <script src="../commun/init.js"></script>
+  <script src="exercices.js"></script>
+  <script src="../commun/validateur.js"></script>
+</body>
 
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce" id="enonce-1">
-      <h2>Exercice 1</h2>
-
-      <p>Affichez la phrase <code>JavaScript c'est facile</code>.</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce" id="enonce-2">
-      <h2>Exercice 2</h2>
-
-      <p>Affichez la phrase <code>C'est Lao Tseu qui a dit : "L'échec est le fondement de la réussite"</code>.</p>
-      <p class="attention">Pensez à inclure les guillements simples et doubles !</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce" id="enonce-3">
-      <h2>Exercice 3</h2>
-
-      <p>Affichez la phrase <code>Afficher un \ n'est pas si évident</code>.</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce" id="enonce-4">
-      <h2>Exercice 4</h2>
-
-      <p>
-        Affichez les phrases suivantes en utilisant <strong>une seule</strong> instruction <code>console.log()</code> :
-      </p>
-      <p class="code">
-        Ceci est la première ligne<br />
-        Ceci est la deuxième ligne
-      </p>
-      <p class="attention">
-        Insérez le caractère <code>nouvelle ligne</code> au bon endroit dans votre chaîne en utilisant <code>\</code>.
-      </p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce" id="enonce-5">
-      <h2>Exercice 5</h2>
-
-      <p>
-        Affichez le poème suivant en utilisant <strong>une seule</strong> instruction <code>console.log()</code> grâce
-        aux littéraux de gabarit <code>``</code> :
-      </p>
-      <p class="code">
-        Un jour le JavaScript n'aura plus de secrets pour moi<br />
-        Lire du code ne sera plus une gageure mais une joie<br />
-        Mes doigts seront habitués à tous ces symboles particuliers<br />
-        Et ma créativité de développeur pourra enfin s'exprimer
-      </p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-6">
-      <h2>Chassez le bogue ! 0</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>
-        Tom vient juste de se faire embaucher dans la société <strong>MagiciensDuCode</strong> en tant que développeur
-        JavaScript junior.
-      </p>
-      <p>
-        Aujourd'hui, son patron Hugo vient le voir car il prépare une grosse campagne marketing. Il a besoin d'envoyer
-        une lettre personnalisée à chaque client qui commence comme ça :
-      </p>
-      <p class="code">Bonjour &lt;prénom du client&gt;, aujourd'hui nous faisons une promo "la fidélité paye" !</p>
-      <p class="clearboth">
-        Tom doit écrire une chaîne de caractère qui permet d'écrire cette phrase pour chaque client. Pour l'instant il
-        essaye de faire fonctionner son code avec le prénom "Bob".
-      </p>
-      <p>Malheureusement son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-7">
-      <h2>Chassez le bogue ! 1</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>
-        Hugo vient voir Tom pour lui demander de formater un peu le début de sa lettre car on ne plaisante pas avec le
-        marketing chez <strong>MagiciensDuCode</strong>.
-      </p>
-      <p>Il aimerait qu'elle ressemble plutôt à ça :</p>
-      <p class="code">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bonjour &lt;prénom du client&gt;,<br /><br />Aujourd'hui nous
-        faisons une promo "la fidélité paye" !
-      </p>
-
-      <p class="clearboth">
-        La première ligne contient 2 caractères <code>tabulation</code> juste avant le <code>Bonjour</code>. Tom a
-        cherché un peu
-        <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/String">dans la doc</a>
-        et commencé à rédiger du code.
-      </p>
-      <p>Malheureusement son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
-      <p class="attention">Veillez à utiliser des caractères <code>tabulation</code> et pas des espaces !</p>
-      <br />
-      <div class="message"></div>
-    </div>
-
-    <p>D'autres exercices arrivent bientôt... patience !</p>
-
-    <footer>
-      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
-      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
-    </footer>
-
-    <script src="../commun/mes-outils.js"></script>
-    <script src="validateur/reponses.js"></script>
-    <script src="../commun/init.js"></script>
-    <script src="exercices.js"></script>
-    <script src="../commun/validateur.js"></script>
-  </body>
 </html>

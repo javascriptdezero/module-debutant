@@ -63,8 +63,18 @@ h1 {
   border-bottom: solid var(--jaune) var(--dim-base);
 }
 
-a {
+a, summary {
   color: var(--bleu);
+}
+
+details {
+  margin-left: 2rem;
+}
+
+summary {
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
 }
 
 code,
