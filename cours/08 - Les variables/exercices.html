@@ -15,6 +15,72 @@
       Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.<br />
     </p>
 
+    <h2>En cas de problèmes techniques</h2>
+    <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
+    Lisez leur solution au moins une fois avant de commencer les exercices.</p>
+    <ul>
+      <li><p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est qu'il y
+        a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur et corrigez l'erreur.</p>
+        <details>
+          <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
+          <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le menu (les 3
+            petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
+            développement.</p>
+          <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien allez dans le
+            menu Afficher > Options pour les développeurs > Console JavaScript.</p>
+          <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
+            noté sur la droite au numéro de ligne indiqué :<br><br>
+            <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur" style="width: 100%">
+          </p>
+        </details>
+      </li>
+      <li>
+        <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment : c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code et relancez tout le site web.</p>
+        <details>
+          <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
+          <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment :<br /><br /><img
+              src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
+          <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
+          <p class="code">
+            let poidsClient = prochainClient.mesurerPoids();<br><br>
+  
+            while (poidsClient !== 0) {<br>
+            &nbsp;&nbsp;console.log(poidsClient);<br>
+            }
+          </p>
+          <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
+            toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle, par
+            conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
+          <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
+          <ol>
+            <li>Corrigez le code de la boucle infinie dans VSCode</li>
+            <li>Fermez l'onglet où la boucle infinie s'est produite (celui où l'icône tourne indéfiniment). S'il ne se ferme pas quand vous cliquez sur la croix, allez dans le menu de Chrome > Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.</li>
+            <li>Dans VSCode, désactivez le serveur web en cliquant sur <code>🚫 Port : 5500</code> dans la barre bleue
+              tout en bas</li>
+            <li>Relancez à nouveau le serveur web en ouvrant le fichier <code>exercices.html</code> et en cliquant sur le
+              bouton <code>Go Live</code> en bas dans la barre bleue. Vous pouvez également faire un clic droit sur
+              <code>exercices.html</code> dans la liste des fichiers à gauche et cliquer sur
+              <code>Open with Live Server</code> si le bouton <code>Go Live</code> n'était pas présent dans la barre bleue en bas.</li>
+          </ol>
+          <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
+          <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
+            automatique.</p>
+          <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+            style="width: 100%">
+          <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
+            sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
+            votre code actuel génère une boucle infinie, Chrome va planter !</p>
+          <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
+            votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
+            avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que votre code fonctionne.</p>
+        </details>
+      </li>
+      <li>
+        <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557">dans cette vidéo</a>.</p>
+      </li>
+      <li><p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p></li>
+    </ul>
+
     <h2>Objectifs</h2>
     <ul>
       <li>Comprendre les règles de nommage des variables en JavaScript.</li>
