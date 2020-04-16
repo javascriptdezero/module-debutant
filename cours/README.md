@@ -618,12 +618,12 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 
 <p align="center"><img src="../images/extensions.jpg"></p>
 
-3. Installez l'extension **live server** (par Ritwick Dey).
+3. Tapez "live server" dans la barre de recherche, puis installez l'extension **Live Server** (par Ritwick Dey) en cliquant sur le bouton vert "Installer".
 
    ![capture d'écran live server](../images/live-server.jpg)
 4. Redémarrez Visual Studio Code pour prendre en compte cette extension.
 5. Téléchargez le dépôt GitHub de la formation :
-   1. Ouvrez la palette de commandes depuis le menu **Afficher > Palette de commandes** (raccourci clavier `⇧⌘P` sur Mac ou `Ctrl+Shift+P` sous Windows/Linux) puis tapez `git clone` et validez avec ENTRÉE.
+   1. Ouvrez la palette de commandes depuis le menu **Afficher > Palette de commandes** (raccourci clavier `⇧⌘P` sur Mac ou `Ctrl+Shift+P` sous Windows/Linux) puis tapez `git clone` et validez avec ENTRÉE. Si une erreur apparaît, lisez la suite !
 
       ![capture d'écran git clone](../images/git-clone.jpg)
    2. Si une erreur apparaît en bas à droite après avoir appuyé sur ENTRÉE il faut [installer Git](#installer-git) avant de continuer. Une fois que c'est fait suivez les instructions suivantes.
@@ -645,7 +645,7 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 
    ![capture d'écran ouvrir le cours](../images/go-live.jpg)
 7. Sélectionnez le fichier **exercices.html** (ou un des fichiers se terminant par **.html**).
-8. Lancez le serveur Web en cliquant sur **Go Live** tout en bas dans la barre d'état bleue.
+8. Lancez le serveur Web en cliquant sur **Go Live** tout en bas dans la barre d'état bleue. Si **Go Live** n'apparaît pas en bas, faites un clic droit sur le fichier **exercices.html** et cliquez sur **Open with Live Server**.
 9. Le navigateur Chrome devrait se lancer tout seul et vous afficher les exercices.
 10. Dernière étape ouvrez le fichier **exercices.js** (ou le fichier se terminant par **.js**) pour commencer à coder vos réponses !
 
@@ -654,12 +654,13 @@ Voici les instructions à suivre pour faire les exercices depuis Visual Studio C
 
     ![capture d'écran correction des exercices](../images/correction-exercices.jpg)
 12. Pour faire les exercices d'un autre cours, il suffit de recommencer à l'étape 6 en sélectionnant le cours de votre choix.
-13. Comme je mets à jour régulièrement les exercices, pensez à lire la section [mettre à jour le dépôt Git de la formation](#Mettre-à-jour-le-dépôt-Git-de-la-formation).
-14. Pour toute question, merci de me contacter par email sur jeremy@javascriptdezero.com.
+13. Pour toute question, merci de me contacter par email sur jeremy@javascriptdezero.com.
 
 ### Mettre à jour le dépôt Git de la formation
 
-Je mets à jour le dépôt Git de la formation régulièrement en ajoutant de nouveaux exercices et du contenu. Pensez à mettre à jour votre dépôt de temps en temps en suivant les instructions ci-dessous.
+Je mets à jour le dépôt Git de la formation régulièrement en ajoutant de nouveaux exercices et du contenu. Vous serez prévenu par email si vous devez mettre à jour le dépôt.
+
+Pour mettre jour le dépôt, suivez le guide !
 
 > Vous devez être connecté à Internet pour que la mise à jour puisse s'effectuer.
 
