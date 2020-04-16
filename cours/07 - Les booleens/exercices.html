@@ -1,133 +1,159 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Les booléens - Exercices</title>
-    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
-    <link rel="icon" type="image/png" href="../../images/favicon-64px.png"/>
-  </head>
 
-  <body>
-    <h1>Les booléens</h1>
-    <p>
-      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
-    </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Les booléens - Exercices</title>
+  <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  <link rel="icon" type="image/png" href="../../images/favicon-64px.png" />
+</head>
 
-    <h2>En cas de problèmes techniques</h2>
-    <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
+<body>
+  <h1>Les booléens</h1>
+  <p>
+    Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
+  </p>
+
+  <h2>En cas de problèmes techniques</h2>
+  <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
     Lisez leur solution au moins une fois avant de commencer les exercices.</p>
-    <ul>
-      <li><p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est qu'il y
+  <ul>
+    <li>
+      <p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est
+        qu'il y
         a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur pour trouver l'erreur.</p>
-        <details>
-          <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
-          <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le menu (les 3
-            petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
-            développement.</p>
-          <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien allez dans le
-            menu Afficher > Options pour les développeurs > Console JavaScript.</p>
-          <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
-            noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée et corrigez l'erreur.<br><br>
-            <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur" style="width: 100%">
-          </p>
-        </details>
-      </li>
-      <li>
-        <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment : c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.</p>
-        <details>
-          <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
-          <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment :<br /><br /><img
-              src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
-          <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
-          <p class="code">
-            let poidsClient = prochainClient.mesurerPoids();<br><br>
-  
-            while (poidsClient !== 0) {<br>
-            &nbsp;&nbsp;console.log(poidsClient);<br>
-            }
-          </p>
-          <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
-            toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle, par
-            conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
-          <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
-          <ol>
-            <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
-          <br>
-          Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement le gestionnaire de tâches.
-          <br><br>
-          <img src="../../images/clic-droit-gestionnaire-taches.jpg" alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
-            <li>Corrigez le bogue dans votre code depuis VSCode.</li>
-            <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser" width="400"></li>
-          </ol>
-          <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
-          <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
-            automatique.</p>
-          <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+      <details>
+        <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
+        <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le
+          menu (les 3
+          petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
+          développement.</p>
+        <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien
+          allez dans le
+          menu Afficher > Options pour les développeurs > Console JavaScript.</p>
+        <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
+          noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée
+          et corrigez l'erreur.<br><br>
+          <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur"
             style="width: 100%">
-          <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
-            sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
-            votre code actuel génère une boucle infinie, Chrome va planter !</p>
-          <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
-            votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
-            avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que votre code fonctionne.</p>
-        </details>
-      </li>
-      <li>
-        <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
-      </li>
-      <li><p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p></li>
-    </ul>
+        </p>
+      </details>
+    </li>
+    <li>
+      <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment :
+        c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.
+      </p>
+      <details>
+        <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
+        <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment
+          :<br /><br /><img src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
+        <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
+        <p class="code">
+          let poidsClient = prochainClient.mesurerPoids();<br><br>
 
-    <h2>Documentation</h2>
-    <ul>
-      <li>
-        <a
-        class="mdn"
+          while (poidsClient !== 0) {<br>
+          &nbsp;&nbsp;console.log(poidsClient);<br>
+          }
+        </p>
+        <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
+          toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle,
+          par
+          conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
+        <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
+        <ol>
+          <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez
+            dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis
+            cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
+            <br>
+            Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement
+            le gestionnaire de tâches.
+            <br><br>
+            <img src="../../images/clic-droit-gestionnaire-taches.jpg"
+              alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
+          <li>Corrigez le bogue dans votre code depuis VSCode.</li>
+          <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche
+            de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser"
+              width="400"></li>
+        </ol>
+        <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
+        <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
+          automatique.</p>
+        <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+          style="width: 100%">
+        <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
+          sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
+          votre code actuel génère une boucle infinie, Chrome va planter !</p>
+        <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
+          votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
+          avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que
+          votre code fonctionne.</p>
+      </details>
+    </li>
+    <li>
+      <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a
+          href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
+    </li>
+    <li>
+      <p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a
+          href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon
+        sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p>
+    </li>
+  </ul>
+
+  <h2>Documentation</h2>
+  <ul>
+    <li>
+      <a class="mdn"
         href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_logiques"
-        target="_blank"
-        >Consulter la doc MDN sur les opérateurs logiques</a
-      >
-      </li>
-      <li>
-        <a class="mdn" href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Pr%C3%A9c%C3%A9dence_des_op%C3%A9rateurs" target="_blank"
-        >Consulter la doc MDN sur la précédence des opérateurs</a
-      >
-      </li>
-    </ul>
+        target="_blank">Consulter la doc MDN sur les opérateurs logiques</a>
+    </li>
+    <li>
+      <a class="mdn"
+        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Pr%C3%A9c%C3%A9dence_des_op%C3%A9rateurs"
+        target="_blank">Consulter la doc MDN sur la précédence des opérateurs</a>
+    </li>
+  </ul>
 
-    <h2>Objectifs</h2>
+  <h2>Objectifs</h2>
+  <ul>
+    <li>Comprendre les 3 opérateurs logiques <code>&&</code>, <code>||</code> et <code>!</code> et leur combinaison.
+    </li>
+    <li>
+      Utiliser l'instruction <code>console.log()</code> pour afficher les résultats d'opérations logiques
+      simples.
+    </li>
+    <li>Utiliser les parenthèses <code>()</code> pour rendre prioritaires certaines opérations.</li>
+  </ul>
+
+  <div class="enonce" id="enonce-0">
+    <h2>Exercice 0</h2>
+
+    <p>Hugo, le patron de <strong>MagiciensDuCode</strong> vient de décrocher un nouveau contrat avec la société
+      <strong>SensationsGaranties</strong> qui crée des parcs d'attractions. Il a la charge de développer le système
+      d'accès aux attractions.</p>
+
+    <p>Après avoir mis en place l'année dernière un système de facturation innovant,
+      <strong>SensationsGaranties</strong> a créé des attractions dédiées aux tout petits, aux ados et aux adultes. Une
+      machine révolutionnaire à chaque entrée des nouvelles attractions vous indique si vous pouvez la faire ou pas.</p>
+
+    <p>Hugo demande à Tom de rédiger le code pour une nouvelle attraction.</p>
+
+    <p>L'accès à cette attraction est autorisée uniquement si :</p>
     <ul>
-      <li>Comprendre les 3 opérateurs logiques <code>&&</code>, <code>||</code> et <code>!</code> et leur combinaison.</li>
-      <li>
-        Utiliser l'instruction <code>console.log()</code> pour afficher les résultats d'opérations logiques
-        simples.
-      </li>
-      <li>Utiliser les parenthèses <code>()</code> pour rendre prioritaires certaines opérations.</li>
+      <li>Le client mesure <code>moins de 70 cm</code> et a <code>moins de 3 ans</code>.</li>
     </ul>
+    <p>Tom teste son code avec un faux client de <code>65 cm</code> qui a <code>4 ans</code>.</p>
 
-    <div class="enonce" id="enonce-0">
-      <h2>Exercice 0</h2>
+    <div class="message"></div>
+  </div>
 
-      <p>Hugo, le patron de <strong>MagiciensDuCode</strong> vient de décrocher un nouveau contrat avec la société <strong>SensationsGaranties</strong> qui crée des parcs d'attractions. Il a la charge de développer le système d'accès aux attractions.</p>
-      
-      <p>Après avoir mis en place l'année dernière un système de facturation innovant, <strong>SensationsGaranties</strong> a créé des attractions dédiées aux tout petits, aux ados et aux adultes. Une machine révolutionnaire à chaque entrée des nouvelles attractions vous indique si vous pouvez la faire ou pas.</p>
-      
-      <p>Hugo demande à Tom de rédiger le code pour une nouvelle attraction.</p>
-      
-      <p>L'accès à cette attraction est autorisée uniquement si :</p>
-      <ul><li>Le client mesure <code>moins de 70 cm</code> et a <code>moins de 3 ans</code>.</li></ul>
-      <p>Tom teste son code avec un faux client de <code>65 cm</code> qui a <code>4 ans</code>.</p>
+  <div class="enonce" id="enonce-1">
+    <h2>Exercice 1</h2>
 
-      <div class="message"></div>
-    </div>
+    <p>Une attraction dédiée aux ados vient d'être créée. Tom est sur le coup.
 
-    <div class="enonce" id="enonce-1">
-      <h2>Exercice 1</h2>
-
-      <p>Une attraction dédiée aux ados vient d'être créée. Tom est sur le coup.
-        
       <p>L'accès à cette attraction est autorisée si <code>au moins une</code> de ces conditions sont remplies :</p>
       <ul>
         <li>Le client mesure <code>plus de 150 cm</code>.</li>
@@ -136,77 +162,82 @@
 
       <p>Cette fois il a pris un faux client de <code>140 cm</code> qui a <code>16 ans</code> pour tester son code.</p>
       <div class="message"></div>
-    </div>
+  </div>
 
-    <div class="enonce" id="enonce-2">
-      <h2>Exercice 2</h2>
+  <div class="enonce" id="enonce-2">
+    <h2>Exercice 2</h2>
 
-      <p>La machine révolutionnaire utilise maintenant le poids des clients ! Tom doit gérer une nouvelle attraction.</p>
-      
-      <p>L'accès à cette attraction est autorisée si ces <code>2 conditions</code> sont remplies :</p>
-      <ul>
-        <li>Le client a <code>plus de 16 ans</code> ou mesure <code>au moins 150 cm</code>.</li>
-        <li>Le client fait <code>moins de 80 kg</code>.</li>
-      </ul>
+    <p>La machine révolutionnaire utilise maintenant le poids des clients ! Tom doit gérer une nouvelle attraction.</p>
 
-      <p>Tom teste ses conditions avec un client de <code>15 ans</code> mesurant <code>170 cm</code> et pesant <code>79 kg</code>.</p>
+    <p>L'accès à cette attraction est autorisée si ces <code>2 conditions</code> sont remplies :</p>
+    <ul>
+      <li>Le client a <code>plus de 16 ans</code> ou mesure <code>au moins 150 cm</code>.</li>
+      <li>Le client fait <code>moins de 80 kg</code>.</li>
+    </ul>
 
-      <div class="message"></div>
-    </div>
+    <p>Tom teste ses conditions avec un client de <code>15 ans</code> mesurant <code>170 cm</code> et pesant
+      <code>79 kg</code>.</p>
 
-    <div class="enonce" id="enonce-3">
-      <h2>Exercice 3</h2>
+    <div class="message"></div>
+  </div>
 
-      <p>Nouvelle attraction, nouveau challenge pour Tom...</p>
+  <div class="enonce" id="enonce-3">
+    <h2>Exercice 3</h2>
 
-      <p>L'accès à cette attraction est autorisée si <code>au moins une</code> des conditions est remplie :</p>
-      <ul>
-        <li>Le client a <code>plus de 12 ans</code> ou mesure <code>au moins 120 cm</code>.</li>
-        <li>Le client fait entre <code>40 et 60 kg</code>.</li>
-      </ul>
+    <p>Nouvelle attraction, nouveau challenge pour Tom...</p>
 
-      <p>Tom teste ses conditions avec un client de <code>10 ans</code> mesurant <code>110 cm</code> et pesant <code>58 kg</code>.</p>
+    <p>L'accès à cette attraction est autorisée si <code>au moins une</code> des conditions est remplie :</p>
+    <ul>
+      <li>Le client a <code>plus de 12 ans</code> ou mesure <code>au moins 120 cm</code>.</li>
+      <li>Le client fait entre <code>40 et 60 kg</code>.</li>
+    </ul>
 
-      <div class="message"></div>
-    </div>
+    <p>Tom teste ses conditions avec un client de <code>10 ans</code> mesurant <code>110 cm</code> et pesant
+      <code>58 kg</code>.</p>
 
-    <div class="enonce bogue" id="enonce-4">
-      <h2>Chassez le bogue ! 0</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
+    <div class="message"></div>
+  </div>
 
-      <p>La société <strong>SensationsGaranties</strong> a remarqué un bogue sur les règles d'une attraction et demande à Tom de le corriger. Voici les règles...</p>
+  <div class="enonce bogue" id="enonce-4">
+    <h2>Chassez le bogue ! 0</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
 
-      <p>L'accès à cette attraction est autorisée si <code>toutes</code> ces conditions sont remplies :</p>
+    <p>La société <strong>SensationsGaranties</strong> a remarqué un bogue sur les règles d'une attraction et demande à
+      Tom de le corriger. Voici les règles...</p>
 
-      <ul>
-        <li>Le client mesure <code>au moins 120 cm</code> ou a <code>plus de 15 ans</code>.</li>
-        <li>Le client fait moins de <code>90 kg</code>.</li>
-      </ul>
+    <p>L'accès à cette attraction est autorisée si <code>toutes</code> ces conditions sont remplies :</p>
 
-      <p>Le code actuel avec un client test de <code>150 cm</code> de <code>16 ans</code> faisant <code>95 kg</code> est le suivant : </p>
-      <code>150 &gt;= 120 || 16 &gt; 15 && 95 &lt; 90</code>
+    <ul>
+      <li>Le client mesure <code>au moins 120 cm</code> ou a <code>plus de 15 ans</code>.</li>
+      <li>Le client fait moins de <code>90 kg</code>.</li>
+    </ul>
 
-      <p>Le problème c'est que les clients de plus de 90 kg sont autorisés alors qu'ils ne devraient pas l'être !</p>
-      
-      <p>Tom a revérifié les comparaisons, ce sont bien les bonnes !<br/>Il se dit que le problème doit venir de la <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Pr%C3%A9c%C3%A9dence_des_op%C3%A9rateurs" target="_blank"
-        >précédence des opérateurs</a
-      >...</p>
-      
-      <p class="attention">Utilisez uniquement les parenthèses <code>()</code> pour corriger le bogue.</p>
-      <br />
+    <p>Le code actuel avec un client test de <code>150 cm</code> de <code>16 ans</code> faisant <code>95 kg</code> est
+      le suivant : </p>
+    <code>150 &gt;= 120 || 16 &gt; 15 && 95 &lt; 90</code>
 
-      <div class="message"></div>
-    </div>
+    <p>Le problème c'est que les clients de plus de 90 kg sont autorisés alors qu'ils ne devraient pas l'être !</p>
 
-    <footer>
-      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
-      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
-    </footer>
+    <p>Tom a revérifié les comparaisons, ce sont bien les bonnes !<br />Il se dit que le problème doit venir de la <a
+        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Pr%C3%A9c%C3%A9dence_des_op%C3%A9rateurs"
+        target="_blank">précédence des opérateurs</a>...</p>
 
-    <script src="../commun/mes-outils.js"></script>
-    <script src="validateur/reponses.js"></script>
-    <script src="../commun/init.js"></script>
-    <script src="exercices.js"></script>
-    <script src="../commun/validateur.js"></script>
-  </body>
+    <p class="attention">Utilisez uniquement les parenthèses <code>()</code> pour corriger le bogue.</p>
+    <br />
+
+    <div class="message"></div>
+  </div>
+
+  <footer>
+    Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+    <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+  </footer>
+
+  <script src="../commun/mes-outils.js"></script>
+  <script src="validateur/reponses.js"></script>
+  <script src="../commun/init.js"></script>
+  <script src="exercices.js"></script>
+  <script src="../commun/validateur.js"></script>
+</body>
+
 </html>

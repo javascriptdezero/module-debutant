@@ -1,204 +1,232 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Les conditions - Exercices</title>
-    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
-    <link rel="icon" type="image/png" href="../../images/favicon-64px.png"/>
-  </head>
 
-  <body>
-    <h1>Les conditions</h1>
-    <p>
-      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
-    </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Les conditions - Exercices</title>
+  <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  <link rel="icon" type="image/png" href="../../images/favicon-64px.png" />
+</head>
 
-    <h2>En cas de problèmes techniques</h2>
-    <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
+<body>
+  <h1>Les conditions</h1>
+  <p>
+    Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
+  </p>
+
+  <h2>En cas de problèmes techniques</h2>
+  <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
     Lisez leur solution au moins une fois avant de commencer les exercices.</p>
-    <ul>
-      <li><p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est qu'il y
+  <ul>
+    <li>
+      <p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est
+        qu'il y
         a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur pour trouver l'erreur.</p>
-        <details>
-          <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
-          <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le menu (les 3
-            petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
-            développement.</p>
-          <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien allez dans le
-            menu Afficher > Options pour les développeurs > Console JavaScript.</p>
-          <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
-            noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée et corrigez l'erreur.<br><br>
-            <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur" style="width: 100%">
-          </p>
-        </details>
-      </li>
-      <li>
-        <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment : c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.</p>
-        <details>
-          <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
-          <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment :<br /><br /><img
-              src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
-          <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
-          <p class="code">
-            let poidsClient = prochainClient.mesurerPoids();<br><br>
-  
-            while (poidsClient !== 0) {<br>
-            &nbsp;&nbsp;console.log(poidsClient);<br>
-            }
-          </p>
-          <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
-            toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle, par
-            conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
-          <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
-          <ol>
-            <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
-          <br>
-          Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement le gestionnaire de tâches.
-          <br><br>
-          <img src="../../images/clic-droit-gestionnaire-taches.jpg" alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
-            <li>Corrigez le bogue dans votre code depuis VSCode.</li>
-            <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser" width="400"></li>
-          </ol>
-          <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
-          <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
-            automatique.</p>
-          <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+      <details>
+        <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
+        <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le
+          menu (les 3
+          petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
+          développement.</p>
+        <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien
+          allez dans le
+          menu Afficher > Options pour les développeurs > Console JavaScript.</p>
+        <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
+          noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée
+          et corrigez l'erreur.<br><br>
+          <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur"
             style="width: 100%">
-          <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
-            sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
-            votre code actuel génère une boucle infinie, Chrome va planter !</p>
-          <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
-            votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
-            avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que votre code fonctionne.</p>
-        </details>
-      </li>
-      <li>
-        <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
-      </li>
-      <li><p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p></li>
-    </ul>
+        </p>
+      </details>
+    </li>
+    <li>
+      <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment :
+        c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.
+      </p>
+      <details>
+        <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
+        <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment
+          :<br /><br /><img src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
+        <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
+        <p class="code">
+          let poidsClient = prochainClient.mesurerPoids();<br><br>
 
-    <h2>Documentation</h2>
+          while (poidsClient !== 0) {<br>
+          &nbsp;&nbsp;console.log(poidsClient);<br>
+          }
+        </p>
+        <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
+          toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle,
+          par
+          conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
+        <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
+        <ol>
+          <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez
+            dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis
+            cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
+            <br>
+            Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement
+            le gestionnaire de tâches.
+            <br><br>
+            <img src="../../images/clic-droit-gestionnaire-taches.jpg"
+              alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
+          <li>Corrigez le bogue dans votre code depuis VSCode.</li>
+          <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche
+            de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser"
+              width="400"></li>
+        </ol>
+        <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
+        <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
+          automatique.</p>
+        <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+          style="width: 100%">
+        <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
+          sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
+          votre code actuel génère une boucle infinie, Chrome va planter !</p>
+        <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
+          votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
+          avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que
+          votre code fonctionne.</p>
+      </details>
+    </li>
+    <li>
+      <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a
+          href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
+    </li>
+    <li>
+      <p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a
+          href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon
+        sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p>
+    </li>
+  </ul>
+
+  <h2>Documentation</h2>
+  <ul>
+    <li>
+      <a class="mdn" href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/if...else"
+        target="_blank">Consulter la doc MDN sur les conditions</a>
+    </li>
+  </ul>
+
+  <h2>Objectifs</h2>
+  <ul>
+    <li>Comprendre le fonctionnement des conditions et des mot-clés <code>if</code> et <code>else</code>.</li>
+    <li>Utiliser les conditions pour résoudre des problèmes simples.</li>
+    <li>Détecter les bogues liés aux mauvaises pratiques et savoir les corriger.</li>
+  </ul>
+
+  <div class="enonce" id="enonce-0">
+    <h2>Exercice 0</h2>
+
+    <p>La société <strong>SensationsGaranties</strong> demande à Tom de rédiger un programme pour afficher si un client
+      peut monter dans un manège ou pas.</p>
+
+    <p>L'attraction sur laquelle il travaille autorise les clients à monter seulement s'ils ont <code>18 ans</code> ou
+      plus et s'ils font strictement moins de <code>120 kg</code>.</p>
+
+    <p>Tom a déclaré les variables, mais il a du mal avec la condition, aidez-le à finir son code !</p>
+
+    <div class="message"></div>
+
+  </div>
+
+  <div class="enonce" id="enonce-1">
+    <h2>Exercice 1</h2>
+
+    <p>Un nouveau manège réservé aux enfants vient d'être réalisé, il faut écrire le code pour gérer son accès.</p>
+
+    <p>Évidemment c'est Tom qui s'y colle. La règle du manège est que l'enfant doit faire strictement moins de
+      <code>50 kg</code> ou avoir <code>12 ans</code> (ou moins) pour y accéder.</p>
+
+    <p>Tom n'a pas eu le temps de rédiger la condition et de mettre les instructions d'affichage dans les bons blocs,
+      finissez son code !</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-2">
+    <h2>Exercice 2</h2>
+
+    <p>Des frustrations se font sentir au manège pour adultes ! Les clients râlent et posent tous la même question :
+      "Pourquoi je ne peux pas monter dans ce manège ?!".</p>
+
+    <p>En effet les messages actuels n'indiquent pas au client la raison pour laquelle il ne peut pas monter dans le
+      manège ! La société <strong>SensationsGaranties</strong> demande à Tom de corriger ça.</p>
+
+    <p>Rappel des règles : si les clients ont <code>18 ans</code> (ou plus) et font strictement moins de
+      <code>120 kg</code>, ils peuvent monter.</p>
+
+    <p>Le nouveau programme sera un peu plus utile pour le client :</p>
     <ul>
-      <li>
-        <a
-        class="mdn"
-        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/if...else"
-        target="_blank"
-        >Consulter la doc MDN sur les conditions</a
-      >
+      <li>Si le client peut monter, on affiche <code style="display: inline;">Bienvenue dans le manège !</code></li>
+      <li>Si le client ne peut pas monter, on affiche soit :
+        <ul>
+          <li>S'il est trop lourd :
+            <code>Vous ne pouvez pas monter : les sièges ne supporteraient pas votre poids.</code></li>
+          <li>S'il est trop jeune : <code>Vous ne pouvez pas monter : ce manège est réservé aux adultes.</code></li>
+          <li>S'il est trop lourd et trop jeune : <code>Vous devriez vite arrêter de manger des frites !</code></li>
+        </ul>
       </li>
     </ul>
 
-    <h2>Objectifs</h2>
-    <ul>
-      <li>Comprendre le fonctionnement des conditions et des mot-clés <code>if</code> et <code>else</code>.</li>
-      <li>Utiliser les conditions pour résoudre des problèmes simples.</li>
-      <li>Détecter les bogues liés aux mauvaises pratiques et savoir les corriger.</li>
-    </ul>
+    <p>Tom est un peu perdu, il n'a pas trop idée de comment faire, aidez-le !</p>
 
-    <div class="enonce" id="enonce-0">
-      <h2>Exercice 0</h2>
+    <p class="attention">Cet exercice risque d'être difficile pour vous donc prenez votre temps !</p>
 
-      <p>La société <strong>SensationsGaranties</strong> demande à Tom de rédiger un programme pour afficher si un client peut monter dans un manège ou pas.</p>
+    <div class="message"></div>
+  </div>
 
-      <p>L'attraction sur laquelle il travaille autorise les clients à monter seulement s'ils ont <code>18 ans</code> ou plus et s'ils font strictement moins de <code>120 kg</code>.</p>
+  <div class="enonce bogue" id="enonce-3">
+    <h2>Chassez le bogue ! 0</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
 
-      <p>Tom a déclaré les variables, mais il a du mal avec la condition, aidez-le à finir son code !</p>
+    <p>Tom s'entraînait avec les conditions et il est tombé sur un bogue très bizarre.</p>
 
-      <div class="message"></div>
+    <p>Il ne comprend pas pourquoi il n'arrive pas à tester la valeur de la variable <code>zero</code> correctement dans
+      un petit bout de code !</p>
 
-    </div>
+    <p>Aurez-vous l'oeil suffisamment aiguisé pour trouver le problème ?</p>
 
-    <div class="enonce" id="enonce-1">
-      <h2>Exercice 1</h2>
+    <div class="message"></div>
+  </div>
 
-      <p>Un nouveau manège réservé aux enfants vient d'être réalisé, il faut écrire le code pour gérer son accès.</p>
+  <div class="enonce bogue" id="enonce-4">
+    <h2>Chassez le bogue ! 1</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
 
-      <p>Évidemment c'est Tom qui s'y colle. La règle du manège est que l'enfant doit faire strictement moins de <code>50 kg</code> ou avoir <code>12 ans</code> (ou moins) pour y accéder.</p>
+    <p>Tom continue de s'entraîner avec les conditions et il est encore tombé sur un bogue !</p>
 
-      <p>Tom n'a pas eu le temps de rédiger la condition et de mettre les instructions d'affichage dans les bons blocs, finissez son code !</p>
+    <p>Un développeur expérimenté lui a dit qu'il ne respectait pas une bonne pratique...</p>
 
-      <div class="message"></div>
-    </div>
+    <p>Aidez-le à rentrer dans le droit chemin !</p>
 
-    <div class="enonce" id="enonce-2">
-      <h2>Exercice 2</h2>
+    <div class="message"></div>
+  </div>
 
-      <p>Des frustrations se font sentir au manège pour adultes ! Les clients râlent et posent tous la même question : "Pourquoi je ne peux pas monter dans ce manège ?!".</p>
+  <div class="enonce bogue" id="enonce-5">
+    <h2>Chassez le bogue ! 2</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
 
-      <p>En effet les messages actuels n'indiquent pas au client la raison pour laquelle il ne peut pas monter dans le manège ! La société <strong>SensationsGaranties</strong> demande à Tom de corriger ça.</p>
+    <p>Tom a lu récemment qu'on pouvait écrire sur une seule ligne une condition. Trop stylé se dit-il !</p>
 
-      <p>Rappel des règles : si les clients ont <code>18 ans</code> (ou plus) et font strictement moins de <code>120 kg</code>, ils peuvent monter.</p>
+    <p>Le problème c'est que son code ne fait pas ce qu'il veut...</p>
 
-      <p>Le nouveau programme sera un peu plus utile pour le client :</p>
-      <ul>
-        <li>Si le client peut monter, on affiche <code style="display: inline;">Bienvenue dans le manège !</code></li>
-        <li>Si le client ne peut pas monter, on affiche soit : 
-          <ul>
-            <li>S'il est trop lourd : <code>Vous ne pouvez pas monter : les sièges ne supporteraient pas votre poids.</code></li>
-            <li>S'il est trop jeune : <code>Vous ne pouvez pas monter : ce manège est réservé aux adultes.</code></li>
-            <li>S'il est trop lourd et trop jeune : <code>Vous devriez vite arrêter de manger des frites !</code></li>
-          </ul>
-        </li>
-      </ul>
+    <p>Aidez-le à se sortir de ce mauvais pétrin !</p>
 
-      <p>Tom est un peu perdu, il n'a pas trop idée de comment faire, aidez-le !</p>
+    <div class="message"></div>
+  </div>
 
-      <p class="attention">Cet exercice risque d'être difficile pour vous donc prenez votre temps !</p>
+  <footer>
+    Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+    <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+  </footer>
 
-      <div class="message"></div>
-    </div>
+  <script src="../commun/mes-outils.js"></script>
+  <script src="../commun/init.js"></script>
+  <script src="exercices.js"></script>
+  <script src="validateur/tests.js"></script>
+</body>
 
-    <div class="enonce bogue" id="enonce-3">
-      <h2>Chassez le bogue ! 0</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>Tom s'entraînait avec les conditions et il est tombé sur un bogue très bizarre.</p>
-
-      <p>Il ne comprend pas pourquoi il n'arrive pas à tester la valeur de la variable <code>zero</code> correctement dans un petit bout de code !</p>
-
-      <p>Aurez-vous l'oeil suffisamment aiguisé pour trouver le problème ?</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-4">
-      <h2>Chassez le bogue ! 1</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>Tom continue de s'entraîner avec les conditions et il est encore tombé sur un bogue !</p>
-
-      <p>Un développeur expérimenté lui a dit qu'il ne respectait pas une bonne pratique...</p>
-
-      <p>Aidez-le à rentrer dans le droit chemin !</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-5">
-      <h2>Chassez le bogue ! 2</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>Tom a lu récemment qu'on pouvait écrire sur une seule ligne une condition. Trop stylé se dit-il !</p>
-
-      <p>Le problème c'est que son code ne fait pas ce qu'il veut...</p>
-
-      <p>Aidez-le à se sortir de ce mauvais pétrin !</p>
-
-      <div class="message"></div>
-    </div>
-
-    <footer>
-      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
-      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
-    </footer>
-
-    <script src="../commun/mes-outils.js"></script>
-    <script src="../commun/init.js"></script>
-    <script src="exercices.js"></script>
-    <script src="validateur/tests.js"></script>
-  </body>
 </html>

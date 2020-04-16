@@ -1,160 +1,194 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Les variables - Exercices</title>
-    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
-    <link rel="icon" type="image/png" href="../../images/favicon-64px.png"/>
-  </head>
 
-  <body>
-    <h1>Les variables</h1>
-    <p>
-      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
-    </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Les variables - Exercices</title>
+  <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  <link rel="icon" type="image/png" href="../../images/favicon-64px.png" />
+</head>
 
-    <h2>En cas de problèmes techniques</h2>
-    <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
+<body>
+  <h1>Les variables</h1>
+  <p>
+    Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
+  </p>
+
+  <h2>En cas de problèmes techniques</h2>
+  <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
     Lisez leur solution au moins une fois avant de commencer les exercices.</p>
-    <ul>
-      <li><p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est qu'il y
+  <ul>
+    <li>
+      <p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est
+        qu'il y
         a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur pour trouver l'erreur.</p>
-        <details>
-          <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
-          <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le menu (les 3
-            petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
-            développement.</p>
-          <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien allez dans le
-            menu Afficher > Options pour les développeurs > Console JavaScript.</p>
-          <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
-            noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée et corrigez l'erreur.<br><br>
-            <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur" style="width: 100%">
-          </p>
-        </details>
-      </li>
-      <li>
-        <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment : c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.</p>
-        <details>
-          <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
-          <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment :<br /><br /><img
-              src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
-          <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
-          <p class="code">
-            let poidsClient = prochainClient.mesurerPoids();<br><br>
-  
-            while (poidsClient !== 0) {<br>
-            &nbsp;&nbsp;console.log(poidsClient);<br>
-            }
-          </p>
-          <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
-            toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle, par
-            conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
-          <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
-          <ol>
-            <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
-          <br>
-          Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement le gestionnaire de tâches.
-          <br><br>
-          <img src="../../images/clic-droit-gestionnaire-taches.jpg" alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
-            <li>Corrigez le bogue dans votre code depuis VSCode.</li>
-            <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser" width="400"></li>
-          </ol>
-          <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
-          <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
-            automatique.</p>
-          <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+      <details>
+        <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
+        <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le
+          menu (les 3
+          petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
+          développement.</p>
+        <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien
+          allez dans le
+          menu Afficher > Options pour les développeurs > Console JavaScript.</p>
+        <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
+          noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée
+          et corrigez l'erreur.<br><br>
+          <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur"
             style="width: 100%">
-          <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
-            sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
-            votre code actuel génère une boucle infinie, Chrome va planter !</p>
-          <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
-            votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
-            avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que votre code fonctionne.</p>
-        </details>
-      </li>
-      <li>
-        <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
-      </li>
-      <li><p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p></li>
-    </ul>
+        </p>
+      </details>
+    </li>
+    <li>
+      <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment :
+        c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.
+      </p>
+      <details>
+        <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
+        <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment
+          :<br /><br /><img src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
+        <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
+        <p class="code">
+          let poidsClient = prochainClient.mesurerPoids();<br><br>
 
-    <h2>Objectifs</h2>
-    <ul>
-      <li>Comprendre les règles de nommage des variables en JavaScript.</li>
-      <li>Déclarer et utiliser des variables simples.</li>
-      <li>Comprendre et éviter les pièges concernant les variables.</li>
-      <li>Utiliser la console développeur de Chrome pour trouver la source des erreurs JavaScript.</li>
-    </ul>
+          while (poidsClient !== 0) {<br>
+          &nbsp;&nbsp;console.log(poidsClient);<br>
+          }
+        </p>
+        <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
+          toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle,
+          par
+          conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
+        <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
+        <ol>
+          <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez
+            dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis
+            cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
+            <br>
+            Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement
+            le gestionnaire de tâches.
+            <br><br>
+            <img src="../../images/clic-droit-gestionnaire-taches.jpg"
+              alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
+          <li>Corrigez le bogue dans votre code depuis VSCode.</li>
+          <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche
+            de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser"
+              width="400"></li>
+        </ol>
+        <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
+        <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
+          automatique.</p>
+        <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+          style="width: 100%">
+        <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
+          sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
+          votre code actuel génère une boucle infinie, Chrome va planter !</p>
+        <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
+          votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
+          avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que
+          votre code fonctionne.</p>
+      </details>
+    </li>
+    <li>
+      <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a
+          href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
+    </li>
+    <li>
+      <p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a
+          href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon
+        sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p>
+    </li>
+  </ul>
 
-    <p class="attention">Laissez toujours la console développeur ouverte pour ces exercices, vous pourrez y voir les erreurs JavaScript :
-      <img alt="console développeur" class="img-auto-redimensionne" src="../../images/console-developpeur.jpg">
-      Lorsqu'une erreur de syntaxe apparaît, tout le code s'arrête, par conséquent, les statuts des exercices deviennent tous "en attente de code à tester" tant que le bogue n'est pas corrigé.
-      <br/>Résolvez le bogue pour revalider tous vos exercices ! Bon courage ;-).
+  <h2>Objectifs</h2>
+  <ul>
+    <li>Comprendre les règles de nommage des variables en JavaScript.</li>
+    <li>Déclarer et utiliser des variables simples.</li>
+    <li>Comprendre et éviter les pièges concernant les variables.</li>
+    <li>Utiliser la console développeur de Chrome pour trouver la source des erreurs JavaScript.</li>
+  </ul>
+
+  <p class="attention">Laissez toujours la console développeur ouverte pour ces exercices, vous pourrez y voir les
+    erreurs JavaScript :
+    <img alt="console développeur" class="img-auto-redimensionne" src="../../images/console-developpeur.jpg">
+    Lorsqu'une erreur de syntaxe apparaît, tout le code s'arrête, par conséquent, les statuts des exercices deviennent
+    tous "en attente de code à tester" tant que le bogue n'est pas corrigé.
+    <br />Résolvez le bogue pour revalider tous vos exercices ! Bon courage ;-).
+  </p>
+
+  <div class="enonce bogue" id="enonce-0">
+    <h2>Chassez le bogue ! 0</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+    <p>La société <strong>SensationsGaranties</strong> demande à Tom de rédiger un petit bout de code qui sera utilisé
+      dans tous les parcs d'attractions.</p>
+
+    <p>Ce code permettra de souhaiter la bienvenue aux clients. Tom utilise une variable <code>nomParc</code> pour
+      stocker le nom du parc d'attractions.</p>
+
+    <p>Son code ne fonctionne pas, aidez-le à corriger le problème !</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce bogue" id="enonce-1">
+    <h2>Chassez le bogue ! 1</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+    <p>La société <strong>SensationsGaranties</strong> demande à Tom de faire un petit programme pour calculer la somme
+      des clients du jour et de la veille.</p>
+
+    <p>Tom est près du but mais son code ne fonctionne pas, corrigez-le !</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce bogue" id="enonce-2">
+    <h2>Chassez le bogue ! 2</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+    <p>On demande à nouveau à Tom (il est surchargé le pauvre) de calculer la surface qu'il faudra réserver pour
+      l'attraction <strong>Les échecs grandeur nature</strong>.</p>
+
+    <p>Cette attraction consiste en un jeu d'échecs à taille humaine, au sol, chaque <code>case</code> faisant
+      <code>2m<sup>2</sup></code>.</p>
+
+    <p>Il y a toujours <code>64 cases</code>. Tom fait les choses proprement et utilise des variables pour calculer la
+      superficie.</p>
+
+    <p>Mais son code ne marche pas... Comme d'habitude se dit-il ! Aidez-le à reprendre confiance en lui en corrigeant
+      ses bogues !</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce bogue" id="enonce-3">
+    <h2>Chassez le bogue ! 3</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
+
+    <p>Nouvelle demande de <strong>SensationsGaranties</strong> pour Tom...</p>
+
+    <p>Il s'agit cette fois de créer un message de bienvenue qui affiche l'heure sous ce format : <code>13h37</code>.
     </p>
 
-    <div class="enonce bogue" id="enonce-0">
-      <h2>Chassez le bogue ! 0</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
+    <p>Cette fois-ci, c'est du code fourni par un stagiaire de chez <strong>SensationsGaranties</strong> qu'on lui
+      demande de corriger...</p>
 
-      <p>La société <strong>SensationsGaranties</strong> demande à Tom de rédiger un petit bout de code qui sera utilisé dans tous les parcs d'attractions.</p>
+    <div class="message"></div>
+  </div>
 
-      <p>Ce code permettra de souhaiter la bienvenue aux clients. Tom utilise une variable <code>nomParc</code> pour stocker le nom du parc d'attractions.</p>
+  <footer>
+    Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+    <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+  </footer>
 
-      <p>Son code ne fonctionne pas, aidez-le à corriger le problème !</p>
+  <script src="../commun/mes-outils.js"></script>
+  <script src="validateur/reponses.js"></script>
+  <script src="../commun/init.js"></script>
+  <script src="exercices.js"></script>
+  <script src="../commun/validateur.js"></script>
+</body>
 
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-1">
-      <h2>Chassez le bogue ! 1</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>La société <strong>SensationsGaranties</strong> demande à Tom de faire un petit programme pour calculer la somme des clients du jour et de la veille.</p>
-
-      <p>Tom est près du but mais son code ne fonctionne pas, corrigez-le !</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-2">
-      <h2>Chassez le bogue ! 2</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>On demande à nouveau à Tom (il est surchargé le pauvre) de calculer la surface qu'il faudra réserver pour l'attraction <strong>Les échecs grandeur nature</strong>.</p>
-
-      <p>Cette attraction consiste en un jeu d'échecs à taille humaine, au sol, chaque <code>case</code> faisant <code>2m<sup>2</sup></code>.</p>
-      
-      <p>Il y a toujours <code>64 cases</code>. Tom fait les choses proprement et utilise des variables pour calculer la superficie.</p>
-
-      <p>Mais son code ne marche pas... Comme d'habitude se dit-il ! Aidez-le à reprendre confiance en lui en corrigeant ses bogues !</p>
-
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-3">
-      <h2>Chassez le bogue ! 3</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>Nouvelle demande de <strong>SensationsGaranties</strong> pour Tom...</p>
-
-      <p>Il s'agit cette fois de créer un message de bienvenue qui affiche l'heure sous ce format : <code>13h37</code>.</p>
-
-      <p>Cette fois-ci, c'est du code fourni par un stagiaire de chez <strong>SensationsGaranties</strong> qu'on lui demande de corriger...</p>
-
-      <div class="message"></div>
-    </div>
-
-    <footer>
-      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
-      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
-    </footer>
-
-    <script src="../commun/mes-outils.js"></script>
-    <script src="validateur/reponses.js"></script>
-    <script src="../commun/init.js"></script>
-    <script src="exercices.js"></script>
-    <script src="../commun/validateur.js"></script>
-  </body>
 </html>

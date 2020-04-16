@@ -1,254 +1,273 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Les nombres - Exercices</title>
-    <link rel="stylesheet" type="text/css" href="../commun/style.css" />
-    <link rel="icon" type="image/png" href="../../images/favicon-64px.png"/>
-  </head>
 
-  <body>
-    <h1>Les nombres</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Les nombres - Exercices</title>
+  <link rel="stylesheet" type="text/css" href="../commun/style.css" />
+  <link rel="icon" type="image/png" href="../../images/favicon-64px.png" />
+</head>
+
+<body>
+  <h1>Les nombres</h1>
+  <p>
+    Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
+  </p>
+
+  <h2>En cas de problèmes techniques</h2>
+  <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
+    Lisez leur solution au moins une fois avant de commencer les exercices.</p>
+  <ul>
+    <li>
+      <p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est
+        qu'il y
+        a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur pour trouver l'erreur.</p>
+      <details>
+        <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
+        <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le
+          menu (les 3
+          petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
+          développement.</p>
+        <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien
+          allez dans le
+          menu Afficher > Options pour les développeurs > Console JavaScript.</p>
+        <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
+          noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée
+          et corrigez l'erreur.<br><br>
+          <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur"
+            style="width: 100%">
+        </p>
+      </details>
+    </li>
+    <li>
+      <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment :
+        c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.
+      </p>
+      <details>
+        <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
+        <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment
+          :<br /><br /><img src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
+        <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
+        <p class="code">
+          let poidsClient = prochainClient.mesurerPoids();<br><br>
+
+          while (poidsClient !== 0) {<br>
+          &nbsp;&nbsp;console.log(poidsClient);<br>
+          }
+        </p>
+        <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
+          toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle,
+          par
+          conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
+        <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
+        <ol>
+          <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez
+            dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis
+            cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
+            <br>
+            Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement
+            le gestionnaire de tâches.
+            <br><br>
+            <img src="../../images/clic-droit-gestionnaire-taches.jpg"
+              alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
+          <li>Corrigez le bogue dans votre code depuis VSCode.</li>
+          <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche
+            de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser"
+              width="400"></li>
+        </ol>
+        <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
+        <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
+          automatique.</p>
+        <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
+          style="width: 100%">
+        <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
+          sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
+          votre code actuel génère une boucle infinie, Chrome va planter !</p>
+        <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
+          votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
+          avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que
+          votre code fonctionne.</p>
+      </details>
+    </li>
+    <li>
+      <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a
+          href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
+    </li>
+    <li>
+      <p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a
+          href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon
+        sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p>
+    </li>
+  </ul>
+
+  <h2>Documentation</h2>
+  <ul>
+    <li>
+      <a class="mdn"
+        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques"
+        target="_blank">Consulter la doc MDN sur les opérateurs arithmétiques</a>
+    </li>
+    <li>
+      <a class="wikipedia" href="https://fr.wikipedia.org/wiki/Ordre_des_op%C3%A9rations" target="_blank">Consulter la
+        page Wikipédia sur la précédence des opérateurs</a>
+    </li>
+  </ul>
+
+  <h2>Objectifs</h2>
+  <ul>
+    <li>
+      Utiliser l'instruction <code>console.log()</code> pour afficher les résultats d'opérations mathématiques
+      simples.
+    </li>
+    <li>Utiliser les parenthèses <code>()</code> pour rendre prioritaires certaines opérations.</li>
+    <li>Comprendre quand l'opérateur <code>+</code> est utilisé comme addition ou concaténation.</li>
+  </ul>
+
+  <div class="enonce" id="enonce-0">
+    <h2>Exercice 0</h2>
+
+    <p>Affichez le résultat de l'opération <code>28 + 6</code>.</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-1">
+    <h2>Exercice 1</h2>
+
+    <p>Affichez le résultat de l'opération <code>6 * 4 + 2, le tout divisé par 2</code>.</p>
+
+    <div class="message"></div>
+  </div>
+
+  <div class="enonce" id="enonce-2">
+    <h2>Exercice 2</h2>
+
+    <p>Hugo, le patron de Tom, a besoin de lui pour estimer le coût de sa campagne marketing.</p>
     <p>
-      Pour répondre à ces exercices, tapez votre code dans le fichier <code>exercices.js</code>.
+      La société <strong>MagiciensDuCode</strong> a collecté <code>1337</code> adresses postales de clients. Hugo a
+      également listé quelques <code>256</code> adresses supplémentaires à la main.
     </p>
 
-    <h2>En cas de problèmes techniques</h2>
-    <p>Il se peut que vous rencontriez certains problèmes techniques pour valider les exercices.<br>
-    Lisez leur solution au moins une fois avant de commencer les exercices.</p>
-    <ul>
-      <li><p>Si certains exercices précédemment validés en vert redeviennent gris et "En attente de code à tester" : c'est qu'il y
-        a une erreur de syntaxe dans votre code. Solution : ouvrez la console développeur pour trouver l'erreur.</p>
-        <details>
-          <summary>Cliquez ici pour savoir comment ouvrir la console développeur de Chrome</summary>
-          <p><strong>Sur Windows ou Linux</strong> : depuis Chrome, tapez <code>Ctrl + Shift + J</code> ou allez dans le menu (les 3
-            petits points verticaux en haut à droite de la fenêtre de Chrome) puis allez dans Plus d'outils > Outils de
-            développement.</p>
-          <p><strong>Sur MacOS</strong> : depuis Chrome, tapez <code>⌘ + ⌥ + J</code> (Commande + Option + J) ou bien allez dans le
-            menu Afficher > Options pour les développeurs > Console JavaScript.</p>
-          <p>Le message d'erreur apparaît en rouge et est en anglais, il faudra le traduire. L'erreur vient du fichier
-            noté sur la droite au numéro de ligne indiqué. Ouvrez ce fichier dans VSCode, rendez-vous à la ligne indiquée et corrigez l'erreur.<br><br>
-            <img src="../../images/console-developpeur.jpg" alt="Onglet console de la console développeur" style="width: 100%">
-          </p>
-        </details>
-      </li>
-      <li>
-        <p>Si la page web ne répond plus (les clics n'ont aucun effet) ou si l'icône dans l'onglet tourne indéfiniment : c'est qu'il y a une boucle infinie dans votre code. Solution : corrigez votre code puis actualisez le site web.</p>
-        <details>
-          <summary>Cliquez ici pour voir comment corriger une boucle infinie</summary>
-          <p>Si vous avez fait une boucle infinie, l'icône de votre onglet va tourner comme ça indéfiniment :<br /><br /><img
-              src="../../images/boucle-infinie.jpg" alt="page web en boucle infinie" width="400"></p>
-          <p>Voici à quoi peut ressembler une boucle infinie dans du code :</p>
-          <p class="code">
-            let poidsClient = prochainClient.mesurerPoids();<br><br>
-  
-            while (poidsClient !== 0) {<br>
-            &nbsp;&nbsp;console.log(poidsClient);<br>
-            }
-          </p>
-          <p>Le problème ici, c'est que la condition de répétition de la boucle <code>poidsClient !== 0</code> est
-            toujours vraie ! En effet, on ne modifie pas la valeur de <code>poidsClient</code> à l'intérieur de la boucle, par
-            conséquent celle-ci s'exécutera sans jamais s'arrêter : vous avez fait une boucle infinie !</p>
-          <p>Voici les étapes à respecter pour se sortir de ce problème :</p>
-          <ol>
-            <li>Dans le menu de Chrome (les 3 petits points verticaux en haut à droite de la fenêtre de Chrome), allez dans Plus d'outils > Gestionnaire de tâches, sélectionnez l'onglet qui pose problème dans la liste puis cliquez sur le bouton <code>Arrêter le processus</code> en bas à droite.
-          <br>
-          Vous pouvez également faire un clic droit sur la barre de titre de Chrome pour sélectionner plus rapidement le gestionnaire de tâches.
-          <br><br>
-          <img src="../../images/clic-droit-gestionnaire-taches.jpg" alt="clic droit pour accéder au gestionnaire de tâches" style="width: 100%"></li>
-            <li>Corrigez le bogue dans votre code depuis VSCode.</li>
-            <li>Actualisez à nouveau la page web qui a été précédemment arrêtée en cliquant sur la petite flèche à gauche de la barre d'adresse.<br><br><img src="../../images/actualiser.jpg" alt="flèche à cliquer pour actualiser" width="400"></li>
-          </ol>
-          <h3>Attention à la sauvegarde automatique dans VSCode !</h3>
-          <p>Dans les paramètres, je vous conseille d'utiliser l'option <code>onFocusChange</code> pour la sauvegarde
-            automatique.</p>
-          <img src="../../images/autosave.jpg" alt="configuration option sauvegarde automatique vscode"
-            style="width: 100%">
-          <p>En effet, si vous avez l'option <code>afterDelay</code> de sélectionnée, ça veut dire que VSCode va
-            sauvegarder votre code toutes les X secondes. Le site web va se recharger automatiquement à ce moment là et si
-            votre code actuel génère une boucle infinie, Chrome va planter !</p>
-          <p>Pour éviter ce problème, utilisez l'option <code>onFocusChange</code> qui indique à VSCode de sauvegarder
-            votre fichier seulement si vous changez de fenêtre ou d'onglet. Vous pouvez aussi sauvegarder manuellemment
-            avec <code>⌘ + S</code> sur MacOS ou <code>Ctrl + S</code> sur Windows ou Linux quand vous voulez vérifier que votre code fonctionne.</p>
-        </details>
-      </li>
-      <li>
-        <p>Si vous souhaitez déboguer votre code, utilisez le débogueur de Chrome comme je l'explique <a href="https://www.youtube.com/watch?v=_imeD5H-yCw&t=557" target="_blank">dans cette vidéo</a>.</p>
-      </li>
-      <li><p>Si vous êtes bloqué et qu'aucune solution mentionnée ne fonctionne, envoyez-moi un email sur <a href="mailto:jeremy@javascriptdezero.com">jeremy@javascriptdezero.com</a> en précisant le numéro de la leçon sur laquelle vous travaillez et le numéro de l'exercice qui pose problème.</p></li>
-    </ul>
+    <p>
+      Il souhaite faire appel à la société <strong>LapinLettre</strong> pour envoyer à tous ses clients une lettre
+      promotionnelle. Le coût d'envoi d'une lettre est de <code>2 €</code> par adresse postale.
+    </p>
 
-    <h2>Documentation</h2>
-    <ul>
-      <li>
-        <a
-        class="mdn"
-        href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques"
-        target="_blank"
-        >Consulter la doc MDN sur les opérateurs arithmétiques</a
-      >
-      </li>
-      <li>
-      <a class="wikipedia" href="https://fr.wikipedia.org/wiki/Ordre_des_op%C3%A9rations" target="_blank"
-        >Consulter la page Wikipédia sur la précédence des opérateurs</a
-      >
-      </li>
-    </ul>
+    <p>Aidez Tom à faire le calcul du prix final que devra payer Hugo pour faire sa campagne marketing.</p>
 
-    <h2>Objectifs</h2>
-    <ul>
-      <li>
-        Utiliser l'instruction <code>console.log()</code> pour afficher les résultats d'opérations mathématiques
-        simples.
-      </li>
-      <li>Utiliser les parenthèses <code>()</code> pour rendre prioritaires certaines opérations.</li>
-      <li>Comprendre quand l'opérateur <code>+</code> est utilisé comme addition ou concaténation.</li>
-    </ul>
+    <div class="message"></div>
+  </div>
 
-    <div class="enonce" id="enonce-0">
-      <h2>Exercice 0</h2>
+  <div class="enonce" id="enonce-3">
+    <h2>Exercice 3</h2>
 
-      <p>Affichez le résultat de l'opération <code>28 + 6</code>.</p>
+    <p>
+      Hugo s'était fixé un budget de 3000 €, il cherche donc une autre société pour l'envoi des lettres. Il trouve la
+      société <strong>TortueLettre</strong> qui facture <code>1,50 €</code> la lettre.
+    </p>
 
-      <div class="message"></div>
-    </div>
+    <p>
+      Le problème c'est que la société facture en plus <code>500 €</code> pour l'approvisionnement en laitue. Hugo
+      n'est plus très sûr de rentrer dans son budget ! Il demande à Tom de faire le calcul...
+    </p>
 
-    <div class="enonce" id="enonce-1">
-      <h2>Exercice 1</h2>
+    <p>Aidez Tom à faire le calcul du prix final que devra payer Hugo s'il choisit <strong>TortueLettre</strong>.</p>
 
-      <p>Affichez le résultat de l'opération <code>6 * 4 + 2, le tout divisé par 2</code>.</p>
+    <div class="message"></div>
+  </div>
 
-      <div class="message"></div>
-    </div>
+  <div class="enonce" id="enonce-4">
+    <h2>Exercice 4</h2>
 
-    <div class="enonce" id="enonce-2">
-      <h2>Exercice 2</h2>
+    <p>Hugo décide de faire appel au service d'envoi postal chez <strong>TortueLettre</strong>.</p>
 
-      <p>Hugo, le patron de Tom, a besoin de lui pour estimer le coût de sa campagne marketing.</p>
-      <p>
-        La société <strong>MagiciensDuCode</strong> a collecté <code>1337</code> adresses postales de clients. Hugo a
-        également listé quelques <code>256</code> adresses supplémentaires à la main.
-      </p>
+    <p>
+      Freddy, le patron de <strong>TortueLettre</strong> lui indique que c'est bientôt l'été... Pour le bien de ses
+      salariés, les livraisons sont suspendues dès qu'il fait <code>35°C</code> ou plus.
+    </p>
 
-      <p>
-        Il souhaite faire appel à la société <strong>LapinLettre</strong> pour envoyer à tous ses clients une lettre
-        promotionnelle. Le coût d'envoi d'une lettre est de <code>2 €</code> par adresse postale.
-      </p>
+    <p>
+      Hugo demande à Tom de regarder les prévisions météo et de lui dire combien de temps il lui reste pour préparer
+      sa campagne marketing. Tom regarde et la température augmente de <code>2°C</code> tous les <code>3</code> jours.
+    </p>
 
-      <p>Aidez Tom à faire le calcul du prix final que devra payer Hugo pour faire sa campagne marketing.</p>
+    <p>Aujourd'hui, il fait <code>23°C</code>.</p>
 
-      <div class="message"></div>
-    </div>
+    <p>Aidez Tom à calculer dans combien de jours maximum Hugo devra envoyer ses lettres ?</p>
 
-    <div class="enonce" id="enonce-3">
-      <h2>Exercice 3</h2>
+    <p class="attention">Cet exercice peut être difficile pour certaines personnes, prenez votre temps, persévérez !</p>
 
-      <p>
-        Hugo s'était fixé un budget de 3000 €, il cherche donc une autre société pour l'envoi des lettres. Il trouve la
-        société <strong>TortueLettre</strong> qui facture <code>1,50 €</code> la lettre.
-      </p>
+    <div class="message"></div>
+  </div>
 
-      <p>
-        Le problème c'est que la société facture en plus <code>500 €</code> pour l'approvisionnement en laitue. Hugo
-        n'est plus très sûr de rentrer dans son budget ! Il demande à Tom de faire le calcul...
-      </p>
+  <div class="enonce bogue" id="enonce-5">
+    <h2>Chassez le bogue ! 0</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
 
-      <p>Aidez Tom à faire le calcul du prix final que devra payer Hugo s'il choisit <strong>TortueLettre</strong>.</p>
+    <p>
+      Pour financer la campagne marketing, Hugo décide d'organiser une levée de fonds. Il fait appel à 5 investisseurs
+      et à 10 de ses amis entrepreneurs.
+    </p>
 
-      <div class="message"></div>
-    </div>
+    <p>
+      L'argent récolté des 5 investisseurs est taxé à <code>12%</code> pour financer <strong>TortuesFoutues</strong>,
+      le fond de retraite de Freddy.
+    </p>
+    <p>
+      L'argent des amis n'est pas taxé. Hugo a récolté <code>2350 €</code> de la part des 5 investisseurs et
+      <code>1000 €</code> de la part de ses 10 amis.
+    </p>
 
-    <div class="enonce" id="enonce-4">
-      <h2>Exercice 4</h2>
+    <p>
+      Il a demandé à Tom de faire le calcul des bénéfices... Mais les pourcentages, ce n'est pas la tasse de thé de
+      Tom...
+    </p>
 
-      <p>Hugo décide de faire appel au service d'envoi postal chez <strong>TortueLettre</strong>.</p>
+    <p>Son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
+    <div class="message"></div>
+  </div>
 
-      <p>
-        Freddy, le patron de <strong>TortueLettre</strong> lui indique que c'est bientôt l'été... Pour le bien de ses
-        salariés, les livraisons sont suspendues dès qu'il fait <code>35°C</code> ou plus.
-      </p>
+  <div class="enonce bogue" id="enonce-6">
+    <h2>Chassez le bogue ! 1</h2>
+    <img alt="insecte" src="../../images/insecte-ricane.png" />
 
-      <p>
-        Hugo demande à Tom de regarder les prévisions météo et de lui dire combien de temps il lui reste pour préparer
-        sa campagne marketing. Tom regarde et la température augmente de <code>2°C</code> tous les <code>3</code> jours.
-      </p>
+    <p>Hugo remarque que Tom se débrouille de mieux en mieux avec les nombres et les calculs.</p>
 
-      <p>Aujourd'hui, il fait <code>23°C</code>.</p>
+    <p>
+      Il lui demande de dresser un compte-rendu financier détaillé de la levée de fonds sur 4 lignes. Comme il
+      souhaite que ce compte-rendu financier soit réutilisable plus tard, Tom doit effectuer tous les calculs de façon
+      dynamique !
+    </p>
 
-      <p>Aidez Tom à calculer dans combien de jours maximum Hugo devra envoyer ses lettres ?</p>
+    <p class="code">
+      Montant récolté auprès des 5 investisseurs : 5 x 470 = 2350 €<br />
+      Montant récolté auprès de 10 amis : 10 x 100 = 1000 €<br />
+      Montant total récolté : 2350 + 1000 = 3350 €<br />
+      Bénéfice net (après le prélèvement des taxes) : 2350 - 2350 * 0.12 + 1000 = 3068 €
+    </p>
 
-      <p class="attention">Cet exercice peut être difficile pour certaines personnes, prenez votre temps, persévérez !</p>
+    <p class="clearboth">Tom est proche de la solution mais il faudrait un petit coup de main !</p>
 
-      <div class="message"></div>
-    </div>
+    <p>Pouvez-vous l'aider à corriger ses erreurs ?</p>
 
-    <div class="enonce bogue" id="enonce-5">
-      <h2>Chassez le bogue ! 0</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
+    <p class="attention">Pensez à utiliser des parenthèses <code>()</code> autour de vos formules.</p>
+    <br />
 
-      <p>
-        Pour financer la campagne marketing, Hugo décide d'organiser une levée de fonds. Il fait appel à 5 investisseurs
-        et à 10 de ses amis entrepreneurs.
-      </p>
+    <div class="message"></div>
+  </div>
 
-      <p>
-        L'argent récolté des 5 investisseurs est taxé à <code>12%</code> pour financer <strong>TortuesFoutues</strong>,
-        le fond de retraite de Freddy.
-      </p>
-      <p>
-        L'argent des amis n'est pas taxé. Hugo a récolté <code>2350 €</code> de la part des 5 investisseurs et
-        <code>1000 €</code> de la part de ses 10 amis.
-      </p>
+  <footer>
+    Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
+    <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
+  </footer>
 
-      <p>
-        Il a demandé à Tom de faire le calcul des bénéfices... Mais les pourcentages, ce n'est pas la tasse de thé de
-        Tom...
-      </p>
+  <script src="../commun/mes-outils.js"></script>
+  <script src="validateur/reponses.js"></script>
+  <script src="../commun/init.js"></script>
+  <script src="exercices.js"></script>
+  <script src="../commun/validateur.js"></script>
+</body>
 
-      <p>Son code ne fonctionne pas, pouvez-vous corriger ses erreurs ?</p>
-      <div class="message"></div>
-    </div>
-
-    <div class="enonce bogue" id="enonce-6">
-      <h2>Chassez le bogue ! 1</h2>
-      <img alt="insecte" src="../../images/insecte-ricane.png" />
-
-      <p>Hugo remarque que Tom se débrouille de mieux en mieux avec les nombres et les calculs.</p>
-
-      <p>
-        Il lui demande de dresser un compte-rendu financier détaillé de la levée de fonds sur 4 lignes. Comme il
-        souhaite que ce compte-rendu financier soit réutilisable plus tard, Tom doit effectuer tous les calculs de façon
-        dynamique !
-      </p>
-
-      <p class="code">
-        Montant récolté auprès des 5 investisseurs : 5 x 470 = 2350 €<br />
-        Montant récolté auprès de 10 amis : 10 x 100 = 1000 €<br />
-        Montant total récolté : 2350 + 1000 = 3350 €<br />
-        Bénéfice net (après le prélèvement des taxes) : 2350 - 2350 * 0.12 + 1000 = 3068 €
-      </p>
-
-      <p class="clearboth">Tom est proche de la solution mais il faudrait un petit coup de main !</p>
-
-      <p>Pouvez-vous l'aider à corriger ses erreurs ?</p>
-
-      <p class="attention">Pensez à utiliser des parenthèses <code>()</code> autour de vos formules.</p>
-      <br />
-
-      <div class="message"></div>
-    </div>
-
-    <footer>
-      Exercices de la formation <a href="https://www.javascriptdezero.com">JavaScript de Zéro</a> par
-      <a href="https://twitter.com/JeremyMouzin">Jérémy Mouzin</a>
-    </footer>
-
-    <script src="../commun/mes-outils.js"></script>
-    <script src="validateur/reponses.js"></script>
-    <script src="../commun/init.js"></script>
-    <script src="exercices.js"></script>
-    <script src="../commun/validateur.js"></script>
-  </body>
 </html>
