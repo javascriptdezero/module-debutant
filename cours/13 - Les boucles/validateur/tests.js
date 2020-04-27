@@ -171,8 +171,9 @@ switch (historiqueConsole.length) {
       // Il faut récupérer toutes les lignes de la console pour cet exercice
       let nombreDeLignesManquantes = reponseAttendue.nombreAppelsConsoleLog - 1;
       valeurConsole += '\n';
-      while (nombreDeLignesManquantes--) {
+      while (nombreDeLignesManquantes > 0) {
         valeurConsole += historiqueConsole.shift() + '\n';
+        nombreDeLignesManquantes--;
       }
       let reponseMultiLigne = reponseAttendue.reponse.join('\n') + "\n";
       let exerciceReussi = valeurConsole === reponseMultiLigne;
