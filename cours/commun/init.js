@@ -37,7 +37,12 @@ initialiserEnonces();
 // On intercepte les appels vers console.log()
 const proxyDeConsole = new Proxy(console.log, {
   apply(cible, leThis, listeArgs) {
-    historiqueConsole.push(...listeArgs);
+    if (listeArgs.length > 1) {
+      // Student used comma: console.log("hello", variable);
+      historiqueConsole.push(listeArgs.join(' '));
+    } else {
+      historiqueConsole.push(...listeArgs);
+    }
   },
 });
 
