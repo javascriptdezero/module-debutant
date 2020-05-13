@@ -48,7 +48,7 @@ let limitePoidsEnfant = 50;
 function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les paramètres ageDuClient et poidsDuClient pour construire les conditions
+  // Utilisez les variables ageDuClient et poidsDuClient pour construire les conditions
 
   // Décommentez le code de Tom ci-dessous, remplacez les "??" par une expression valide
   // if (??) {
@@ -67,7 +67,7 @@ function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les paramètres ageDuClient et poidsDuClient pour construire les conditions
+  // Utilisez les variables ageDuClient et poidsDuClient pour construire les conditions
 
   // Décommentez le code de Tom ci-dessous
   // console.log("Bienvenue dans ce nouveau manège pour les enfants !");
@@ -83,7 +83,7 @@ function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 function exercice2(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les paramètres ageDuClient et poidsDuClient pour construire les conditions
+  // Utilisez les variables ageDuClient et poidsDuClient pour construire les conditions
 
   // Décommentez le code de Tom ci-dessous
   // console.log("Bienvenue dans le manège !");
