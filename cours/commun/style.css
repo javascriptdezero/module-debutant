@@ -236,6 +236,14 @@ p.code {
   margin-bottom: 0;
 }
 
+.enonce details {
+  margin-left: 0;
+}
+
+.enonce details[open] summary {
+  margin-bottom: 1rem;
+}
+
 /* Chassez les bogues */
 
 .enonce.bogue {
