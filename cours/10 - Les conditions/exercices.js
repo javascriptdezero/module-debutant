@@ -29,9 +29,14 @@
  * Lisez tous les commentaires partout, merci ! 👍
  */
 
-// J'ai déclaré pour vous quelques variables sur les différentes limites des
-// manèges. Vous pouvez les utiliser (ou pas) dans tous les exercices !
-// Si vous voulez les utilisez, ne commentez pas les lignes ci-dessous.
+
+
+// J'ai déclaré pour vous les différentes valeurs des limites des manèges.
+// Ça vous évitera de retaper ces valeurs à chaque exercice, utilisez
+// simplement la variable qui vous intéresse dans les exercices, par exemple
+// limitePoids au lieu de taper 120. Ça rend le code plus lisible.
+// Vous n'êtes pas obligé d'utiliser ces variables mais je les utilise dans
+// les solutions pour rendre plus claires celles-ci.
 let limiteAge = 18;
 let limitePoids = 120;
 let limiteAgeEnfant = 12;
@@ -43,8 +48,7 @@ let limitePoidsEnfant = 50;
 function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les variables ageDuClient, poidsDuClient, limiteAge, et
-  // limitePoids pour construire vos conditions
+  // Utilisez les paramètres ageDuClient et poidsDuClient pour construire les conditions
 
   // Décommentez le code de Tom ci-dessous, remplacez les "??" par une expression valide
   // if (??) {
@@ -63,8 +67,7 @@ function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les variables ageDuClient, poidsDuClient, limiteAgeEnfant, et
-  // limitePoidsEnfant pour construire vos conditions
+  // Utilisez les paramètres ageDuClient et poidsDuClient pour construire les conditions
 
   // Décommentez le code de Tom ci-dessous
   // console.log("Bienvenue dans ce nouveau manège pour les enfants !");
@@ -80,8 +83,7 @@ function exercice1(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
 function exercice2(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas cette ligne
 
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
-  // Utilisez les variables ageDuClient, poidsDuClient, limiteAge, et
-  // limitePoids pour construire vos conditions
+  // Utilisez les paramètres ageDuClient et poidsDuClient pour construire les conditions
 
   // Décommentez le code de Tom ci-dessous
   // console.log("Bienvenue dans le manège !");
