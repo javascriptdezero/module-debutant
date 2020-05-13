@@ -26,6 +26,14 @@ console.log(adresseMagiciensDuCode);
 
 // Exercice 2
 // Des solutions alternatives plus lisibles et compactes sont proposées après !
+/*
+ * Il faut utiliser la concaténation et des conditions pour afficher les
+ * numéros client sur 6 chiffres.
+ * Attention à l'ordre des conditions ! Il faut commencer par numero < 10 et pas
+ * par numero < 1000 par exemple car un numero < 10 est également < 1000 et
+ * donc on rentrerait toujours dans la condition numero < 1000 !
+ * C'est pourquoi on teste dans l'ordre < 10, < 100, puis enfin < 1000.
+ */
 function afficherNumeroClient(numero) {
   if (numero < 10) {
     console.log("N° de client : 42000" + numero);
@@ -62,6 +70,12 @@ function afficherNumeroClient(numero) {
 
 // Exercice 2 - Solution alternative 2
 // Pour éviter la répétition du texte "N° de client :..." et les "else"
+/*
+ * Ici on utilise le fait qu'un nombre < 10 est également < 1000 pour passer
+ * à l'intérieur de toutes les conditions et ainsi ajouter plusieurs "0" de
+ * suite comme l'exige l'énoncé. Sans la présence des "else", toutes les
+ * conditions sont évaluées les unes à la suite des autres.
+ */
 function afficherNumeroClient(numero) {
   let prefixe = "42";
   if (numero < 1000) {
@@ -87,6 +101,15 @@ function afficherEntete(numeroClient) {
 afficherEntete(1337);
 
 // Chassez le bogue ! 0
+/*
+ * Ce code est très similaire à l'exercice des guirlandes de la leçon sur les
+ * boucles. La fonction afficherPlusieursEtoiles(nombre) permet d'afficher une
+ * guirlande d'une certaine longueur (nombre).
+ * La fonction afficherTriangleEtoile(longueurMax) permet d'afficher le bon
+ * nombre de lignes pour former le triangle.
+ * 
+ * À nouveau les erreurs étaient au niveau des for(let ...) 
+ */
 function afficherPlusieursEtoiles(nombre) {
   let ligne = "";
   for (let position = 0; position < nombre; position = position + 1) {
