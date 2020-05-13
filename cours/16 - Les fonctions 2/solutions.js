@@ -13,10 +13,14 @@ function afficherAdresseClient(nom, numeroRue, nomRue, codePostal, ville) {
 
 // Exercice 1
 function formaterNumeroClient(numero) {
+  // On traite en tout premier le cas particulier
   if (numero >= 5000 && numero < 7000) {
     // On peut retourner tout de suite la valeur en utilisant le mot-clé return
     return "PR" + numero;
   } else {
+    // Ici on utilise l'astuce de ne pas utiliser de "else" pour évaluer chaque
+    // condition les unes à la suite des autres, ajoutant autant de "0" qu'il
+    // faudra au préfixe pour le numero donné.
     let prefixe = "42";
     if (numero < 1000) {
       prefixe = prefixe + "0";
@@ -48,6 +52,14 @@ afficherTitre("Vos références");
 console.log("N° de client : " + formaterNumeroClient(numeroClient));
 
 // Exercice 3
+/*
+ * Il faut se souvenir de l'exercice sur les guirlandes. La difficulté est
+ * qu'on ajoute un certain nombre d'espaces passé en paramètres avant les étoiles.
+ * Mais fondamentalement, c'est la même chose sauf qu'au lieu d'ajouter un
+ * nombre dynamique d'étoiles, ici c'est un nombre d'espaces.
+ * En répétant 3 fois de suite une boucle pour les espaces avec l'ajout de
+ * deux étoiles "**" on arrive au résultat souhaité.
+ */
 function afficherLigneLogo(esp1, esp2, esp3) {
   let ligne = "";
   for (let i = 0; i < esp1; i = i + 1) {
@@ -66,6 +78,14 @@ function afficherLigneLogo(esp1, esp2, esp3) {
 }
 
 // Chassez le bogue ! 0
+/*
+ * Le code est relativement parlant, mais des erreurs se sont glissées
+ * dans le code au niveau de la logique avec le symbole !== "*" au lieu
+ * de symbole === "*" et dans la boucle for(let i...) de
+ * construirePlusieursEspaces et la boucle pour l'affichage du tronc.
+ * Enfin, les console.log(construirePlusieursEspaces(X) + construireLigneAvecBoules(Y)); 
+ * étaient parfois faux !
+ */
 function construireLigneAvecBoules(longueurLigne) {
   let ligne = "";
   let symbole = "*";
