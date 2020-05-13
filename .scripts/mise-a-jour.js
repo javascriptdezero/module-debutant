@@ -11,7 +11,7 @@ const EXECUTER_TESTS_UNITAIRES = false;
 
 if (EXECUTER_TESTS_UNITAIRES) {
   console.log(titre("Lancement des tests unitaires"));
-  const testSuffixerFichier = function(fichier, nomAvecSuffixe) {
+  const testSuffixerFichier = function (fichier, nomAvecSuffixe) {
     reponseFonction = suffixerFichier(fichier, SUFFIX_FICHIER_SAUVEGARDE);
     console.assert(reponseFonction === nomAvecSuffixe, "entrée: '%s', sortie: '%s'", fichier, reponseFonction);
   };
@@ -194,9 +194,9 @@ console.log("🎉 Mise à jour effectuée avec succès ! 🎉");
 
 if (listeFichiersASauvegarder.length > 0) {
   console.log(titre("Comment réutiliser le code sauvegardé ?"));
-  console.log("Pour réutiliser votre code, intégrez-le depuis les fichiers sauvegardes vers les nouveaux fichiers :");
+  console.log("Pour réutiliser votre code, copiez-le depuis les fichiers sauvegardes vers les nouveaux fichiers :");
   for (cheminFichier of listeFichiersASauvegarder) {
-    console.log(`▶️ Intégrez le code depuis "${suffixerFichier(cheminFichier)}" vers "${cheminFichier}".`);
+    console.log(`▶️ Copiez votre code depuis "${suffixerFichier(cheminFichier)}" vers "${cheminFichier}".`);
   }
   console.log(
     `Une fois que c'est fait, vous pouvez supprimer les fichiers finissant par '${SUFFIX_FICHIER_SAUVEGARDE}'.`
