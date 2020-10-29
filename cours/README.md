@@ -14,16 +14,13 @@ Si vous avez un problème pendant l'installation, s'il vous plaît contactez-moi
 
 Si vous utilisez **Windows**, suivez ces instructions :
 
-1. Cliquez sur [ce lien](https://git-scm.com/download/win).
-2. Le téléchargement devrait débuter automatiquement mais si rien ne se passe, cliquez sur "Click here to download manually" :
+1. Cliquez sur [ce lien](https://git-scm.com/download/win), le téléchargement devrait débuter automatiquement mais si rien ne se passe, lisez l'étape 2.
+2. Sur la page web qui vient de s'ouvrir, cliquez sur le lien **Click here to download manually** (voir ci-dessous où se trouve ce lien dans cette page):
 
    ![sélection système d'exploitation](../images/plateforme.jpg)
 3. Double-cliquez sur le fichier que vous venez de télécharger pour lancer l'installation.
-4. Cliquez sur **Next** plusieurs fois). Vérifiez bien de sélectionner l'option **Use Git from the Windows Command Prompt** lorsque cet écran s'affiche :
-
-   <p align="center"><img src="../images/windows-prompt.jpg"></p>
-
-5. Cliquez sur **Next** jusqu'à la fin de l'installation de Git.
+4. Cliquez sur le bouton **Next** plusieurs fois puis sur le bouton **Install** et patientez un peu que ça s'installe.
+5. **Décochez** la case **View Release Notes** et cliquez sur le bouton **Next** (on décoche cette case juste pour éviter d'ouvrir une page web inutile qui indique les nouveautés de cette version).
 6. Une fois que c'est fait, **redémarrez votre ordinateur**.
 
 ---
