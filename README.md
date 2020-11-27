@@ -62,9 +62,8 @@ Faites-moi confiance, vous en aurez pour plusieurs mois d'études avec HTML, CSS
 
 1. [MDN : JavaScript](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript)
 2. [Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript)
-3. [Dynamisez vos sites web avec JavaScript !](https://openclassrooms.com/fr/courses/1916641-dynamisez-vos-sites-web-avec-javascript)
-4. [Écrivez du JavaScript pour le web](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web)
-5. [Le cours de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/)
+3. [Écrivez du JavaScript pour le web](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web)
+4. [Le cours de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/)
 
 ### Si vous voulez créer des applications mobiles
 
