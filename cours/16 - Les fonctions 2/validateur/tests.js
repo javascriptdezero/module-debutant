@@ -40,11 +40,11 @@ ajouterReponse([
 // Exercice 1
 function testerExercice1() {
   let valeursTest = [
-    [42, "420042"],
+    [42, "CL0042"],
     [5000, "PR5000"],
     [6999, "PR6999"],
-    [7000, "427000"],
-    [1683, "421683"],
+    [7000, "CL7000"],
+    [1683, "CL1683"],
   ];
   for (let i = 0; i < valeursTest.length; i++) {
     let [ valeurTest, valeurAttendue ] = valeursTest[i];

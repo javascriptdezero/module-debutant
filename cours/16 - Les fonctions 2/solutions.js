@@ -21,7 +21,7 @@ function formaterNumeroClient(numero) {
     // Ici on utilise l'astuce de ne pas utiliser de "else" pour évaluer chaque
     // condition les unes à la suite des autres, ajoutant autant de "0" qu'il
     // faudra au préfixe pour le numero donné.
-    let prefixe = "42";
+    let prefixe = "CL";
     if (numero < 1000) {
       prefixe = prefixe + "0";
     }
