@@ -6,11 +6,11 @@ Vous trouverez ici tout le contenu du module débutant de la formation [JavaScri
 
 [Accéder à tous les cours vidéos et aux exercices](/cours)
 
-## LA roadmap qu'il vous faut
+## La roadmap qu'il vous faut
 
 Vous souhaitez créer des sites web ou des applications mobiles mais vous ne savez pas quoi apprendre en premier ?
 
-J'ai créé pour vous une roadmap des ressources en ligne à consulter, **dans l'ordre**, pour devenir développeur.
+J'ai créé pour vous une roadmap des ressources en ligne à consulter, **dans l'ordre**, pour devenir développeur web.
 
 Mais avant ça... quelques conseils en or pour les débutants.
 
@@ -38,7 +38,7 @@ Il faut apprendre à dire **NON** aux sirènes des "nouvelles" et "nouveautés" 
 
 Il faut apprendre à dire **NON**, je ne connais pas l'outil / framework / buzzword / blog / podcast X dont vous me parlez. Ne pas connaître tout sur tout **est une qualité nécessaire** pour devenir un professionnel spécialiste dans son domaine.
 
-Si vous avez peur de dire que vous ne connaissez pas quelque chose dans un entretien, laissez-moi vous retirer cette peur tout de suite : c'est une **qualité** que de réussir à rester concentré dans la société actuelle et particulièrement dans le domaine du développement Web. Si la personne en face de vous en entretien ne comprends pas ça, ce n'est PAS un développeur professionnel. FUYEZ.
+Si vous avez peur de dire que vous ne connaissez pas quelque chose dans un entretien, laissez-moi vous retirer cette peur tout de suite : c'est une **qualité** que de réussir à rester concentré dans la société actuelle et particulièrement dans le domaine du développement web. Si la personne en face de vous en entretien ne comprends pas ça, ce n'est PAS un développeur professionnel. FUYEZ.
 
 Restez concentré sur la roadmap, résistez aux sirènes du web et tout se passera bien 👌.
 
@@ -48,6 +48,14 @@ Bon courage !
 
 Apprenez les fondamentaux correctement sinon vous serez vite limité pour progresser !
 Faites-moi confiance, vous en aurez pour plusieurs mois d'études avec HTML, CSS et JavaScript.
+
+**Note importante** : n'essayez pas de *tout* apprendre en HTML / CSS. Ça ne sert à rien de connaître *tous* les éléments HTML qui existent avec *tous* les attributs, c'est parfaitement inutile !
+
+Pareil pour le CSS, n'apprenez pas toutes les propriétés qui existent, c'est impossible et inutile, il y en a beaucoup trop.
+
+L'objectif pour vous, c'est de comprendre les grands principes de base de ces langages. Vous apprendrez de nouveaux éléments HTML et de nouvelles propriétés CSS sur le tas en fonction des besoins des projets sur lesquels vous allez travailler.
+
+Passez **entre 2 semaines à 1 mois à temps plein** sur ces langages puis passez au JavaScript.
 
 #### 1. Apprendre le HTML et le CSS
 
