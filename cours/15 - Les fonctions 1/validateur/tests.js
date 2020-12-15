@@ -15,7 +15,7 @@ let idExercice = 0;
 
 function ajouterReponse(reponse) {
   let nombreDeLignesReponse = 1;
-  
+
   if (Array.isArray(reponse)) {
     nombreDeLignesReponse = reponse.length;
   }
@@ -34,44 +34,44 @@ ajouterReponse(["Ma première fonction"]);
 
 // Exercice 1
 ajouterReponse([
-"===[ Notre adresse ]===",
-"MagiciensDuCode",
-"42 avenue de l'accolade ouvrante",
-"1337 POINT-VIRGULE",
+  "===[ Notre adresse ]===",
+  "MagiciensDuCode",
+  "42 avenue de l'accolade ouvrante",
+  "1337 POINT-VIRGULE",
 ]);
 
 // Exercice 2
 ajouterReponse([
-"N° de client : 420000",
-"N° de client : 420001",
-"N° de client : 420009",
-"N° de client : 420010",
-"N° de client : 420099",
-"N° de client : 420100",
-"N° de client : 420999",
-"N° de client : 421000",
-"N° de client : 429999",
+  "N° de client : CL0000",
+  "N° de client : CL0001",
+  "N° de client : CL0009",
+  "N° de client : CL0010",
+  "N° de client : CL0099",
+  "N° de client : CL0100",
+  "N° de client : CL0999",
+  "N° de client : CL1000",
+  "N° de client : CL9999",
 ])
 
 // Exercice 3
 ajouterReponse([
-"===[ Notre adresse ]===",
-"MagiciensDuCode",
-"42 avenue de l'accolade ouvrante",
-"1337 POINT-VIRGULE",
-"",
-"===[ Vos références ]===",
-"N° de client : 421337",
+  "===[ Notre adresse ]===",
+  "MagiciensDuCode",
+  "42 avenue de l'accolade ouvrante",
+  "1337 POINT-VIRGULE",
+  "",
+  "===[ Vos références ]===",
+  "N° de client : CL1337",
 ]);
 
 ajouterReponse([
-"*",
-"***",
-"*****",
-"*******",
-"*****",
-"***",
-"*",
+  "*",
+  "***",
+  "*****",
+  "*******",
+  "*****",
+  "***",
+  "*",
 ]);
 
 

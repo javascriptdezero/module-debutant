@@ -28,7 +28,7 @@ console.log(adresseMagiciensDuCode);
 // Des solutions alternatives plus lisibles et compactes sont proposées après !
 /*
  * Il faut utiliser la concaténation et des conditions pour afficher les
- * numéros client sur 6 chiffres.
+ * numéros client sur 6 caractères.
  * Attention à l'ordre des conditions ! Il faut commencer par numero < 10 et pas
  * par numero < 1000 par exemple car un numero < 10 est également < 1000 et
  * donc on rentrerait toujours dans la condition numero < 1000 !
@@ -36,15 +36,15 @@ console.log(adresseMagiciensDuCode);
  */
 function afficherNumeroClient(numero) {
   if (numero < 10) {
-    console.log("N° de client : 42000" + numero);
+    console.log("N° de client : CL000" + numero);
   } else {
     if (numero < 100) {
-      console.log("N° de client : 4200" + numero);
+      console.log("N° de client : CL00" + numero);
     } else {
       if (numero < 1000) {
-        console.log("N° de client : 420" + numero);
+        console.log("N° de client : CL0" + numero);
       } else {
-        console.log("N° de client : 42" + numero);
+        console.log("N° de client : CL" + numero);
       }
     }
   }
@@ -53,7 +53,7 @@ function afficherNumeroClient(numero) {
 // Exercice 2 - Solution alternative 1
 // Pour éviter la répétition du texte "N° de client :..."
 function afficherNumeroClient(numero) {
-  let prefixe = "42";
+  let prefixe = "CL";
   if (numero < 10) {
     prefixe = prefixe + "000";
   } else {
@@ -77,7 +77,7 @@ function afficherNumeroClient(numero) {
  * conditions sont évaluées les unes à la suite des autres.
  */
 function afficherNumeroClient(numero) {
-  let prefixe = "42";
+  let prefixe = "CL";
   if (numero < 1000) {
     prefixe = prefixe + "0";
   }
