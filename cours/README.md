@@ -108,6 +108,7 @@ Voici comment faire un exercice :
 
    > En cliquant sur ce bouton, vous arrêterez le serveur web et pourrez le relancer si un plantage survient dans votre page (boucle infinie par exemple).
 6. Le navigateur Chrome devrait se lancer tout seul et vous afficher les exercices (descendez un peu dans la page pour voir les premiers énoncés):
+   > Attention sur **MacOS Big Sur 11.3** le navigateur Chrome risque de ne pas se lancer à cause d'un bogue. Lancez Chrome à la main et tapez dans la barre d'adresse `127.0.0.1:5500` (remplacez le numéro de port 5500 par le numéro indiqué dans la barre bleue de VSCode en place du bouton Go Live). Puis cliquez sur le dossier `cours` puis sur le cours que vous voulez voir et enfin cliquez sur le fichier `exercices.html`.
 
     ![capture d'écran des exercices](../images/exercices-chaines.jpg)
 7. Pour répondre à un énoncé, double-cliquez sur le fichier **exercices.js** (ou le fichier se terminant par **.js**) pour commencer à coder vos réponses (étape 2 de l'image) !
