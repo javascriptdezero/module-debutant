@@ -166,10 +166,7 @@ if (listeFichiersASauvegarder.length > 0) {
   for (cheminFichier of listeFichiersASauvegarder) {
     try {
       cheminFichierSauvegarde = suffixerFichier(cheminFichier, SUFFIX_FICHIER_SAUVEGARDE);
-      fs.copyFileSync(cheminFichier, cheminFichierSauvegarde, erreur => {
-        console.log(`⛔️ Erreur pendant la copie de '${cheminFichier}' vers '${cheminFichierSauvegarde}'.`);
-        throw erreur;
-      });
+      fs.copyFileSync(cheminFichier, cheminFichierSauvegarde);
       console.log(`✅ Copie '${cheminFichier}' => '${cheminFichierSauvegarde}'.`);
     } catch (erreur) {
       quitterSurErreur(erreur);
