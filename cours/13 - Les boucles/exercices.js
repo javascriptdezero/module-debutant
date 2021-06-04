@@ -142,7 +142,7 @@ function exercice7(largeurTriangle) { // Ne supprimez/commentez pas cette ligne
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez la variable largeurTriangle qui contient la largeur du triangle à afficher
 
-  // Décommentez le code de Tom ci-dessou
+  // Décommentez le code de Tom ci-dessous
   // let ligne = "";
   // for (let longueurLigne = 0; longueurLigne <= largeurTriangle; longueurLigne = longueurLigne + 2) {
   //   // On construit la ligne à afficher
