@@ -68,10 +68,11 @@ Passez **entre 2 semaines à 1 mois à temps plein** sur ces langages puis passe
 
 #### 2. Apprendre le JavaScript
 
-1. [MDN : JavaScript](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript)
-2. [Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript)
-3. [Écrivez du JavaScript pour le web](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web)
-4. [Le cours de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/)
+1. [javascript.info](http://javascript.info/) (changez la langue en FR en haut à gauche du site)
+2. [MDN : JavaScript](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript)
+3. [Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript)
+4. [Écrivez du JavaScript pour le web](https://openclassrooms.com/fr/courses/5543061-ecrivez-du-javascript-pour-le-web)
+5. [Le cours de Pierre Giraud](https://www.pierre-giraud.com/javascript-apprendre-coder-cours/)
 
 ### Si vous voulez créer des applications mobiles
 
