@@ -7,8 +7,11 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Mettre à jour le dépôt",
-      "program": "${workspaceFolder}/.scripts/mise-a-jour.js"
+      "name": "Déboguer",
+      "program": "${file}",
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
     }
   ]
 }
