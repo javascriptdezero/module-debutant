@@ -86,11 +86,10 @@ Passez **entre 2 semaines à 1 mois à temps plein** sur ces langages puis passe
 4. [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur)
 5. [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web)
 6. 🇬🇧 D'excellentes ressources en anglais :
-    1. [webgems.io](https://www.webgems.io) (annuaire regroupant le meilleur du meilleur)
-    2. [internetingishard](https://internetingishard.com)
-    3. [freeCodeCamp](https://www.freecodecamp.org/)
-    4. [The Odin Project](https://www.theodinproject.com/)
-    5. [javascript.info](https://javascript.info/)
+    1. [internetingishard](https://internetingishard.com)
+    2. [freeCodeCamp](https://www.freecodecamp.org/)
+    3. [The Odin Project](https://www.theodinproject.com/)
+    4. [javascript.info](https://javascript.info/)
 
 ### Combien de temps pour devenir développeur ?
 
