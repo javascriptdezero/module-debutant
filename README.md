@@ -102,7 +102,6 @@ Voici quelques sites de qualité pour trouver des offres d'emploi :
 - [welcometothejungle.co](https://welcometothejungle.co)
 - [hired.com](https://hired.com)
 - [malt.fr](https://malt.fr)
-- [remixjobs.com](https://remixjobs.com/)
 - [indeed.fr](https://www.indeed.fr/)
 - [talent.io](https://talent.io)
 - [angel.co](https://angel.co)
