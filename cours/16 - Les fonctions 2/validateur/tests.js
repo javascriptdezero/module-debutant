@@ -41,6 +41,7 @@ ajouterReponse([
 function testerExercice1() {
   let valeursTest = [
     [42, "CL0042"],
+    [358, "CL0358"],
     [5000, "PR5000"],
     [6999, "PR6999"],
     [7000, "CL7000"],
