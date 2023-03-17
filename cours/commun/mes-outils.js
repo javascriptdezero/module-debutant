@@ -45,7 +45,7 @@ const enonces = {
     message.classList.remove(classesCSS.succes);
     message.classList.add(classesCSS.echec);
     const { valeurRecue, valeurAttendue } = valeurs;
-    message.innerHTML = `<p>▶︎ Votre code affiche :</p><pre class="valeur">${valeurRecue || 'Rien (undefined)'}</pre>
+    message.innerHTML = `<p>▶︎ Votre code affiche :</p><pre class="valeur">${valeurRecue.startsWith("undefined") ? "Heu... il n'affiche rien dans la console 😅 ! Êtes-vous sûr qu'une instruction <code>console.log</code> est exécutée ?" + valeurRecue.slice("undefined".length) : valeurRecue}</pre>
     <p>▶︎ Alors qu'il devrait afficher :</p><pre class="valeur">${valeurAttendue}</pre>
     <p style="margin-top: var(--dim-triple)">${this.echec}</p>`;
   },
