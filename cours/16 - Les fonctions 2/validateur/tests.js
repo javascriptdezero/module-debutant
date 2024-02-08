@@ -118,7 +118,7 @@ switch (historiqueConsole.length) {
       // Il faut récupérer toutes les lignes de la console pour cet exercice
       let nombreDeLignesManquantes = reponseAttendue.nombreDeLignesReponse - 1;
       valeurConsole += '\n';
-      while (nombreDeLignesManquantes--) {
+      while (nombreDeLignesManquantes-- && nombreDeLignesManquantes >= 0) {
         let valeur = historiqueConsole.shift();
         if (valeur !== undefined) {
           // Si l'étudiant écrit plusieurs lignes d'un coup via \n ou les backticks
