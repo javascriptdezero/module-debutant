@@ -36,7 +36,7 @@ const enonces = {
     const message = this.extraireMessage(enonce);
     message.classList.remove(classesCSS.echec);
     message.classList.add(classesCSS.succes);
-    message.innerHTML = `<p>▶︎ Bonne réponse 👍</p><pre class="valeur">${bonneReponse}</pre>`;
+    message.innerHTML = `<p>🎉 Bonne réponse, votre code répond bien à l'énoncé 👍</p>`;
   },
   definirEchec(enonce, valeurs) {
     enonce.classList.remove(classesCSS.succes);
