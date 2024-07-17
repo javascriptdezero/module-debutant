@@ -11,28 +11,28 @@
 // Exercice 0
 // Pour faire cet exercice :
 // 1. Retirez les commentaires devant le code de Tom
-// 2. Remplacez uniquement les points d'interrogations "??" par des opérateurs
+// 2. Remplacez uniquement les "XX" par des opérateurs
 // de comparaison et/ou des opérateurs logiques
-// console.log(65 ?? 70 ?? 4 ?? 3);
+// console.log(65 XX 70 XX 4 XX 3);
 
 // Exercice 1
 // Pour faire cet exercice :
 // 1. Retirez les commentaires devant le code de Tom
-// 2. Remplacez uniquement les points d'interrogations "??" par des opérateurs
+// 2. Remplacez uniquement les "XX" par des opérateurs
 // de comparaison et/ou des opérateurs logiques
-// console.log(140 ?? 150 ?? 16 ?? 14);
+// console.log(140 XX 150 XX 16 XX 14);
 
 // Exercice 2
 // 1. Retirez les commentaires devant le code de Tom
-// 2. Remplacez uniquement les points d'interrogations "??" par des opérateurs
+// 2. Remplacez uniquement les "XX" par des opérateurs
 // de comparaison et/ou des opérateurs logiques
-// console.log((15 ?? 16 ?? 170 ?? 150) ?? 79 ?? 80);
+// console.log((15 XX 16 XX 170 XX 150) XX 79 XX 80);
 
 // Exercice 3
 // 1. Retirez les commentaires devant le code de Tom
-// 2. Remplacez uniquement les points d'interrogations "??" par des opérateurs
+// 2. Remplacez uniquement les "XX" par des opérateurs
 // de comparaison et/ou des opérateurs logiques
-// console.log(10 ?? 12 ?? 110 ?? 120 ?? (58 ?? 40 ?? 58 ?? 60));
+// console.log(10 XX 12 XX 110 XX 120 XX (58 XX 40 XX 58 XX 60));
 
 // Chassez le bogue 0
 // 1. Retirez les commentaires devant le code de Tom

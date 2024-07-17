@@ -50,8 +50,8 @@ function exercice0(ageDuClient, poidsDuClient) { // Ne supprimez/commentez pas c
   // <===== VOTRE CODE ICI: Insérez/modifiez le code à partir d'ici =====>
   // Utilisez les variables ageDuClient et poidsDuClient pour construire les conditions
 
-  // Décommentez le code de Tom ci-dessous, remplacez les "??" par une expression valide
-  // if (??) {
+  // Décommentez le code de Tom ci-dessous, remplacez les "XX" par une expression valide
+  // if (XX) {
   //   console.log("Vous pouvez monter dans ce manège");
   // } else {
   //   console.log("Vous ne pouvez pas monter dans ce manège");
